@@ -99,7 +99,7 @@ return [
     'visits' => 'visits',
     'searchAfterSnameFnameCompany' => 'Search for surname, forename and company.',
     'addGroupMember' => 'Add group member',
-    'workPermissionDocuments' => 'Work permission documents',
+    'workPermissionDocument' => 'Work permission document',
     'overviewWorkPermissionDocuments' => 'Overview work permission documents',
     'meetingRooms' => 'Meeting rooms',
     'roomOccupancy' => 'Room occupancy',
@@ -241,5 +241,6 @@ return [
     'areaPermissionEMail' => 'Area permission E-Mail',
     'areaPermissionEMailDenied' => 'Area permission denied E-Mail',
     'areaPermissionEMailGranted' => 'Area permission granted E-Mail',
+    'newWorkPermit' => 'New Work permission',
 
 ];

@@ -99,7 +99,7 @@ return [
     'visits' => 'Besuche',
     'searchAfterSnameFnameCompany' => 'Suchen nach Name, Vorname und Firma',
     'addGroupMember' => 'Gruppenmitglied Hinzufügen',
-    'workPermissionDocuments' => 'Arbeitserlaubnisscheine',
+    'workPermissionDocument' => 'Arbeitserlaubnisschein',
     'overviewWorkPermissionDocuments' => 'Übersicht Arbeitserlaubnisscheine',
     'meetingRooms' => 'Besprechungsräume',
     'roomOccupancy' => 'Raumbelegung',
@@ -241,4 +241,5 @@ return [
     'areaPermissionEMail' => 'Zugangserlaubnis E-Mail',
     'areaPermissionEMailDenied' => 'Zugangserlaubnis verweigert E-Mail',
     'areaPermissionEMailGranted' => 'Zugangserlaubnis genehmigt E-Mail',
+    'newWorkPermit' => 'Neuer Arbeitserlaubnisschein',
     ];

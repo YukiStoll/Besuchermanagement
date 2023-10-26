@@ -20,91 +20,54 @@ class AdminController extends UNOController
 
     public function index()
     {
-        $admin_settings = admin_setting::all();
-        return $this->test(view('adminSettings')->with("admin_setting", $admin_settings));
+        $adminSettings = admin_setting::where("setting_type", null)->get();
+        $workPermissions = admin_setting::where("setting_type", "workPermission")->get();
+        return $this->test(view('adminSettings')->with(["admin_setting" => $adminSettings, "workPermissions" => $workPermissions]));
     }
 
     public function update(Request $request)
     {
-
-        $workPermissions[] =
-            [
-                "file" => $request->file('00_Allgemeine_Arbeitserlaubnis'),
-                "name" => "00 Allgemeine Arbeitserlaubnis",
-            ];
-        $workPermissions[] =
-            [
-                "file" => $request->file('01_spez__Arbeitserlaubnis_Feuer_und_Schweißen'),
-                "name" => "01 spez. Arbeitserlaubnis Feuer und Schweißen",
-            ];
-        $workPermissions[] =
-            [
-                "file" => $request->file('02_spez__Arbeitserlaubnis_Höhe'),
-                "name" => "02 spez. Arbeitserlaubnis Höhe",
-            ];
-        $workPermissions[] =
-            [
-                "file" => $request->file('03_spez__Arbeitserlaubnis_Behälter'),
-                "name" => "03 spez. Arbeitserlaubnis Behälter",
-            ];
-        $workPermissions[] =
-            [
-                "file" => $request->file('04_spez__Arbeitserlaubnis_Erdarbeiten'),
-                "name" => "04 spez. Arbeitserlaubnis Erdarbeiten",
-            ];
-        $workPermissions[] =
-            [
-                "file" => $request->file('05_spez__Arbeitserlaubnis_Ammoniak'),
-                "name" => "05 spez. Arbeitserlaubnis Ammoniak",
-            ];
-        $workPermissions[] =
-            [
-                "file" => $request->file('06_spez__Arbeitserlaubnis_Öffnen_von_Systemen'),
-                "name" => "06 spez. Arbeitserlaubnis Öffnen von Systemen",
-            ];
-        $workPermissions[] =
-            [
-                "file" => $request->file('07_spez__Arbeitserlaubnis_Kran'),
-                "name" => "07 spez. Arbeitserlaubnis Kran",
-            ];
-        $workPermissions[] =
-            [
-                "file" => $request->file('08_spez__Arbeitserlaubnis_Spannung'),
-                "name" => "08 spez. Arbeitserlaubnis Spannung",
-            ];
-        $workPermissions[] =
-            [
-                "file" => $request->file('09_spez__Arbeitserlaubnis_Heißwasserkessel'),
-                "name" => "09 spez. Arbeitserlaubnis Heißwasserkessel",
-            ];
-        $workPermissions[] =
-            [
-                "file" => $request->file('10 spez. Arbeitserlaubnis Gefriertunnel Tippbetrieb'),
-                "name" => "10 spez. Arbeitserlaubnis Gefriertunnel Tippbetrieb",
-            ];
-        $documents[] =
-            [
-                "file" => $request->file('roadmap'),
-                "name" => "Anfahrskizze Unilever Heppenheim",
-            ];
-        $documents[] =
-            [
-                "file" => $request->file('hygieneRegulationsDE'),
-                "name" => "Hygienevorschriften Fremdfirmen -Deutsch",
-            ];
-        $documents[] =
-            [
-                "file" => $request->file('hygieneRegulationsENG'),
-                "name" => "Hygienevorschriften Fremdfirmen -Englisch",
-            ];
-        $hasWorkpermissin = false;
-        foreach ($workPermissions as $workPermission)
+        if(!empty($request->newWorkPermissionName))
         {
-            if($workPermission['file'] != null && $workPermission['file']->isValid() && $workPermission['file']->getClientMimeType() == 'application/pdf')
+            $this->validate($request, ['newWorkPermissionFile' => 'required']);
+        }
+
+        if($request->hasFile("newWorkPermissionFile"))
+        {
+            $this->validate($request, ['newWorkPermissionName' => 'required']);
+        }
+
+        foreach($request->file() as $fileName => $fileInfos)
+        {
+            Log::debug(str_replace("workPermission_", "", $fileName));
+            if(str_contains($fileName, "workPermission"))
             {
-                $hasWorkpermissin = true;
-                $names[] = $workPermission['name'];
-                $workPermission['file']->move("workPermissionDocuments/documents/", $workPermission['name'] . ".pdf");
+                $workPermissions[] =
+                    [
+                        "file" => $fileInfos,
+                        "name" => str_replace("workPermission_", "", $fileName),
+                    ];
+            }
+            else if($fileName != "newWorkPermissionFile")
+            {
+                $documents[] =
+                    [
+                        "file" => $fileInfos,
+                        "name" => $fileName,
+                    ];
+            }
+        }
+        $hasWorkpermissin = false;
+        if(!empty($workPermissions))
+        {
+            foreach ($workPermissions as $workPermission)
+            {
+                if($workPermission['file'] != null && $workPermission['file']->isValid() && $workPermission['file']->getClientMimeType() == 'application/pdf')
+                {
+                    $hasWorkpermissin = true;
+                    $names[] = $workPermission['name'];
+                    $workPermission['file']->move("workPermissionDocuments/documents/", $workPermission['name'] . ".pdf");
+                }
             }
         }
         if($hasWorkpermissin)
@@ -112,19 +75,22 @@ class AdminController extends UNOController
             history_action_log::insert(["userID" => Auth::user()->id, "action" => "updated_work_permission_documents"]);
         }
 
-        foreach ($documents as $document)
+        if(!empty($documents))
         {
-            if($document['file'] != null && $document['file']->isValid() && $document['file']->getClientMimeType() == 'application/pdf')
+            foreach ($documents as $document)
             {
-                $names[] = $document['name'];
-                $document['file']->move("documents/", $document['name'] . ".pdf");
+                if($document['file'] != null && $document['file']->isValid() && $document['file']->getClientMimeType() == 'application/pdf')
+                {
+                    $names[] = $document['name'];
+                    $document['file']->move("documents/", $document['name'] . ".pdf");
+                }
             }
         }
 
 
         foreach ($request->input() as $key => $input)
         {
-            if($key != "_token")
+            if($key != "_token" && $key != "newWorkPermissionName")
             {
                 $admin_settings = admin_setting::all()->where("setting_key", "=", $key)->first();
                 $request['setting_value'] = $input;
