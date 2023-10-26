@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20230912T105626Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20231222T130000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20230913T070000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde. Jede eingeladene Person erhält eine E-Mail.<br></p><p>Sehr geehrte(r) Herr  Nisvet Huskic,</p><p>ich freue mich, Sie am 13.09.2023 um 07:00 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Elvedin Sejaric, Aldin Sejaric, Nisvet Huskic</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Theo Neider<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13.09.2023 - 07:00&nbsp;Uhr bis 22.12.2023 - 13:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Herr  Nisvet Huskic 42410657-98-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAARsSURBVGje7ZpfaFtlFMB/uU1ja2FaYV2krVWwhU5N3ETRDh+EdBt7EGF9iKAPW6c+dIKb6Iv0SYTBsD6MCSLxZcL6oE8bhc74IkSGzNJmls4UGVJhs4PqHTjXLOb4kHxf8uXem9ykrJQ056Xn33fO/XK+c79zzi3UhBURiWgqIUWIAUREZKWmBYtNgJaTuiAIwISH9KxCYi+XU25Q0wQT4grz+nSJiGSrnq55dxMTzRgTgL+WDEHH3nLqcl6jPwJ7Ol2Nzd01yOFuh5OlfYZG/Hw59U4aiH0AHADIDLo6OT1tkKkRhxMfsB+WW8lYP5y7v06eXAUujAOsAoH74iSwU6MPt7cCXw1+eXQTnNxs3YybHPiOuCEYMKjndrukjIMzYJrocDrZe77Ks3zl64lPbZeYLNRQu5oHgk9BdglgOASLOcB6RqssbOg5dMEdE5EMAJlWwb1Vrt/PGnVSO2y9wIwA/Ul3eU0TwT5fz9IL3PO6kfu2UeCjLkyVvFffAJjphVfWPNZHgWPvFomjPxuyL16E95NAMO2yUopv8XwaQIC1NBCbhd+GlNIsQBtATrH+NY3lgfV0vUfYqiTyWz0Zc0CgJLnnQHyC0g/GAJIAJSxUbIIKwn61JhnyYzn8tDJT6qpEROxCJEVkstRpqf51ysVQpij7D4AppRoHCIvIatMmY1kT6OgHs797LVsGBqvIKpzo5Cr0tQngI1X0Lj3rNJEAGALIOvqTw6PA+FC56pzbrGRVRMIq8PMuCgkRSRT26Qi8iEhZfqaaeexRgAsN2klfcfKuXXM6mX0Czo0bw5EMcPGkHnp9DjzicaT0wvAPReR6YUJSsRPHmQxVcAZ9bUppXQdg145tU3ctvldNekghMzMGfxQY/dBwktWoc8CQSwKs7KpsrY68CRxKApEr8Gc/wLzqxUI3gZfMnfiYXThUAu0usiImW7wWzns9Wt5LpYqTdv15oROwIioUe8xiR88g021ABEC/sMM9zl9YfEHEef3GNDUlIt+U7ni1ZhYAW0SaKBn/qN02BDbspL9299sHx3IG6yHgsM743cBjU8BP0xtqsf1BvPkDX6f+398bZNtr6qpdLGevX9Tod9rJxFvuJp11160xg4woJ4sG//YYQKoLvhwr7STq6mNhgz9TtInHHnOnDcHAKV/rXwf2H3GXnTnjcHLXTNe4R71zR2GvJoF0GnhBS+8YutMAdnsD308665V2brFkFFWtiFG3eBcPDZyuqGVZ1iiwbFmWZZnN1EnLssYqWuBwOBxu+LXiD3beAC4doImT0QfcalCpHifJHmASoMvgTwJ8rE5aj8lvbyTwjx91sLpPwLcuqgdHtnfgFfxaMQ655K16+bbhZDhlSDuqOEmNA2j9fZrS78fJg8Aw8PVZw0n3SJ37eb5Yuhdq0C7zBh9p0nlX4c/xBpaeAB74tJzzyQ2FrR0H3o7UVwsXPjfZtm2vi8i6bdu2y3/gVFzZKRH5x7Ztu64jvEN10SHfSx5srsD/D5jSA44UBQVvAAAAAElFTkSuQmCC"></dd><dt>Herr  Aldin Sejaric 42410657-3115-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAARRSURBVGje7ZpBbFtFEECfEztKcghUQGUpicIlFQXJQS2HKpUQAocjF3IwqCcsBJKRkHKN0gO+VK0UTpV6cQ8gJRxSLlRAJeAS+YIgJOmhxUGASKqWBqnxZUM3/t4e7P+/9//9/t8OcYObOc3Mzuzsz8zszKwDobCpaiA9fFnnb4bu0EMHoHuMxNtX3d0FhqIbyQWsXg7g54BfnwJSa42s5lvklBFWg6KrpJRKA6Sc6Fo1b5HrVsc/uKUt9J9qorW9bWSv/KuRJ4/5jNw6q0lkFs37F0Zg66x57dIXGlmcbDuE34SrRxnfHPJ7Nvbn+QMzsrQOpBdg5wRA6Wl497uDubuegx0HO3J8ZHi1E0buAcg4xA66aEW08D8ov5UKMNCakf6MtjCmUadfBJ5xr2jgn0Gt/AKM6Vv0+42cWmxyFs+9+8k4TPmlLjwpybgWInazCsRfaiaytq9zbCqlUgBppVQpqCU6argfT8Z/aiPXW7zkwt02HIM7Chj1r6XWQN0J/ZKRSGcZBvaCzjnyBDl+wkHn32gco87ocr9EOc17P9vY9FyAyI3G4UV4Fi17CCpYllWojdiWZVnaxOPe9HMaP76PP3DPYU7GqgWQ8MtZlo1pkRwU1u5Cwuk40gCzr8H5PEA1xu6gwzf0vGmAb+JUew18Xac85Jt+a0FRtR2/pJSaN5yzVBe3PHxR5993WWWlVGeSUXXC8TWnbGjM3xxsI1jzdyv6LVwAyLrDLTB7zzD02kgWoDQOU4aAEPVeb9dtr871AUopVXbF7iulkobD2KntqfEBjvdAF93Cngb0q0hay8shT2GLAK8/r80YuY/r5Od5fehNwfUZAKv+yZU/gGUnUFJLdWR9utHx28dNzx7jAUfy8ePjwLJfYP3xl98OZnwAXLniy/MPdHoKePtDm3oL6P22cX32RwAppZQVO20sKaVMAmSklKuBySildJNxXimlpJQyA5C0Kem8Qcb1AtXj+ijR7BMTIZzEIe6Fq21SADFDdL2yB5y+CjfPOTxDHqTC0sMFFQlSBk3pL7/d3wtvRZpPTPB3dCOj4dOvNn84HdLXoxprRlvUqVZG7Fqxt2NBz/glQ99V7MLy247SuqcduxYs+sMDx0jufbPIy2b2T275/cyWWsX4xPblZfdLJtp9k5mArWZbdO2zx8olbWHsQiT9dyJwGoagos7KaD8BCiGEcJKxIoQQnl7Y/gmwVk3mhBBCKaUeCiFExBAe0ObD3oFICgB9hzgZVSS+Q8VaNJIEyGY10p+3SYB8vnH6bcFI4i6wccKh/2rse65NO+hdu+Hu6mRsGXaA2LNhUg+392XkON5fHYKkjh6fD8Lx31v/jZGT+jXcr1EzTmddeAFuZ337nCmizdMARb+RY5PRjjUJtw1t5rBZtDun348iK6ysaKSuON/XyFlYAC4OttEL16bfcrkc8BRVL7/lcvlG7apv6/EZiPB/SkPdmfGPAI7KZ2aqVN5zAAAAAElFTkSuQmCC"></dd><dt>Herr  Elvedin Sejaric 42410657-1242-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAARmSURBVGje7ZlPaBxVGMB/2+xCNmqkLS2RplSEVGrrRCuCJDedqghS0Bw2Ras1CkL00N4kxKIBEQuLCJFetlaRtoeigiEixpNEPZVkPRS24sENVhNBV2Gqs9l9HmbezL7Mm52ZuK5hk++y35/3fd/Mfu+9789AJJSFAzYABbEWypEWttEG6Bwn6XjL/lDRXuBPgYtFQgqA8RDpNEC5HwaLgHmnZJUG4MgcYCzC0t5IE44ToYUFb3cZAKYQogRASQhhAhje7lrQmxjv1MD/dlURdB8OLv5aIisrWmNX/lLIA9sDTq4OKytyFxupfA14ZA4o9MPSsP6Jz1xSyPmhZFv4IaDqoA/Dua0T3xymqm1wcrnYSI0+Dhyba7UTFbLZrcDHhImJ/8zJonCR7/d7PDstM0Wr3iQVk7fhY3JDw1tdBbLJnHTnFME+hXqgqF7RwK89bvpt0FFNdAedHL4Y//1fH4AjQfabm+UwLv57S4tRTqan45gxXwRGQoT3tOpaeRKubRXcyWEmoZPoPmkPMCuUtz6lyCNNpPtjPcueZhd0/yYK/GCI4L5z8N1TkfqDwPMvwyenAb7NOhxGJuHLUwBf9UK6GKJ9F1DXCAvPwvkxALsLugBWgZpcKooARxtZ69jC2xqwekwV0Y6YhFYD1YR8VVhtZKVMAL+sNSUyp1DLanRMgM/S1LsA8ifh03ekUt8hxaATKCFExSeX3a7Vcups2cQaqlLJZdecNkyuygH0CSGWO/YwNs9CTaQ/1OKs0paay7uc39r7AGP+GZRUAeDoTnfssfakAqkTcKN5ebUcHHs4TgNDNVOjbelnH+0J/P914t/TOD6fyKoTkwdvl4EvAexXAn/bz17Ta8CMl2vNd4EdO4O7y4MBOXvZrY49BlDmciFaGuqOrboLjinU2bPhmsevAzd/DD89A/D2QZfv9y2nAT66xb2FhS1h0ulrbdvyrZWlsKqcsJAZpJMsJ23b/hyAihDCeZNMYF+vNpCZdfxDmY1aC9djCYTQ8OsBJxlDXs2GclHfqymODKDYpewabwY5NSWxW2X6jQZD8xK2TL9e4HOdfxiXotuGkNLsF5VsYii9N9JJWfYf5mOy/8kDs55m3ut+80qXlE/wss2+Onh112Ul/Tp11/zmSL/rh1kg9UTItTL+QsQs48O6/goyPgB2eOQI0BfmhMGImczdzdq5DZJ+2xv4K2cUwT5l1vecOul81cNGgyZHQ1yNCyHmVVYu+AnQqYUtyypoTCxYLjjp17IsvzBO3v1mm/OFZtUGHUWJWDLRmFeTOOkDGBtTSCVJj16SbD/9VnqTOTn0BVzza/MfQ0ql67Lg3gS1cAL4XSI9N8Hffvux0iInk8A33v+ePwkzI5I/tbtxFZl1O3la/9WBV7IIb1/x6FDHBb7Nu+uAeg13R2m+8ZrEdiknfx5gOMTJ9qFkj3d/CH8ouIs7LiYvJdecqOj5vqkLF4C3elpTCyujKLf7rVQqa7vf1kNvZwb+H3k4TtfZ5gYjAAAAAElFTkSuQmCC"></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal">bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Theo Neider</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

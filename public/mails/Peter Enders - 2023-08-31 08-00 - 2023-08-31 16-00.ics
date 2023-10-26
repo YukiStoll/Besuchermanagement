@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20230817T073304Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20230831T160000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20230831T080000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde.<br></p><p>Sehr geehrte(r) Herr  Christian Rogalsky,</p><p>ich freue mich, Sie am 31.08.2023 um 08:00 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Goran Simovic, Andreas Doerr, Christian Rogalsky</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Peter Enders<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 31.08.2023 - 08:00&nbsp;Uhr bis 31.08.2023 - 16:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Herr  Christian Rogalsky 63061838-2716-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAScSURBVGje7ZpfaFtlFMB/SZPSTnQOqqR0dfiQlk5NRV+0exLSVURRWB+qKOK6TVgnSsf2IhFsEYRBxeEefIgIKu5B30ahmtfiEFu6zNItm27QblQLlVvw1mZtjg/J/fMl9+be27p2pj0PyXfO951z7s35vvPvC3jCrIgkTCwt5TDrKSHMJkDtKIkE5lgyBg/4ZgkBMOAyew5gdi+cXDEwC/LR4vdcq6eIohJxhClzd4mI5MvY88rumnIWMVCrhv9rRploeMqOXSz4ETb5j4J27KlQMnNAWdH3rR17OwskTwE9VZScOa+g413r2cIH4drOifcNHyjYMBBN/ddKMhkg/VIJe20YSKTuju96aDsbPrCS95ubm5uv3cXdBTDPjk027cQ39CkT+xTs6f0KGgXam4BGlUcV0aCq8hV+3WAbht9LHssuF4DIY5CfAeioh+lVIPyEueTShp7DTLiTIpIDICciSYDETsK9xeH3k3UqCXmbrSUEtwRoNUm5ONwuAKEWkFueSsT389ypV5RsT8N3OhCNw3v5dYDRFnhuUVnQq2BH3ikNDk8o9M+fgZMZIJJ1UCLF+otCFkCAxSyQHIPf2gBUplVjsKzSC8BKNugWDv/fD+OdioHDgmgVxkjSSnUrnyCJ/Qxm6oFkpazBQWDK2EGxxw1ZVlVlBspxm8XsAXRElZiuEn77AGIi8mfNHkantPZ6NQ6Twb//irRZvzZwcxigrXJdGujH+FDaHhYc6jYbKQbPZFmvZExEXAuntUBtj6Lhx2u57cHcF1XWfVlJ+krBJiaAN+vspCtX1H7Xu7BwACBXIevCYKX8HHDc9BAjL0K2F0AvJeByHbjRU/YmcVgA4EF/xW28HFOdfCgO3KjZvOtqt532/BrQ/hlMv+fCdVzBRkftWDdA92lFSR5Y3q2G+HmgCVi1vL9xEm+2KVEh8Qv80aqE7gzAsyauNUIkCix7v3Gdy+8a9eSM3mu5cMF5lxSqoooS61IhBLQ8XKprwxa9Dkj+aJrCyIuydXaMXS5PKL7ArdIqnngR+U6VmhKRsaLhRaSGDuOcr/qk5KfXq6TVu/rdC0dWgcFWYARgN3DoBWPBfuCREeDn80DsNPDoekps69YhXWV7mHmXSK0aPjDH94pLe8UItdN28soFByUDR50FPllJ6lewhKFkuhdgquQzlnoBxu8D7rfepNNRR+CeTJvaZOus4bbH5BllYt/HvvhfBQ6+ZWCHgfA39vmPfjWHA2oRBNDncgWY1nU9DYCu67rphdd0XdfLiiAzFw6+hU3bRqK2GBVu3HKbSMjXOvGiSZWlEX86Oh0aF/WKH+gFiAHz4dKAEBCOrcsm1eD3Roou9+hQiXL27KYdRtkMw4eCciz4Im3M1fcDpICfMkDiZaPtYSZuKYD2DcYTgDfipeydIZgbVuaGtugw3qPh1wt+AGgy/jJwcUlR0qG64YZK9uSHShPLxf/0AKQMJV+fU5Ts6fJ8yK6dS//i14lgXJ+60E8Zg8UTwLFEsFzYLIJE0zStGH41TdM0qxWlaZp6zci4iPytaZoWeAtbf1NqjLpM2GFXbRn+X8dMkamy/oGqAAAAAElFTkSuQmCC"></dd><dt>Herr  Andreas Doerr 63061838-2797-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAASBSURBVGje7ZpfaFt1FMc/SZPazD8wmJDS1imYzs6ZDn3R7klIWxRFwTxUEdR204dOhI3tReJDiyAMKg4K8yF9UXEP24Mghbq8RoesJbuzdnTTIe10KlZu0c6mNceH5HeTX3Nv7k27Zi7tecnvnN/5ne9Nzvn9zvmdG3ClORGJWlxS1tKcqwU/NaD6AQlUvWJRDe7zvMQHwKDD7CjAXCscXVZckbLB/Od8m6uJPIjYUsaKLhGR7JrlWS26MvYmBuvV8X/OaBNNj5dy53NejE39o7EdO8tAZg5oGn2fl3JvGUDsGNBbAeTEaY1Nd60nhHvgyvaO90zvadwwEEzcapBUCkg+X+BeGQaiic05u+7fyo6vGuTd5ubm5iubGF0AN9j2Sc12fFOfNrFb457Yq7FBYM8uIKSv0U006VCe0q8TbcH0e9FF7VIOCDwK2RmAjkaYXgX8j1kqFzf0HFbBHRORWQBmRSQGEN0uuG9z+v1wnSA+d7e1+OC6AG2WaDYCP+cAXwvIdVcQ8fw8K40ayNZ0fKeNUG3eS68CjLfA0wuaQlzjDr5dGPRPavKPn4SjKSBg2IBI/v5FzgAQYMEAYhPwQzuAvmhVDW7q8hywbFQbwv662YwrFeTBCvp5kFix3tWeIKZ92VSjpmrRkSNARkVQeJ8yc8Ah/ebr51xZFnXvrWREpA8gLCK/1fkprBe3V4Hgg5D9yX7RHwsA3s+vQBJgQO9otBduvzP7i64ABhTzxUBp26NIL3VbjRS1ZmoUCPQDiwOuD/O6nxVXLf204ZEumKozx485zYy5yT/RxJOTwGsNpaLLl/V+1ztlttoBzlibMKJCsL0cduQ5MOIAS4UCXK4C13rXhHBZON60kUdwaHtE1h7+vghwbcvVXadOqdGEn9VnHLTGx0u5boDu415AQlng+/1aUk6Vq0UvwK9t5VpPWbwZqvBNgt5+iaAXjdr4RHzeFHOexDmHuisK3OUQesWEaG3losgAjAYlMgB2ODyheCKb9FtM9iMicka3mhCRibzjRaSONuO8p/vJBkHa3G+/rXDQqncftnLts2q0F3hgBPj2NBA+Djy0niu2N7LqLpF6dXwVumcBIlEwrNTV8KJKtdOlmstf2oAMHrI3q53CK3GAZBQuWMVRVIFMxwEyhYS+GAdI3w3cW/wmnbYYVfdk2vUmW2dN06/UwvHWdp46oU3s/sB+wblzGvsy0POG4voB/2el8+9/p12C0rqxPtdXgNop/O/S0tLSmktQWvUgA7fqZw/dKZtRvCvIekE6DSBsseVvBc7GKWjc8CtVH+APV+mTfSqwxpyuQz+GyB+5h4YKkpMn2dov/W3o980AaU0A36SA6Auq7WFdTRIAezYO0tOjqneGYH5Ymxy6TT75Xzr+r68Buu5x1vgKYJf6y8D5RQ2kQz+Gm+xN/NILFfvC0guQUCCfjmogO7vubJ/U0vGHPSlbWh85KBxTg4XDwJvR6mrhkkuQaZrJfJVrmqZZ7EGapqm/ZiQtIn+bpmlWv+Ot/ymFgvZyjXbUl+P/Az9RcTxJsCPhAAAAAElFTkSuQmCC"></dd><dt>Herr Goran Simovic 63061838-3623-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAQvSURBVGje7ZlNaFxVFMd/L8zopIs2RQ2hTckIJlCF1zZuSgIu2vEDl5pFdGcGUZiush8XzSZYmLoJdBOhXSQuUjeVQkp0IYwLwZrEYnEEEZNCdJTmbV5MJi/Xxcz7uO/7zZBpnclZnXvu+bjzzr3nnv8diKQNUac9l3yvId+I9NBDG6hzgqSaN93ZAY7HD1IImJ0LkBeAX04A6ppTFO6iIHxpNWh3VYQQOQDV2l2r/i4KnZr4xw+licxoiFW16iu+/680PHvSE+ThuKQxuejvf34QNsf95659IQ3LY01v4Tfg86MTH04zNZP7/ZNDC7K0DuQWYHsEoNIH768cTu16AbYt7ijxsem1dgTZAthLgXLYl1bMCP+D63d/H+hNFiQzKU0MSaNXXwaes0s08Pcx6foFGJJdZLxBRhdD1uKqu1eH4XWv1my3HMa1CLWfDoDUK2Eqay2tY0MIoQLkhBCVoJboqOF+Mif+usl8lbDIRafttAKPBHDGO6eugXgU+UsGY63lNFALWudgFyX+nMWWLjth1EVZ78c4q5n6weQmigEqy07worsmDRMEzRuGMV+H2IZhGBLisSt9UZKnWvjAPU/tYay14qgWMEzLQd70Wub8HWZynmbl9oSkPzNjclokCF9ypq+ReH+UuwSA3hj9ZbvQhBBdU4V/DZ76zQCUl+KYNJ49RoG8jXDN0URI/I9WPH0XgBgBKGadzVfjl0zBd7biBwo7+da+0FT7q7BoR+IVvzY0gr5/EDCxKPW1l7Jwp2rlZA5g+UUP8FhSnS5GTOZBHqDihSh5YOBbU7WcheU51xYe9i5tOKS0ZdP+P2cYqt3Ud71lmNyNG8DNU/6mb5vMux/HClK43qj89f58C5i8BT+fBzgIMF3xRLOfLvZwOkzZV4uL0q18oPRT2wsf+LLBIlmSUgGelXvS/gZ27lHNo3lhHVAB8lblVIF1gOlpd4xqv6s0xyIX0qr3XUIYPj96QL5+O+wwbsbCJ370Z/wgZ6LRrxN/nCiZ3F3LsgQwbXL2kkrNQmyb7MavFNB3lU3VLkW/t03mcp+//C6gvOOc+uaxXYU/9Pd6Xi67Vt2t9MFn+5LWKjA7AQxIQb50XL/nkr/JWK85m2EuOvb6vX9NmhiajbC88o80tNXfCzAoCCHKsmhS+gtQN8n13hVERV3XdSGE2NV1XY+5hXuTfiHT4Jn25UQozZiJ2AqK3XAnpBGAAUm0JY1k9NvCM/ofaQ/EfqKHsY0gKBa5AME2oDwfZbRbTZSTWj9AEWAGoN8X/TYOo6SVOPHZqVjg7yrc697Ef20k9HvPv9SflctwRhpNrztHl8oBX9uSj0sjO8jJsfjJzwZMXOiVNvtYp16/VxIZ3VkOu5YtbmEB+PRYwl5Y0zRtVwgxH6SqC1EHckVN0+or0ZI+Ph9vUrVzEv8fXT0SAmrc/FoAAAAASUVORK5CYII="></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal">bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Peter Enders</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

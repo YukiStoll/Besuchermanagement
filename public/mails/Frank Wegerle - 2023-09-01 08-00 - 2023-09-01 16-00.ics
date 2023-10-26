@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20230830T075543Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20230901T160000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20230901T080000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde. Jede eingeladene Person erhält eine E-Mail.<br></p><p>Sehr geehrte(r) Frau  Linda Wegmann,</p><p>ich freue mich, Sie am 01.09.2023 um 08:00 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Linda Wegmann</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frank Wegerle<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 01.09.2023 - 08:00&nbsp;Uhr bis 01.09.2023 - 16:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Frau Linda Wegmann 51849727-2878-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAASSSURBVGje7ZpPaBxlFMB/m+zG3YApFRsWmlD8s9GKJqVeJMWTW/VSBO0hkfqHVlGoXnKTEooGpFgIeMjBwxbx0PQQQVACwnpRop5KshVSYhF0Q6vdQp0KY5gk+zzMzLfzZWZ2ZpN1Cbt5p/fe97735tv3fe97730LkVAWGywACrIVypEaumgBtI+RZDyxezraB/wjOFgkJAA4GzI6A1AegJESkH/MZa3k4HgRGF6C1cFIFbYRCYRFtbuGAfIisgLAiojkAYbV7loMVnG2XR1/d1kbSB/1C//oIpVKoLKraxp5eL/PyPIxTWJs1ktNbwIvFIHCAKweC/7ii1c0cmG0sS38HLBuo8/Dpb0TXx+m1ltgZK7kpcZPAK8Wm21Eh0xmz/Ex4dy5/83IkjjIjSHFs5LuTdGslSRi8na9T/4N4G1sAJnGjKTHtIFDGvVMSQ/RwJ1e5/r1zNFVpP1Gjs7GX/9HOTjuZ1/olMO4tHNNS1FGZmbiqMm/C5wMGTzSrLDyCvy6l3A3Dt80aCS6TjoIzIu26gltPFJFciDWtxysF6AHOsjxIyEDT1+Ca6ci548Ab70PX50H+Dljczg5Cd9NAPzQB8lSyOwngGrAYOFN+PwMgNUN3QAbwKYrKiWAl7ysbWzhLg9WjTlFWuGTRFPVrfsQ1t2fKw9QdLFf/nS/oMZXUmkgnfclKz15gF4g+yQwNeUO7NOq3wUAbotIFmDMrV+na6HeV9tu2mWYS44BZEXkdkdGYet3nVY31kNJ+G3Tzw+gwox8LE7TZPkIQAH4tAQUVR68koN31IaYUEG5AJwZ8lIe0B0f1vaogWp7bAFTxHM+F1w9rXF8C0+8Kv+/Bji9XW16pnv9OnCqBxIrAEO6bDXh3V2PdMENcaUKzzq7y+53zTlTSiofy36vKTT6IJlD68tp0JNzsUdr4SinibhUSWNVOu3Er50I8+0s8NnDHs7NN3SJgMLFbl7rICJmUMJtWVatB7nuinrSLtOy7D74pGVZ39qOFxF7Jal4y05F/gYpJEB0F+fCVJ3vqwbw/axQI1tCop4cDQFYKardunwvkO3Xfq19dVaSWfLlcPXhixEYLwXXdW10GFejy4aQ1OwvnVwNJUgORhop++uPaWB+0EvZ1e+0k45VBhU/JtR7dVB515x7/YqovKt9r9948KU6miFVzTyQeNlfVdop0dt1ehnlAbhW9Xc2Fl3kgUGo3AQuXAGyt6DSD/5Xh5GInsxTWjXg1GLeSHvgQIe1Pa5e1AYOab2+0wGdztc16vzjLjYeYqqWCysYC3gCNB0oBKhYFJE10zTte3vSNE1T5dQNXVpR/dn7wL1+M633iTSz/BU/lthZiZ31nepx9QRYq36Nvm0nEgB/pHbVOdl9eZdeEfwNJB70sXdopNjvYpPAT/14H/0V33a8olLbziBfC3514APnDFamAF4cbTvHt3h3HdbDcDqgCPoQ8L/39y9ERdCakf2jkV80Gvjq0DPacT55b7vz6028fBn4pLfxXFgMwzAMEZF7hmEYYXMmDcPYWv02AOofSvcHl4hbxdrL8f8BhWshVECkkh8AAAAASUVORK5CYII="></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal">bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Frank Wegerle</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

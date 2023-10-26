@@ -1,0 +1,33 @@
+<?php
+
+return [
+
+    'salutationVisitorLegend' => '"<b>visitor.salutation</b>" is the salutation of the visitor.',
+    'forenameVisitorLegend' => '"<b>visitor.forename</b>" is the first name of the visitor.',
+    'surnameVisitorLegend' => '"<b>visitor.surname</b>" is the surname of the visitor.',
+    'titleVisitorLegend' => '"<b>visitor.title</b>" is the title of the visitor.',
+    'startDateLegend' => '"<b>startDate</b>" is the start date in the format "dd.mm.yyyy".',
+    'startTimeLegend' => '"<b>startTime</b>" is the start time in the format "HH:MM".',
+    'nameEmployeeLegend' => '"<b>employee.name</b>" is the name of the employee.',
+    'endDateLegend' => '"<b>endDate</b>" is the end date in the format "dd.mm.yyyy".',
+    'endTimeLegend' => '"<b>endTime</b>" is the end time in the format "HH:MM".',
+    'visitIDLegend' => '"<b>visitID</b>" is the visitID.',
+    'visitorListLegend' => '"<b>visitor.list</b>" is a list of all visitors of the created visit.',
+    'qrCodeLegend' => '"<b>QR(your input)</b>" can be used to create a QR Code.',
+    'dearLegend' => '"<b>dear</b>" is replaced by "geehrter" or "geehrte" depending on the salutation.',
+    'success' => 'The e-mail template was successfully saved.',
+    'failed' => 'The e-mail template was not saved.',
+    'function' => 'function',
+    'mobileNumberEmployeeLegend' => '"<b>employee.mobileNumber</b>" is the mobile number of the employee.',
+    'landLineNumberEmployeeLegend' => '"<b>employee.landLineNumber</b>" is the landline number of the employee..',
+    'departmentEmployeeLegend' => '"<b>employee.department</b>" is the department of the employee.',
+    'emailEmployeeLegend' => '"<b>employee.email</b>" is the e-mail of the employee.',
+    'visitCanteenListLegend' => '"<b>canteen.list</b>" is a list of all visitors who eat in the canteen.',
+    'visitCanteenNumberLegend' => '"<b>canteen.number</b>" is the number of visitors eating in the canteen.',
+    'legendHeader' => 'The following overview shows the usability of the individual data fields as parameters, which you can use in your email templates. The parameters are highlighted in bold in the legend.',
+    'qrCodeVisitorListLegend' => '"<b>visitor.qrlist</b>" can be used to create a list of all Visitor QR Codes.',
+    'reasonForVisitLegend' => '"<b>reasonForVisit</b>" is the reason for the visit.',
+    'reasonForEntryPermissionLegend' => '"<b>reasonForEntryPermission</b>" is the reason for the entry permission.',
+    'reasonForWorkPermissionLegend' => '"<b>reasonForWorkPermission</b>" is the reason for the work permission.',
+    'permissionTypeLegend' => '"<b>permission.type</b>" is the type of permission and is replaced by "Einfahrtsgenehmigung" or "Arbeitserlaubnis".',
+];

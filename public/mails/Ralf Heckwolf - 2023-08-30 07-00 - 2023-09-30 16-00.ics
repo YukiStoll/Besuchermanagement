@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20230829T112057Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20230930T160000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20230830T070000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde. Jede eingeladene Person erhält eine E-Mail.<br></p><p>Sehr geehrte(r) Herr  Sven Stahl,</p><p>ich freue mich, Sie am 30.08.2023 um 07:00 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Venelin Kehayov, Adrian Stahl, Sven Stahl</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ralf Heckwolf<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 30.08.2023 - 07:00&nbsp;Uhr bis 30.09.2023 - 16:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Herr Sven Stahl 28782860-3663-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAASYSURBVGje7ZpfaFtVGMB/aZKRlFGpQok0YxOXzuqW6kQYHT6ZtiKID/YhHYq6KAhVkL7JiKIFEQdFwT6m+CDrHjYUHIPN+lSqPshoIjLIpqAt61wG7ipEuU1zfLh/ck/vv9y2CyPp99LvfH/vzXfO+f7cgi+sCA1UAApiM6z4WuiiBdA+TiLNif0toz3APwId84UQAJMu3FmAlSQMlYDMIYNUTsHIApAuwuo+XxOaE+EIy+buSgNkhBBlAMpCiAxA2txdy84mJts18H9dlRixo3bh7w2kUnE0duU/aTnYa3Ny9bgkkZ23rmY2gLEFoJCE1ePOT3z6rLRcGg62hZ8B1jV0FOZ2T7w3TK+3wMm5knU18TxwYmGnncgQj+8Gvkk4dequOSkKHbk+YNLUiJEpdupNQk3S7vmY/OtAq9WAeDAnsazE2C+tjpXkKxq43a2nX4uObCJmd3J0vvn3/zAFI3byx51yGIvbt1T0czI724yZzJvAuAvz8Z26Vl6Ea7sFd3C4ENCJf5/UD1wU0ltPSXxfE5FkU8/S73VBJzso8EMujCfn4OeXfPWHgNffhq/fB/gxrlEYz8N3UwCLPRApuWg/CtQdmIVX4YscgBqGMEAN2DBERQngBStpC1u4y4LVm1QRrYhJaEfNrTuSIhmARlmbMZAHMJgmmFKxjFGsZNDz/J4MQDeQOAzsNZXuAxBCCKVh6JZwBbfZSgOyAAljdakdD6NDFroGED0A6u84cx+KwG8bQOigTr0j9cPiulupWQCYiMODN/Xut+iWU6WxBwDnxw0Todeg0mca3HQYk6Pb/l0mpILykeGWBr7FJ361+RnA4qIzfV6PSQO+qQCRMsAAQK4RVyAKDJaBC1MGaQCg8DQs5gzSpkspByQkJ5dmgUgKaS4HwEFdd0/KJD3cZdxLKdDe40C0A+suhzaDUeDQ5/DLO16qzwF7v4Ibr8j0EV+nt1RVTQBkGzNIVVVV6Rauq6qqbp5BqjoAkNd1RE1VVdWWfh2iaSOFnEKu04SsEw7fY7Vw3W0pMYRwpkfS9gFAf5+eU7vSBumJEpA2nmouh74sha3KJ8wZ5PS05MShC/vJQI7IzL5vZbEo9XCnHcZV/7bBegvWb5jon7KYh6HIPl8nK9b+49cBgBngoqk5Y3a/M0aDlO8N+LJeXx00J0KIcwBUhdD2bl6qxzq9+/WH88CxfsnJ5Bs+s4wv67YH+rRmYPdLV8ayqbgkO2HIZyZzxM58zKPBq7T/2OPKaYmxX5r1nZQnne+5WDvp5WpSCLEkk7L2T4Ba+q1WqwXfZ89Xq9WqeRiDb+F4cKnWxESE7pptYeTVIC12Qu6aEnaJm1apy2MASk+wa+WwnH7/sBVGE2cB1to5/QYN5m0TveMhVtmWE+1LUB74oc/hDOox17rfvFGvbi2fvOz81YF3pTP47HBnB/6yb1cMhEY8nAzK13DMbmJB+tr70QfW1do4wBiQWPNw0jsc7Dd4ylY4dELBrf15K5jWZ15M09aZM8An3cFqYS39Korimn4VRdHmmXlFUbQZpLKl9Ov1L0rRuNH99rRn4P8HQJr6Xhq6bvoAAAAASUVORK5CYII="></dd><dt>Herr Adrian Stahl 28782860-3662-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAATKSURBVGje7ZpNbBtVEIA/GydKKkgJP23oj6IKHBGJOKXigJJyqqNUSChCycFC9EAs4GAuqQSXyhyIkBCRInEAejFSRaXk4JzgkpKeUEQFNCSGqlGSyoe0clRVQptD2q4TPw72e97nXXvXgZjIzpzezJs3s7vzZt7MvAVXWBcWWAFgxUpad5XgpwZQP0oC3tg2AXxPaXhblUpiZWa/loM3UkD4J2iJAXQBmE1WVlcRxIQjLKrdFQIIS3oCAFPbXYvOImL1avi/b2sTLWcc+R/+oYa/Af7XrZMLjzTe7nabktv9GkdkylHJ3X6AWWCiHwgtWScnpjXe+b7qtnAJnArCxIHHu8CncvD9nii5LoAjc0DiLfghCnAf8P2XSp4Dsvnh85L2dNOB4cvAa/fk6NKlPVOS3ZCjjYY+fmts+JaINtFZaVUER0fs1EW02JWcmfL+aJ8FHclfNIpNlqpfeWsb8PcofOlfPUcxJUomk0mVcIcBQp4S7qrOk2FY5cDj93x3uZvtuBV5cR3gGHAlV/D6464iAieqfHPFf0wOfCcayCa9ajh5DsaTVuf9810b/9owwMxLFtK9NzWOpt/hwTmF/twGgZRCd4BsCkAUonhOnwQQeQarVJHSlHTYSYFafNeap0RZyiE2UrZSZmNDfWGAOZ2e8/HwEEBxcsdPtlknKQirkQN9DkAIIYySZ8kJsQVAUggxmTe8ECYACVX9FrelLHX1I575eq5+HUGdUXfcuDqby6/2CWDzsM3wO1cAogAJ4CvlXYlR+PUvYEq38mIvJDclFtUFljG8U9tDGV4IecZblFibHfcbrQjK2wSAa/rMd8DQs7YFN29KK79nm7MYfvaUJAYpeHwyBD9eVB78jWx1rQRhYM758ToyINaA9CDASsmbOGTRwVLMW97lCwJpAI621bvhz8tjkMuXtYkBTyIHgIFPLKmt1RlnpSt1AERM01x0EJEwTdNUzhgyC5DUueJCCGGaphmrHLuaPNErtT6a9m8rKh/YtEfLuXBalIQAnlDJ7xGgFfAX42JKckWjBWfMk9WikO1LXRvUorA7qObzil5plYnCQgghZusxCt91r09U66HI67xqYxvAXkkETrpXv3LV3ElgEhmKiykRwDPA2HQhCgPwwuSut/Dh0fyRYoUxR86ensY5fsvDjCN1+ZbGcPQspBcAhgLquul9Z4Gn5eBqzkYq6bSMACwCp0eA+FlYHQEw2tSb9DquLPZkemwppSN0tepFWE0NL2pheOXOC/qtS6et17d9wVXaqJ30oba7Hul3RREbu5i2iwjdKMT1t7eAUQeOaXZ73VSEVvnZW/93ZxTe7lmEG91XgT/gTUdvqtBrKMR0dSr7rUWQ6kgwPi5HG1V+rlcyBfi8Ilsmk8nXZTOZTGa4saOweLB3SkaGgCeBtS6AOPCLKoLiUPk/A49K4jp6IWhN8dvH9oNN9pPhr+9oaDpdypBeLVcta0q657WJFg27WGx7vAzLKpUOfUv+onZhBGAe6B8E4ueBbuCDdzQl7X3eXqoPljXMAq+q47fPmuzXneE/2u16feHHVuTGVYAvD3mSU7xuMgzDeCyEeGwYhlFaBBmGEQHoMAzD2FJFkCGEqCp2ydDR3Fxh0iHA1I/h/wEhWzVzryrp1AAAAABJRU5ErkJggg=="></dd><dt>Herr Venelin Kehayov 28782860-3664-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAASOSURBVGje7ZlPaBxVHMc/22xKNpRILIRtsyWXJlr/bEpFKCme3CRepKg5bIqibSyK0UtvUhapARELiwUDuaSoSJNDAopSiGxPJepBSrIKgaQVNCFp2apdq1uZbPZ5mH2z85zZfTNpuoTd/E7v/f59Z+b3fu+9329AS8vCJAOAcfF/WtZ62EUVqHZAgt7U/lKHLcBdQXGkpQAAw2WkowDLEehOA7FHJGuxE3pTQHQeVg5oXZggwpXmrNUVBYgJIRYBWBRCxACi1uqac3cxXKuB/3NBETQdcSp/JweZjKuza/8q00OtDpCFY4pGfMI+S24A/SlgPAIrx9yf+PykMp3t8beEnwXWzWEfXNzJ+Mo0sl4FkKm0fTb4PHAitdUgKoVCO4H3SGfPPjCQeVEcXO+yeEZQnhRb9SYBj7xtH5N7Lrx8Hgj5A2mKK4IOZXY0rW7RwO3m4vFrs1FdNDlBjkx4f//3O6HXyf6wXpJx/v49zetARke9uIm9CQyUER7eqm3lJVjauXD7p298gujrpHbgslDe+owi17oIRjw9S3ulDTpSR4HvLiN46iL89LLWvht4/R348j2AH0Imh4EEXDkDcLUFguky1o8BBRfh+Gvw6RCA0QANAHlgQ6qKNMBxO2sTS3iXbVTwaCKqEZOAX4t1n8J1+bliCvvnm/IJYgApqZECGBqS+gE5CAG7YwDNQPgJYI/l7KEy1W8YIC5nSQA2ZG/Fqn5dKA4QlrOZKidjFQO/BOzbA6v/2IXGr9bwhsPylw0gcLA4u6PUw+J6ueN3pg/GRuzChcMA48CFLiA2KAUPA2+k7PeuKwNSNQDc7pIzr8nYF4ELAJzSqQ4qF8pHe2r5+F1RewDuHYHfvwI4vtfd2wQQOGnnfJ0BgotWv0TtZUxOAlNRYD8wLTC33D+GAJ4pAzIEhBWQmVEg2GmBuFlJ6cHtH5PqBf7ui2WkY2PAZ/vhhb+BfZ9L/lt2pdVXVSOXwkUIIbJmjAwb5UoaSg9SGIZhWKls70FKSwAShmEYQgiRNwzDsGd8o70gLPfqjRqBUNUaGrb3XbhEBfXTu/NNkCjFXCtRVNsTiAJpxeiE1YMcGXGAtDhLsZC+wPuxkUJDvSXjir5ssAelsGoNb6lqFRwFD2hBlu31x40ugCRw2bJMWtVvUhZIiVafL1vpr4MJIoSYAiAnhLl2E8p9rN6rXz1NA0fbFZDh05pexheFom7HnGyGfZy338JK+8OcZTirgtCt6ck8KQe7Lc3HKxR4mdpve1w7rwg6lF7fqXvA3k+Ks6npMt4q3mOHhRCzKivu/gtQCCHEuPbZE7lcLmcl44NawqHtn4zCp2pgEyBLpR8CYaf0pmQHgG/7AbIt97Wt/Oa4HQ1OAqzV+l3YK6lb0h3Pmn5AUm1WrgHft7nkYDHmmTY5o3HT58kr7n8deFfJwed66jvwWroKBHorgBxSt+Emp4vYOTmKAB+cs8vWBgD6gfBaBZDWHu2DKhpPOy4O9VL9wtuelH1qXboEfNTs7y6sp2w2a1bSiWw2a/Ygs1t+/DaG5KHWUpuB/w8iYfch8n9Q9wAAAABJRU5ErkJggg=="></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal">bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Ralf Heckwolf</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

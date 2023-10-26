@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20230830T134105Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20230831T160000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20230831T070000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde. Jede eingeladene Person erhält eine E-Mail.<br></p><p>Sehr geehrte(r) Herr  Robert Kühn,</p><p>ich freue mich, Sie am 31.08.2023 um 07:00 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Robert Kühn</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Michael Pfenning<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 31.08.2023 - 07:00&nbsp;Uhr bis 31.08.2023 - 16:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Herr Robert Kühn 28956593-3668-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAASfSURBVGje7ZpBbFtFEIa/pE5wKxFIRSFtXQVo3JJDbYiQQImKkOo0gIQqkR4iBKcKOBgJJRK9VOZALohIuQEnI1qQ0oNz6qUF94QCSCCTuEIFpyKq0spuioRekAzYSZaDveu3fu/5vdc0IXIyp53Zf2eed3Z3ZnYNrrQoTJQDIGcWLbpqaGUTqHmMBLzBlgFaHtT4Dp9G4g69n8jG8SwQ+waCcYAjAKU2M9RVBXFhS7NqdUUAYlKeBKCkra5ZexXxZnX8n9e1jmCfLf7vn1XzR6D1eXNn5h8N29tpMXJ9QEOMTNkauTUAcAWYGAAic+bOiYsadqbf3xKuoyfCMLGz413oA9n4ckOMXBXAo2kg+SpcOgOwBLTcTyOPAOVKc5+UPdy243gHeva2bJ07t2FGygXZKmzr8LvJjg+OaB3djUaNYLsRu3UVQauRvinvn/Zh2Fb80XbxyZz/kb+sAK3HFD+3ru+opUSpVCqlEu4YQMRTwu0rngzDPDs7fsNXl7vbDpqZw4sAB4Dza9Vdf9BVRSDk85cr/AHZaAltI59EVXPyBIynzJv32hsW/I1hgOkek+j2Kxqi7Sf444Riv+2AQFaxq0A5CyCqp/ia3gkgKgCzVpHVjHRZRYHNmNdNT4nKDXCrq3r20iizsbCBGEAaYAggZg6slU6ApXZt4BGNUyjSQKFdkz8EIIQQRm3Akn0RG2k0G5MSpYd4Zpqw+rWJQvMAbY9D6SbA4Xv+EKm74uN4H1CpbPbB/kK1+p17GmAxBBdWJACAJDCVBiLvAT0vVMWpZQk4Y2MyLoSYUY7vAhjRrj2EEKJUw2sx3oaWtksRdMkedmHFYfznsvHyfmcjLTmA4CH4rnbtkbOsrmgWiH0qN3suDL+valt/Nmo+mG8AC0NSV8Aude6pnivtdZ1hc971JLDm9OlhYAGAxzqazvF/vaYLT65H4yDA4FlTams5hZ2oVCqVytYb7pIiKam4KSE7437C7y77eW1489G2Na+i1lwErQ16WwSwfNzVhspxIjLvGkxrALkZhd3cCE9UC79JKYrpemY1xzftKXzLvT6xXD0sL9sjCw5ndeCQe/VrqT9SenSdBNgLjF4Eus4CY0ruu/p1otF67u4YwHP9TR9+3WnaMyA/DZwKqLzrLXu8yruurWmiulxY+uTXfyUgMQx3hgCMDvVLorY2ancyx+qTQlt6qlaEReHrps67MvqrS7flrm/lzQZ6Lp8H+OIBS8c7NrmwIqdcOFksFpMKFSkWi8WyEKJyD1Y0h98r61jCuxtw/6tPhLd3FuFNbg8LeLMRzTpE5VbzRQR7tMjeBZUHhPs2XZfz+fyLepaXz+fzw9v9FPZGd4G9u/wZOX1KtkJAKAF8r/KuBNT/z2B8HP9vvwk96z8ps3cAOke3gk+2kuOvquuu7qPw200LYGHek5Fe/RgOatyY2vHJozCj8q7IZ1QeajOnAWaAAYDES0Av8PbrmpHO/nuZCX3QM7vl6dVvLgKazvHveh6QyWisPvB9M/PDVwAf7/GktvbcZBhGtfo1DCPmAO8yDMMoqvBrCCF8nV0dcEe1GqGadsf/BwqgS5BAcYs3AAAAAElFTkSuQmCC"></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal">bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Michael Pfenning</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

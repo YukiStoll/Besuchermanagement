@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20230926T104620Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20231029T160000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20230927T080000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde. Jede eingeladene Person erhält eine E-Mail.<br></p><p>Sehr geehrte(r) Herr  Andy Strömel,</p><p>ich freue mich, Sie am 27.09.2023 um 08:00 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Lennard Wolf, Mohammad Ali Mohammadi, Andy Strömel</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Michael Glanzner<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 27.09.2023 - 08:00&nbsp;Uhr bis 29.10.2023 - 16:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Herr Andy Strömel 40330645-3863-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAASVSURBVGje7ZlNaFxVFMd/kw/JBBtJC8NAEtqFSVo/JqFuSuLOacWCuDCLJChqoyhEN9mIhLHQbMTC4CbYzQQX0maRqgsJpkxXGhUXIRkLgbQKmqDoCPZVGOVlZq6LN/e9d/Pem/feOIYyM2d17jn3nP/cOffec8594Eu7wiAdgIw4SLu+Hto4BGockI5g0+6pbA/wl6DC+VIEgFkP7SLAbj+M5IDksBTtDMLZLJDYgr0BXxcGiHClTXN3JQCSQogdAHaEEEmAhLm7Nt1dzDZq4P/cVhRdp52Tv5ZMPu/qbOMfZXiq1wGyPa7MmLxmH6VLwNNZINMPe+Puv/jysjJcHwu3hZ8C9g32HCy1Tnx1Wtg/BJCVnH009Swwna03iErRaCvwAWl+/n8D2RIV5s6QKdM7ZKao10oiAWX3fUz+dpEVi0A0HEjXpKI4rozO5NQrGviju5J+bTaqiy4nyOlrwdd/aRDOOsXvNcth3Prvnrb8QBYXg7hJvgFMeChH63WtPA+3WwV3ePo8JIh/n9QHrApl1XOK3tdFR3+g39JX7YLub6LAj3gonliC71/wtR8BXn0LPrsI8G3UkDCRgptzAF/2QEfOw/oRoOyizLwMH80A6O3QDlAESnKqyAE8ZxfVsIXbbFw5oIk4jJhE6upu38GwL/+upCnKyuExoCOpiMyc2pV0FCsPJAG6gfhjwMKCVDzk7H5TAJTt/WsagJJrb1sy2jA5nASICyF+b6pb+A7QeQL0n0zRD5I5eqzC/Fiym9zNBwd5MgPMD1W6320rp5olcOZChXldaYJuTgBklP2Q8QA5BzBf8/8ypRSUJ8caNfBLwPgw3NgzNVVeBL67FRJkxwzr2jB8tQCwAwwtAysJh8FR4NaMnHXgUHuBDKK8ywHwcET2CoNVTE90tuoula5ckdxaG8VnAF6ZlqLzwIOfwi8vKTZW33IR4JMjgBBCaIYf5RbWdV3ftExL9hfusq7r+sE3SF3XdSGEkSxTuq6vAaAJITxXUi2qkU5fg877txYuOxjnSAgXeVmCJMAobzoT9sTaZp3FdsnMzEguAeTa7SDTy0A85ky/IhAlXNamy/RrBL450u+ef9vgUZr9pg73HIwFMuALsiv7j+R52f+kgVXTMm12v2lgbgBI9YZcbLWvDmbdtQJAwTzxyrZp0u73ut+EVWXqmT4FZPY1n7eMj8vAqFJpfVC0Z2SDJoD4F9JwXQVhxOdN5nGlGwDg0SodXr7x0+/GZUVxXHnru6C+dL5btVb1kM8KIdZV0aTLJ8BChTIuLjal0jiMhUKhYB7GUFs4GkApXKYeTkxEyPZXBFOaXKSGFvu29UEgrlYwwNSyFFvpV+up9VENgJ89qqZfIR9rylq4Kt31kOfrBJICvom5yxdiFcaqV2sDedH9qwPvRBHGvrrUCjw3wk0djTlATqnXcJfTMJsFMicB8yU48aE8gfJrRGQdYBxg3QnSOxbsN465jq4rkkZPv28GNtjYAN4262CnoSW5ehV4vztkLaxpmlUL39M0TTsw1aqFNU0L0P26UY+9Xzji6B8PTG3EwP8LKh0zw6Mw7fUAAAAASUVORK5CYII="></dd><dt>Herr Mohammad Ali Mohammadi 40330645-3861-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAARiSURBVGje7ZnNbxtVEMB/TuySVCIfglZBTpRTq5ZKDrSXKJW41C1/AD2Y3qiFQHJPvnBAAam+ICoZLpV6cY9pDwmnCggNcKh8QSI44VDVlRAiKZQaqVkkNu0m68fB3o+3+9a7ThqndTKnmXkzb97uvJk38x6EwopogOHhG03+SugMPXQAusdIfOuq6+vAQHQjuYDRqwH8HHBvEEgtuVmtp8gJJVSCdldVCJEGSNm7q6KeItetjn98VxroO9lCq1ZTshefSOTxYZ+Ru6clicwN9fylUVg9rR67clMiy1Nb3sLn4Pp+xLeGwoaF/f7JjhmZXQbSM7B2FKA6BBcWdiZ3HYI1G9t3fGR4qxNGHgIYcYjt9KEV0cILcPxubgL97Rnpy0gD4xJ16nXgFSdFA/8clI5fgHF5ij6/kZM3WqzFk3cvH4GzfqnP9kowLoWI/VoH4idaiSxtax0rQogUQFoIUQ0qifYL7t2J+C8s5FabSS7cbckYPBDAmH8stQTiQeiXjEZaSxLYCFrn6B5y/ISNFs+426hJWe6XKKu5+LOFnZ8OEJl3Ny+6Z9C0mqCSaZqlRottmqYpdTxOpp+W+PFt/OCe5z4YVXvVNJWjQdvaGUgAsTTAAsD8uSb/tYdA2pa3a15HNA3wTZx6rzx12qeDNgAIIYQmO34EIGNRRWcKKdULIYTpWb/e5D9yWJoQoouC8b5E/vmfjd4P0fzNjG7kqEReKwCUgOzNEM0PbOcWB4GsolG2ii9lML4XYz3bxu+4CHMK9rGpbj5+V6PfAdy5s1UjWYCq1HjMpuBW3q9lOyw1CwwCZ6oE1/hexw/Jfe2RsEVaAkNDe7LuuiDH5jWJVLQkZ4F3PmwSl+4Bvd+6xz/+yXP8GobhHM0ZwzAqjYLbaEIjjA3DKMmKRen4HRFCCMMwDMO+g3R/SUJSTXixDZVUACR2wSciUjdeV6LBrLqn7kpZaC+QsKl+oCdlheaby0AKIOsEIrAMkPeFa+2wTItI4Om0GnWX//i1HP+oa4NxNVJ/ooK/A+T9M8bHwrtff/9RBL4ec1PkLSw/BkwPP8MW2474WavuqisK7s44XnTC8bE2hOei8+eAyST88NhOkLn31dpvSNTCAlA61bwM+3JTkqo000SsYrPKSfjqqpOFJ6LfyViiJzxbdsI1XtuNiO+s4xevSAPjAXd9t2+HzPhu0EBOCFGWWRnpCVC3oBo0hfUE2AxGXdd1IYR4quu6HrH77W/3D1kKB5634zcCCDUVazfiPUegOm5HAAoFd/e7jWv0P9x1z9x5G/3Ld8bvP/rTeEOLvRom9bS2LSOH8b462PDSNEDBkorvyP8ZuAx8t3cd/73Z1qwbPwYYOS6n4T6Jyi/bdxnHmsin0tvvZNmdR9beBij7jQxPRVulWiyZbCHadcfvpcgKi4vAR3YdLCsWD7g5MzPA5wfbrIU1TXNq4X81TdM8ok4trGnafCPVt3v5PODuF15W94+OaDem+v8BucBDAJTERcUAAAAASUVORK5CYII="></dd><dt>Herr Lennard Wolf 40330645-3860-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAQ8SURBVGje7ZlNaFxVFMd/SSYyE2g0SoehSaibVFt1UuqmJEtfrQjiwlkkRVEyikLqJjspY7HZiIXBTXQ1pYK0WaTiQoLKVBcy6qpkxkUhihQTWu0Idio8JcnMdfHmvpnbd9/XZJyGTM7q3P+59/zfe/fjnHMf+MqasGQDgJy4V9Z8PfTSAdk9JJFg3e6q6iDwt6Cu+UoPALMu1gWAtREYLwHGYxJaHYMTeSBZhPVRXxcWidDKir26kgCGEGIVgFUhhAGQtFfXit7F7G6d+L+uK4boMWfn76VSLmudXftXaR4ecpBcn1R6TF1ubmWrwMk8kBuB9Un9E59fVJqFiXBL+Blg01KfhQt7O95b5jc7QLJUam5NvwCcyrebRJVYbG/iA8qZM/8bSVHUlV8O2dhGREaKdr1JT0Bsx8/JPxpsawuIhSOJTimGg0rreEk9ooE/B+rht2mM6iLqJDl2Ofj7nxuDE074/W7ZjMXteyr6kSwsBHFjvAWkXIxH23WsvAQ/7yXc4eWLkCT+ddIwsCyUt55T7L4uIiOBnmXY64Ae6aKJH3cxPH0BfnrZd/w48Prb8PlZgB9jFkIqA1fnAL4bhEjJZfQRoKYx5l6Di2mAjT7oA9gCqrKrKAG82Ay1sIR7m7RawCGiE3PS01Z3mw6FTfm5DIC8rQE8AkRU3E5+o4YjWXnAABgAEk8C8/PS8KBS/RYAuO2oX7MAVLV3K1WrDJPNKYCEEOJ2t5zCd+4EHflrVRlX9iLJAewHDuSAG4cCP96bShF0NQWQU9ZDziaZkdqjM8C72/su00pC+fjELp74G9949bvYHpKbaYBVfbdUGjA+Ah5W8OSSsqkDLuGH9nt0HgsEdVve9Zyyl/nkgLeLm68qzUbdchbgs316kuLvStMv/NXyACtHgH4QeYBMBr49CSBaziB10u/e2nm5cM0HEkKD15pJepMypg7H9XcC+T51IwIlBTq1CCTizvArAklS814bMvwC1uVzF4Tfdf+ywSU1+0NtrjuUBsmoL8marD+M52X9kwWW7ZFZu/rNAnOjQGYo5Mt6/XWw864lAEwhrLWbUZZNt1e/brJsa1eA48MKyewbPncZn9YcD/ThltQaETkFJL6UAwsqCeM+dzJPOY1PeFR45fux4ztbaV07rxgOKnd9M+pNp2c2O+2CN4ogW6acvwCtLNo0zZzGxYpZF2szmqZp2psx/BKOeeNC02uHbkYRyCaa42poknRaaglHkJ5elHAj/FYGt3Ws/Navx29BOd5FuXBAcauTy20iyQA/xPX4fLyuNPLV1khe0f914J0YwlpX5/YmPox8DRyNO0gOq8dw1DnQeE9q9k1w8mO5A+XfiJ4CwCRAwUkyNOH7eBPu0BUFuS/ht4MTf7rV8ac9kEuXgA8GwufCDblbqVQq93Rt5MKVSuUr66hvKfxK2edZfQ/uzon/Dw+N70CPNBsOAAAAAElFTkSuQmCC"></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal">bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Michael Glanzner</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

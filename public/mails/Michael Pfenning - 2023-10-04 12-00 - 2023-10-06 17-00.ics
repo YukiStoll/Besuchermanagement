@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20231004T113333Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20231006T170000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20231004T120000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde. Jede eingeladene Person erhält eine E-Mail.<br></p><p>Sehr geehrte(r) Herr  Stefan Dittrich,</p><p>ich freue mich, Sie am 04.10.2023 um 12:00 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Wicha Jakub, Stefan Dittrich</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Michael Pfenning<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 04.10.2023 - 12:00&nbsp;Uhr bis 06.10.2023 - 17:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Herr  Stefan Dittrich 61862245-756-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAATASURBVGje7ZlPaBxlFMB/m26WJIeUmBoW09BLEwjGTYxQNcWDuDWnXiSHtCiFroVC4qE5CAqh4F7EQkQweNr21uSQBUER1m7xUIIiUpK2EtggVWObkhXMeNiWSSfPw+43O58zu7ObLNt003d633vve++befO+92fAF9bEARkAMiISBYiIyJqvhibqAI1jJFiZ2L81MDJRgjurkDdu+Skqp6LwJF96CizPVn7ac4Oe5MlGdfw/KxqjZbjMrmzWk3zzkbbs73AZWTmuSYzPOVczlsJGAY4DpIAD2p5L89pycaS6T/gthawWaW82P4v4EhDf8qABzdM1NLJgR3ziZAE5HQcitTTigOf381W/l76uZYHHIY10TYBALY14aQs8la/roZv0SABaqzPSMq4xjmir124B0UNAuyKdTAORZW2PrqLFbWR4zvdEfhKf7pc4Wa5U3lwB6A95hNKuzrEmIhGA6LOCey9FfB4+V8i31RkJ+LutOwD3BOgBSLwN38cUL7IMcs/3SQ5XdJZuoFBLuDYEDu8jxw+WYLxyGW6/67t/EHj/A/j6IsBPrXkKY9NwfQrgRnuZ3eMisqSTopZlWSIiYlmWFS1W4yKyAEBOZBuAaRFJAWCISHBH77bpaQ/GLSAYAHlcTkJH2IJgFCANENXEO3Ex0yEgcRauxGySEg9FAdqA8AAQjyvGQQAREQOAlHjCDACWiJkvuEUkkU8tIpbteBERGQcIi8hGwwajowlcBY4660LzDxv9zb31d+diM4tHW6mM9AFMDKu+dsPZfqwMASSAL/qA6ClgABhIAHN9Tj3Xx5RozKYn/jcYEZFFADacPl9y5/gilI34fIutRBs7/V4RoH3MzbgMDByDn+9UrP+bLBDMqNL45QzAIeDjB8D4GPRnAF4AkgL0pYHEMbhTTL8LKqjtPJkBsJ2fmgWCvWrZ2us6RsgmHdWuIwf0elKyDRvxJ/T1fGcB+VtnpEqf5v4ZbVncd7HUjg0RCXvQvW5h0zRNu+BeKqwK6dc0zUL6NU0zuIu30FzRqrlePpEK2/FtF+JaIOK9MTgYcU0AurvcogeACEAspjBgW59Bnp4Hwl3a2zoIBD26sF+8azi6rsFqH8BCb7kRSSPXwn9V1J/kQZO9rztdZ+pagz3+3a/qP9Ka7Bm75poBGFJYAMj22PSqK8hScAGSAJzX5jmvjtTV8VIPxwdqqe07IPCOWq0ntRnfxDnvTUPK8bf1T6k/BL/apf1zPZC0S4LwOmS7vAqJQZ/YfcnNfHGvjT3q6/iblzTGEW3Wd/Yh0Kn+4S0ky6k8VYJerIU9ul93LZwopT+Xy+Xy6TeXy6WoacQXoRVRSN1vYakiGv2n8+JCqo34dFOh+y1EHfBAIXloU0g87qTvwid/Nhdy/IcX1Hel/2dM1vcW3nNjD3C2BZtuUg2MRF8HYgDTwI/2TTs1pTD9h2DHjp7kE1iNA7zX66zei/BR6xO8hfem4wHu3vWm3wACJ2DrB4ChLpeRfv0abilnZNTufr9S+XxM0cPrsDkKsOg20jGyk2dSm5JPPv3W0fGTFQlPVke6ehX4rK0i1Xb6zXe/hmGUTL+GYeTnmdOGYexw+Aw4/mZ69cN2+m1vTMf/ByEy3zbHBM0pAAAAAElFTkSuQmCC"></dd><dt>Herr Wicha Jakub 61862245-3911-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAASpSURBVGje7ZpPaNxFFMc/u9mNSYtCoZZNk5iD1pKm7lbFos1J2KYgCIo5xOIl/aOHxEuLgoQVaogIxSiWQD3EgwjmEE9KIDY3WSxCQro1xP6iICT1JxYjGzBpJu2Oh9/+Znd2Z/v77dYkZTfvsvPm9958Z+bNzHtvZsGTFqWUUcWNykJa9GwhyBZQ9YCEytZYcQuP+FYJANBX4usIwGILnF93uRyJsPO71OrZhAMijTSrVpeUUooCdaGtrllzE33Vavh/5rUPDc/kc1czfhqbua2x7XuKQOY7NYmer/O5t1JA/B3gxD1ALo5pbPJYJUu4CxZ2drxvel/jBoFw4v8GmZoCRl/OcicHgWhic86uR2vZ8GWDDDQ1NTUtbOLqAviTHZts2Y5v6NE+tGncs4c0Ngwc3As06jp6Ew06lC/3W4pq0P1e8xC7ngFCHSDmAdrrYe4OEHxKiVy7r36ogDsupbQAsKSUcYDoTsC9ze73kwpBAt5maw7ATQm0qirrAPyRAQLNIG96gkjf/dmo10Bq0/AxQ6W7ea+/ATDRDC8uawLdGnfm7Wzh1LRW//nzcH4KCKUMINLJv8ikACSwnALik/DbkwC60h23sKbXZ4D1VLlLOFg1m3GjzMY3/ICE4tpgp+qBuB4eFytFDrv1nb5G0nGluO71U/mmrTNoXYFb+2rpFP5V4x4v6sjfywC582sBaKv3uvbI0SgwoMe7iy3wpdpwh4/CF6ez1x55NpmNwfgKEOiFNZU6z4wYQP+SUkaKfbxOo+61x92cVK1dezj0bbHI9yq2PenRmLIJADeSBpFJy7KcZNayLCe+Grcsa1gJxEvYZNiyLGtdStkDEHGlJo0jUWvyiQBrBVX3pAMPgk2CcisMHzDfBjl0+bJWfxzoVdZ/yS1MTACfduRLHX9XUxRCiLRjeCnlXSGEiAD0CCGySZDIknMkSCkzQgjhBNxCiFwStKGkEsrwaSFEKAyulYFgUEvZtFLOZQXCBqnsKiqa/vCD5X4z3h8ypRUckCiAOlGb92Xz2mDUPaifTpkxUnWu9hH9LmxQj7F8keFpI+fsh6WU46WGmpZSVtEpvOQrP8mjJWB/eX0LtXpnvy1wRrnf025+8pra8YeAx4aBn8aAiNrs58pMsRXlUmwDmY76KjN8RVopd2/WvZIt/DKX/339OwNI31lzY0eKatpmgWmVaUVdkDkt+VrpBkjuBh7OjSRmxDDcydTHgGmfA45VsfuduahP/kdG+d/fK0hXgK7e0u0P/aytrtv6W1FPiQwtJ7UK7EoBR4FXV83y9ljFS9iZhHCeawo2bvtmlAFfctKrTrpOVPqMuwwrXrnfCGRfBbTU6ptugNVGnNMw4kIGI5VM15Bt20OeUmdt27ZfAD6zbduu9VO4gG5tBkhLAvhRXXmcy/ezgQTAwfsH6erKBu8m+qDmkqCK6Qe3sNf9y8DVFc0m7XpG3FDcRPwCsN/lPrzgljoBksAl9Y+AhAvy1YgGsueYZ0c1iefyQ0rYHYNL25r9buGO7/cl3A+ccN/jB9LAQx+bJZf7gTej5cXCpZKgqPYEWOCyk1LKf9PpdDq0yTO1q7oM/x+M+6PfQF0xzgAAAABJRU5ErkJggg=="></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal">bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Michael Pfenning</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

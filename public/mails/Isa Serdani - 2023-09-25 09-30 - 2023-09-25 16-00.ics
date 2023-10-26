@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20230920T085031Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20230925T160000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20230925T093000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde. Jede eingeladene Person erhält eine E-Mail.<br></p><p>Sehr geehrte(r) Herr  Dominic Seibel,</p><p>ich freue mich, Sie am 25.09.2023 um 09:30 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Dominic Seibel</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Isa Serdani<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25.09.2023 - 09:30&nbsp;Uhr bis 25.09.2023 - 16:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Herr Dominic Seibel 47487687-3776-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAR6SURBVGje7ZlNaFxVFMd/k0xkEmqkCiXYhNaPtLTgi1QEScCFTho3KmgWiWiVpqIQRexOylCwCGJgNjXQTQYX0mZR1EUJtKZuStRVScZFIZGmOKGtGcE+i6O8JHNcvHl35uZ9znQMOpP/6p5z7j3n3TnvvPMxEIqc2LAAmJLNyIVqaGEL0DhG4tG2/aEvO4G7QmkVihgA4z7SSYBcN/RlgeR+h7XYC4OzgLEAKz2hKmwj4ol59XYZAEkRWQRgUUSSAIZ6u+a9VYw3quN/v6YJEofcm793Fvm8p7Krf2vkgZ0uI9cGtB0j5yqp9AYwNAtMdcPKgPcTT0xr5Fx/da/w88CavTwMme2ID8aptS0wcj5bSY2+CLw2W28jOtrbtx0fESdO/GtGFqS0+Hmf4llxJ1PU6yaxiLz/vE/+8uCtrwPt1RlJjGiCPRr1TFb/RAO/dZTSb8UZXUXCbeTQuej3/7gXBt3sT5slGBfuXdNCmJHJyShqku8Cwz7CJ+v1WXkVlrYL7upxoUoj4X3SbmBGtFsf1+ShKuLdkZ5ld9AHuruJHN/nI3gqAz+9Hnq+Dzj2PnxzEuDHdpvDcAouHwe40gnxrM/pg0DRQzj1FnwxBmC1QivAOrDhbJUswMuVrBpe4ZaKVTHiEdkKn/hWAzVVv2vu02sQTypKr22npwElXNW8k0i6ipX7kgAdqkA/5aweAFB96pxXne0IjbLjK3vbDbsNc8iRxg/GJYBEj494CXisxcV6JA7XNzRWhLHH53DjO+CGctjIIDCmjz1GHZYae2yOVGdDaq9bqMYeqXL9FmnssQkFETs+U9rso+HSbwYY2K9J1ETgUi16M8Bze909xsXDcPNP4NnbKhgNuKBybfJbWF/G/XYB2WGAQnvpVdsXNPZ4eNMD9bpurjiPavysdiTfBHXXxAQw/VCl9MyZzfuvv6ORO76Gm28q8iVNeBLgq/sBy7IssyxYFRHLsqyCV8GtglHB8JlwpyzLugiAKSLxNndH2FbK2/eCtv9JLVxGMZRfdIwY7gGAgWccxAxFGUC2VdufDUu/gVBfYRERmbLHHk76BezhcxOk35XwtsGnNPtVJwMUxXtCjeRc/cfjaWBGnUyr7jetdUnpKi6bczleREu/aRE576RfERFZBWCuYdNvZNy5HCSdAWKv+BgZfztklvFlsbQ3Xx57zDuLBxVrGOjyM0JfyEzmCa9erK2Zxx5XJzTBHm3Wd9Rj0nnER+WoD3/c3QR51MKBmC+UYKffQqFQUHEbr9tvUhreikZtpU8kVkdt4qZigS22D7oAbquVlrdHpx12DLg0BGB21lBIfHIUMmMAv/gE462mCMaoUG3BnSibajNiN7fAD7s8SuCSz/O7HIq2mivIN7z/deAjLQZf6N92PADLy978K0BsMMDIAf0znAgyMgTgnl2dHgK6bgUY2dlf5XWedkX86WZJv+/VcPRDjfpATRGUrrNngc86qqyFTdNc9E2/InLXNE27k06ZplnR/Vbz7J2ufkHHjnLe6mxMx/8Dd4kxacyY+MUAAAAASUVORK5CYII="></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal">bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Isa Serdani</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

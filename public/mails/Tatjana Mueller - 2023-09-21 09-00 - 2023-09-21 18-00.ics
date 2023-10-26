@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20230907T082613Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20230921T180000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20230921T090000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde. Jede eingeladene Person erhält eine E-Mail.<br></p><p>Sehr geehrte(r) Herr  Tobias Lang,</p><p>ich freue mich, Sie am 21.09.2023 um 09:00 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Denish Patadia, Michael Angeli, Tobias Lang</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tatjana Mueller<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 21.09.2023 - 09:00&nbsp;Uhr bis 21.09.2023 - 18:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Herr  Tobias Lang 71781992-1653-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAASSSURBVGje7ZlfaFtVGMB/aW9HUqVSpaUsHXNgOiaaykSoLfji7SaC+GAf2qHoGkWhCrq3MYK4ooiDwGB9TBGRbQ8TBcdAiU8l6stmGpGNTJ3YMucqaCaketvm+JCce+8xNz331i6WpN/T933n+3NPzvn+nYAWFkQFLADS4t+woLXQRgOgeZwY/sRuqWgX8KegimkhBMBUndUZgIV+GMwD5l7JKsRgNAPE52Fxl9ZExYnwhJx9u+IAphCiAEBBCGECxO3blfM2MdWsB//7ZWUhvL9W+EuJLC15Grv0l0Lu665xcnlEkRg/46ZSa8DBDJDuh8UR7y8+cVYhs8PBrvDjwEoFPQCz2xG/PkyvNMDJubybmngKOJTZbCcqRCLbB+8Tjh27bU7mRRX5fsDmWYasFJu1k5BP3pY/k2UP3uoqEAnmJDyuLOxWqKG8mqKB3zqr5delo5oI1zrZf8b//o/HYLSW/W6rBOP8f7c0r3MyM+PHjPkKMFZn8aHNSivPwNXthjs4nA/oRD8nRYELQtn1EWVda8Lo9/Ut0fUSdH8LHfxgnYWHZ+HbZ7X6g8CLr8EnbwJ8HalwGEvCF0cA5rrAyNfRvh8oeyymX4D3EwBWO7QDrAJrUlTkAZ52szZwhdtcWNmnimjEmYQ21dxKDcKK/LlMm6U0uIapsExZU8OmbFZMqnV+hwnQCfQ9AExPS6W7aqffpFPGJSvlpHqhgXGAPiHEzf8jGBt78MuL6op3eVq9BrDHgB/XgNB9UP5Bp+jEyTcjAGlJJuxJNg2clIF1bUA+e7wsnz2uO+1xGkgMuCkXTAkhsgDcrJ5hyVn09+wBQEkIV3xm5YVo3vL7KcCkTmtuzo/tK1ekk4LSGpMAOBwiUrBZO92KewrAXAKgUI36nY5oBEIFgAHbFoARq/MZdfhGDKjs496O6i8eq1Fcaqm+6wCw9xR897rKHwUOH5LUk8CdH8P157VenBxqSeiTWTjnIZ8WQpQty7K8gtGGpGVZnwFQtCzLtZMO39sP6UU73NgW7oXLHtg6El5Oor3VmtoWt3l5IC6/ajZBlcy3S4G4lKq8j6nlV/iCuFJ+KzncEmLN+bKcLL/N3Qsv6scGu0Krsr+qYusYMnZpnSzI+SNjy6aACwpVmX5TckBKdgfcrF1+HbDLb8WJEOKcWn6TyrVp9ek3n9dJfAQMRRUnUy9p3jI+VNLHRfvtI/4BcDfwWE6W35ytmFWdMKh5k3lQ4V9UxzmAnh43pwXK76UTysJu5a1vchm45xT8dFTVn/DvyumFlSEoV68X1kKyVCqV7GA0btMvFNnawRhwKhNyfA3iJNMG9AHcQGIq3JDsEPD5QYBi1wbSytuTssb/XNMYTZwF+KWZy29gDTsv/SGRzjvg71veQoGdmI/KySYJfNVrV8Y34PyY5IeApV5J0RF0J8fh6jTAc97/OnBUicEnhpvu4Bt8u/apaTis03znLYn1AEPZmrTo5aR7ONjnPaK2mdFWOpNXfQnbUifrCKR2uE2dPg2817mBXjhdLBbT9USdXrhYLFan3w2V367gUs1z8P8A/7k7E4V43T8AAAAASUVORK5CYII="></dd><dt>Herr Michael Angeli 71781992-3709-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAARlSURBVGje7ZlfaFtlFMB/aZORFKlUXS00QwamY6KpToTRgS/edb6ID+6hHYKyKghVmH0bIwzWF9mgT+tjypCx9WGCD2OwLeJDifriSKKy0fkHTNHZCDY6tpEm9/Mh99/X+z/tQkl6ns453/lz7z3n+75zzgVfKIsm1ADIio1Q9rXQQxugc5xEg4n9K6P9wH8CDfOFCADTLqvzAOUkjJYAZZ/OWk7B4RyQLsLKHl8TTSfCEQpGdqUBFCHEMgDLQggFIG1kV8HZxHSnBv6f29JC/IBd+BsdqVQcjd16JJH7B2xObh+SJCYuW6m5BnAkB2STsHLI+YnPLUpkfixcCr8BrDfRcVjY2fHeMLveBidXSlZq8i3gWG6rnciQSOwEPiCcOvXYnBSFhvw8YvBqUf2m2Ko3iQTkbfuYPHTg1etAIpyT+IS08JxEHSzJRzTwd592/Vp0ZBNxu5MDl4O//5kUHLazP+uWzVjcvKWin5P5+SBmlI+Aoy6LL2/VsfIO3N0puMPD1ZBO/PukYeCakN56Rlr3NRFNBnqWYa8DOtlFgR91WXh1AX5411d/FPjgE/jyNMB3iSaHoxn4agZgqR+iJRftFwDVYTH7PlyYAqj1Qi9AHWjooqIE8LaV1UIK91gwNaCKaEdMXKuBlqrfdbv2OkQVALOsVYAf7wGLixoFwGpJp+JAXNGLFQXtnt+lAPQBQy8Cs7O65pMAQghRNR9lVQgxZNbZehNrdL+eMAEwJIRY7ZZTeG1NIm13VP03gL1R+LUBRJ4H9Re8dYgIoHYRYMrccBJlsOLH4O6Iy9jDQTFrYEbU8qZFVYgHGx6moUm5jj0AeCCEZX/mddMdFPiAjf8FiVpaCqJz5469x7i+V8dS1hy5OuNhJ12UsstQHHFN4RRuhPcXl0VTQKVLdvzZmzq27zz8dCKIiT/e83VSM9AYcN849J8B6jmA8rPeJlSH+UcmA18fAagmIBrzf9RYC18oZsW2Uy2sGlmiSjmjeito2AYnsbQxCQJ60vp+faUEKDf1U7g5kYih9prbEsAoghyuX3/YMHxuOhGiYVIF/frt7Fp4xb9tMA5RWfYvWczDUHSPr5Oy3n/kDNk54JpENbvfOb1BygyEfFnjr4MJxvXbdCKEuCJfvxkpbbq9+/WHL4CDw5KT6Q99ZhkXVedhWPpz4Cng9YJ2TEQKhmJedsKoz0zmJa92DmD3biunC67fW+fkzy7N+o4/BJ4+b9efDOfkkfyvSD5Rvy9Z+y4TSi7Nc+Yklknr40rhRPtjIiItaIngUhHPFtsDFqYAhuwL93R2BLjRLIn6NxWT322l0uQiwJ+dfP2GEa4ATxjJueYj2ZqT3CCQPQ7JDPDtoMMe1GJeGdQpYq1uxvFxHP86cFLag2+OdXfgAbixGSf789JC3EXBnGrkfY5FJycDYyGf77XYtopJOwP/cQuqn9pZc7uspi5dAs72hauFlaoGWTdRsxauVqvXAagKIUKlcH+Lop0T+P8BEVr7NqtjvAoAAAAASUVORK5CYII="></dd><dt>Herr Senior Packaging Technologist Denish Patadia 71781992-3710-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAARpSURBVGje7ZlfaFtlFMB/SZOS9CFSZaPYhKEs04mmbiLM9kXwtvVl+OAeUhGUxaHQ+WDfpARhfREHebKCDylDYdvDBB9kMK1P0unTaLKHbakONGX+yWBGIZWbJp8P90/u13uTe29aY0l7ns53/ubL+c53zvkuuEJZaKACkBdboexqIUgPoH+chLyJ/SWjMeBvgY65QgCA2TbcRYByHMaKgPKEQSolYXIZSBVgPeFqQnMiHGHVPF0pAEUIUQKgJIRQAFLm6Vp1NjHbr4F/cEtiRI7bha8bSKXiaOzGP9Ly6LDNya0JSSJ9ybrKNYDpZSAfh/UJ5198/rK0XBn3d4RfAuoaOgVL+xnfGRbqPXBypWhdzZwEXlveaScyRKP7gfcI8/P/mZOC0JEfj5g0NWRUip3aScAjbdfHZMOBtrkJRP05iaQlxiFpdaIoX9HA/SG9/Fp0ZBMRu5Pjl7zv/1wSJu3kD/dKMha2b6ng5mRx0YsZ5R3gVBvmszt1rbwKa/sNt3/4yqcT9zlpFLgqpF3PSXxXE6G4p98y2umCju+hwI+1YTy3BDdfd9UfA956F778AOCHqEbhVBa+nQP4LgahYhvtp4CmAzP/JlzIAKgDMACwCTQMUVEEeMVK6uIIBy1Y06OK6EVMAn416p6YdSsppLQRfwRnZiYDKEazoqDX+UEFYAgYeRpYWDDkHwIQ/qA1/TpAGmBECPFH3ybjGkAkARvrneSSbC1YdxtA4DA0f5JF19o9e3wM1yc6OWkEqQ+aK4dnDy1TgYy02kY9aQczUUTLyZPje7b8XujC9u3bNifHSsDnZqamzxn1fA49nMonBvMxq61HS62JFQIlgCNYj0DLSTRpP7S4koBg0iZU+T8yvndX/Z1JYP5FK+P+pKP83bcBPn3cQrr3hqsXVVXVKgDXhBANVYdaS6Js0Oqd3iBlyKqqeg2AqqqqobA0EQaNGG1aNMJd/ENhK7abkrG55Sg2bYijgo5pTlKgtzcmpKSL+lgRUL6BQMrMtRRQHJDkzSaoq/JrPj4LIYTQ7nBViEbrR60a5be/e+F197HBbM3WgZj5neF3WayDoVDC1UnZmD+WE0D+NBzOAVdNzZw5/eaMASk77HOz5lcHrXAb0W81fjkhxBUAakJoZzcrHZu9PP1+4VnqxKjcd53p8JZRjsPNpvPLRuoz4OEEVO4Zc1fBVNz61WHM5U3mmXYzg6F44ICVUunbjDexG+clxiHpre/0RrvG1LurWSHEikxK2z8BaslY00HpZDBbq9VqZjL6P8JR/1K7+ClKeJcKdOtkKQMwYmf8ZpADwNfTANXYtoagX2yt0sxlgF/7ufx2r/pnB16layfKC0AciGeB7w865KAe88pBY0XY706M4WtqCsevDrwv5eDL4/uBB7jzc7dOjsrXcKSD0koGYMXz5dlyMjzucz/Ph3dVTHoZ+LOehM8C0yeN1Xt2gdyg1dTFi8BHQ132wvl2oq1euFqt6tNvV+XXG8T6M/D/Am3uLA3gvzZEAAAAAElFTkSuQmCC"></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal">bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Tatjana Mueller</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

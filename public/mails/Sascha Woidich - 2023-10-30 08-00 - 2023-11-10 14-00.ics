@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20231011T105919Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20231110T140000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20231030T080000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde. Jede eingeladene Person erhält eine E-Mail.<br></p><p>Sehr geehrte(r) Frau  Lena Thon,</p><p>ich freue mich, Sie am 30.10.2023 um 08:00 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Lena Thon</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sascha Woidich<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 30.10.2023 - 08:00&nbsp;Uhr bis 10.11.2023 - 14:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Frau Lena Thon 19934389-3959-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAASiSURBVGje7ZpRaJtVFMd/SZOuLRqt2BLWSSeuhT0sKUNBVgbCUgsDGdg+RFGEFfWhE1kf9lIycEEZFgp96GOqskH7kD7Nl2r3VIoDXU2jUugEkXa0VkGi0I0vba4Pyb35br4v+fJtay1Jz9O55/7vPbnfueeec+4NONKaMNEqAKtm0ZrjDF72gWpHia862D8Anqe1dsClkuEyvZOSOZsGIt9C0zBAN4DhN0Mdp2BY2FJK7a4QQETKEwAY2u5K2U8xXKuG/3tF62g6bYt/8KNivwe8r5o7lx5q2JOtFiUrvRoiOm2rZL0XYA4Y6wVCy+bOsRkNu3jG3RYuoRe7YOzQ4x3oqmRu7ImS2wJonwcSb8CtIYAtwPMklTwPZPNsm5Q96z80fBl6+b7kRkf3TEl2U3KbdR1+99nwTVGto7PSqCi2jtipT9FkVXJ6uvqfdq3LVny9Xmyy7H7kLzuA95RqLz/W7yimRMlkMqkS7ghAqKqE21U8GYB7HHr8nu8uZ7N1mBsvrQEcBb7KFby+w3EK3zGXK1f4o5LxHKsjm4QVO34O4kmz8/70jgX/6wDA7AmT6P55DeH/Af46p5oLAfClVXMXyKYBROEUz+mdACIPMM8q0pqSoFXk24/v+v+lRDuAp+Ias9X3ZS1KnooAPzcWiiBfBGDeOk+3VaSgm42a6BkdNicr1iBAVLbG84bX7lZsKCWE0EM8i7Vc/eYD0glzomP8/niTywjnSyhRP8BWmwm00gOQsK44AUzPA6GPgSEVOfvMLYrltLqgWARgy2z44rWHzaVaSYyX1x65uiqCblkh3wBcBPFF8WhdkNyUZO7eBd5rsFXiUQfqg3XgRhxgFfAfL+yur0cAdr1kGwESZ2FhSKJKXH+7uTRpmpjUVtJcTKLlPm60y6u7IL+O435y9v01bvh/3wQYfU0KX7fi+iUz7VTG9AH0XdFkQgiRUafwrmEYRrAk4TYMI59wG4ZRcEbDMAwhhDB0Us4Y0+4gS7aw1+7z+S2M4vwH1xkrUq5sw/Jrc1YlIQDlrR3tur9KZr5BQj1Avx6WU2FzKx63GN6ZQsVTXooi1vBbB6fwunN9ol89VBiwuVNGyQvO1a+sPyLntehazNQBngMuzwDBK8CIkrsuscvkXeNyL0QBgkKILZV3CSGEqNPL51l3qI1Z4IJPPTe9b4/vkczNHNCjfDxlAZi22CAQG4A/+gEyAbWSsK2O4p3MKb0kaOmyPb9MFC4kIDWbdy3pry6d1yuMulq9gg81JQ/1t6KoNUBuA+vdAAoaumMOj19OAS36qBmXW7jZSXaktPo+iM4onOSeCqgqlYTT5guH4qtA2msOv2/NSIAH8Cio6yfATy/C1FAlxIbM8jaAS5P75oxiPwzvcTviz2oARwKPYPjBC0AcGX5jwHfqTI6B6X8Gm+1A7NojKIkB2WLC9m5XIXsHoPXyQTggD5LH3951APx2ryolJxe1jiatNZK2jPzsE8m1AUuD9vN/8LampPWMu2/wSlWoUE0a/pK7URMAEw2IjyqA7twE+LzFXS5cQoYQdnsumMlkMttCiDkAMkII35P/OIEa9vj/AOrHOSwAZ0RQAAAAAElFTkSuQmCC"></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal">bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Sascha Woidich</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

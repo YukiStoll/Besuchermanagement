@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20231010T052419Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20231013T160000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20231010T070000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde. Jede eingeladene Person erhält eine E-Mail.<br></p><p>Sehr geehrte(r) Herr  Viktor Kämpf,</p><p>ich freue mich, Sie am 10.10.2023 um 07:00 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Sven Sievers, Isaev Stephan, Viktor Kämpf</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Maritta Schneider<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10.10.2023 - 07:00&nbsp;Uhr bis 13.10.2023 - 16:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Herr  Viktor Kämpf 87343300-3914-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAASvSURBVGje7ZpfaFtVGMB/SdPadljXYTV2lTJnBj4sLUVB2s2XZUwGuof2IQOHaBiCnch82MuoDw3CsFAYqMyHToeD9iF78mkz80XEwVxtozLWCk7amdIpLmPUcrPk+JDcc89JbnLv7dY6kn5P3/ed73zfufc75/tzzwVHWBAKzAEwp7IWHDX42QCoHSMBd2J3AXyPa3SbRyPDFUY/NZG9KSDyDTQPA+wCMBpVUUcVDAtbmJG7KwwQMfkTABja7pqxVzFcq47/57o20NxnK//vTxK9CvhfVgenVzXZF9rLjFwf0CSik7ZGFgcALgJjA0B4Vh0cm9Jkv+/3toVLYEcIxjZPvAN8aCJfrYuRywJ4KglMvAZfxwCWAd/DNPIkkC2gHSZva+Om4yvAi7dM7OTJdTOSXTKxpbpOvxvs+OaoNtBdbVYU24PYratoLjfSN+l+aaMhW/apevHJrPeZv94H/LslPftA67BKokQikZAFdwQg7Krg9pRPBmGezRO/7rvL2W3bVWLnAkAncC5fPPXbHVUEujw+uZTvNBFfVx35pEei4/sgnlAP789vlMn/Nghw4XmFdeugJtH4I/y1T5LftUEgJckckE0BiGIUz+uDAKIgoGoVKc1IsJwV2Ij3uuElUdZE7gM+/RlzOb16cW8hC4EIQBLgAEAE+KWp2AQVBgGWm7SJuzRKShX0AH6L9QSAEEJkrAnLQoggQFRrYsPV1jpuSkUBgjXd/ZZkoTt3FML4A2Cn40Lmge4mldrSCffSMroVvkiY/fTNOMAE0DYEs70AC13Qo5+uCWAyqbFmeiBxF4gBjIzCpQMlW/htrWF7y6mB2hsCmzJtCBCx+qiFb34r0S/WoOjaNeDNBgcjf8YA5oBX5GtNhNUUGPlMPeyf57SjHwM43IJvDmBL1Si8tUMjQ6WUteOfA/I2yw79X44XG+F4H8CN/fajZ84A56RTpNS7FbS9LiVPVDO6LIQwDMNYsSm4bSBsqGA1WiOiqMcwDMOwS7+NxbzlBhrdjD16n6JsIF9ltXIsUPK2ZWgMl7MUVwCkgFSDGoVbwkU2oEXhCl1YS9XuLBFStpoFZwHhr+kovOjcn9g4xX7WUoWNH3jWufs1+4/IQeCD8rprHGAbcHwKCJ4AdgDPjK+pxZZ3Wu7rLiGEELUWhV3CBddST++B36cBDgXkddNRe/leEzmfB3plpTVTJqBssSFgZA/MDwFk2mTs6rG1YZ363Xq70BoqiU510/1KbFq/dek+5TDz2N+uDLyjGVnV74qi5YluBViUh/1GEghfUTPgl2eBVn3WlMek1eLEe6y0+34U06+oQAotf4oHMlLSBEnHpPxq+j2sudUXhMIFwjq+rv3pdDo9WIu18MOH28C2Bm+OHzoExK1SF/ghqVLWfwbBo0A8jve73xEgaxk5otVd7cc12VG4Ha/5KFwVLufcq7xUxil+9vjE9s+Cip895kJwVWbKDrMXnV4FBgBGXqXwZ0HqnvYk7f3e3sFL5aw+K3z1q/V/zTn+mLdZpwFONyDek6z3Q/BRWhW6ch7g41aPtXCmCPIPHGXPzchaOJPJZFaEEBcByAghPPWMbWuUqh3H/wek1PMt31uInAAAAABJRU5ErkJggg=="></dd><dt>Herr Servicetechniker Isaev Stephan 87343300-3915-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAARxSURBVGje7ZlPaJtlGMB/aZOR9FDooCOwlO2wqhNMdV5GdxFN7Kl4WA+ZCIpRHHReei1BsJfhIAeleEoRhbWHCcKkWuhOoyo7jDYbbEZxYMrUZeCikOnXJo+HL9+X7833N11XR9Ln9D7/vzfP+77Pn4AvlEUHDYCCtEPZ10IfewDd4yQcTOwvdTkI/C00V74QAmDahTsPUE7AWBFIPW2QSqOQXgWSG7A54mtCdyKOsG6eriRASkRKAJREJAWQNE/XurOJ6W4N/J+3FEb0hF34O2NRqTgau/6Pgh4fsjm5dUqRyCxasXwdmFgFCgnYPOX8xReWFHRtvLMj/AqwpS9fhYX9G+8Nc1t74ORS0YqdmQReX91tJyrEYvuBDwizs4/NyYY0Fz8/ZdK0sJEpdmsnoYC0Jz4mDx1o29tArDMn0YzCOKJgJ4vqEw3cH2imX4uOaiJqd3JiMfj+PxyFtJ18vlcu48ajW9rwczI/H8RM6iww5cJ8freeldPw037B3Tl83aET/z7pMLAsyq5nFL6viXAi0Lcc9nqgEz0U+DEXxosLcOMNX/0x4J334asPAH6I6RSmcnBlBuDqIISLLtrPAg0HZuEt+CwLoPVDP8A2UDdEpQjwmpW0gyPcZ1k1AqrIXsTEtRrY6pCuMrespFAKwK2sdWOmAL4J05gAOH0WLn/sZUdEpOpaZ4tI3oFecm51M73+CnvkqF/qQOhYE3tQ8XMSLQBkAQrA7O9AJu2cawsAB4H3Vq1115Upg5kFyB21BV5ERNYAuCcicYCMOfZoc2LIm2MPERG5BEBNRL+fOeVAdFHgFwCGJw38chClazd9RRaAl43AhLMA05PwQgn4IqsMR0qKotn/3Mx65MmSKbp21HaEY6M2hQOjgR+tFowCle6+8T+mgdmXrIz7av+xYnzNoq2Nufumgqp6s9cANE3T9Fd4RUTqWhNqbZbqxoRbhaQ64W5dRk3TNHMGGY4oHWGf8cHbj/gLRZ7cWrgRiNxwpOtOktAsb1q/tqrdr9CLxqqo0geA+CFgbs75FfaEpPIKF/Sxh0i9ZWfdSL9xEbnXtZdx079tcCnN/lDRTdui5WTE10nZ1n8cywPLpmbe7H7zwMwIkBvqcLNlW+Bb6Vd30kPpt2ONLz14y4rUSaPTbP7d9K7HLKOcgBsN58lG8nPg4AhU7gLnl4D4t4Zo+78OYz4zmefc0q+hODxsJf0v6XdvO63rFxTGEWXW9/ZDF/0zgUh64M1a2ISMw1+ANSukHOzUajU9b+dqtVrNvIwdHeFYAAlxEN2byyih4MISXMJchDxbbDusqtuO2yUGjEUr/VYHdzpUA+DXiO1cLfV49+sFDx6zkxzw/SFnuh54E4t0eOPVsYfjjW9ecb3uWttPvzrcueNMvwqE0h5OjqtBibrYLzwDtyfM9PuplffJBBD/zcPJ0HiwXYzDbQWzOOmVede5neqf8yBdvAh8NLDDWvjfqgFtoiYpV61WV3RSp+nXHIcccGkkI2b6HezOwP8HowhhPAwudfYAAAAASUVORK5CYII="></dd><dt>Herr Servicetechniker Sven Sievers 87343300-3916-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAR7SURBVGje7ZpNaFxVFIC/SSaQCRKMkjKYCQ3SVCo6kbgpKXShE+NGumgWk6IoxkIhdZOdhEEwm2JhFpZgXUyoIk0XKQpKtDiuSlRclGQUWiZiwQT/IthRmMpLZo6LN+/n5r03770xjWUmZ3XP/7vce+75mQFfWBcdNAByshPWfS20sQfQPE6iwcT+UpfdwN9CbeULEQCmPLhzAOsJGCoAqccMUnEQRvNAchU2+n1N6E7EFVbM25UESIlIEYCiiKQAkubtWnE3MdWsB//nTYXROewU/spYbG66Grvxj4Ie6XE4uXlMkUgv2LFsBRjLA7kEbBxz/+LzVxR0eSTcFX4W2NKXz8H8fsTXh9mtPXCyWLBjEy8Ap/K77USFWGz/4APCzMw9c7IqtcUPh02aFjUyxW7tJBKQdt+fyV0X2vY2EAvnpDOtMA4q2NGC+kQDf3TV0q9NRzXR6XQyvBB8/28NwqiTfK5VgnH1v1ta9XMyNxfETOoMMO7BfGq3npWTsLZfcIeHT0M68e+T+oAlUXY9rfB9TUQTgb6lr94DnWihgx/yYDw9D9+96Ks/BLz2Onz8JsA3MZ3CeAa+nAa43g3Rgof240DVhZl7BS5NAmjt0A6wDVQMUSkAnLCTGrjCbbZVNaCK7MWZeFYDWyHpKnPLToqkAPIAKYP8/a/mu2syVSwF8FmU6hjAyTPwyTuK6A4QESkBcM3oWONWnS0iWeupV7pfF0g3fzDaspBLQlrzxn6sAJFDNezOpv/YYxiYrPcxOUMgB3DiYdvYA4Cr44pUZsBpYkpEluvuuOIYqpljDxERWQSgLKLHZ0a5EE2Xfn3b/0sh7c4DzwyodZfJLALHzYhfTNYW485b8V7FtUWJFAEOAywPeLzCD/Yq6KD3tz7qQR8ENlul7jqlYBcvAu8/YictKG3MAx/Bzy8rOmrfMvMtgGbAjmBMa5q2AthnkJqmFVWppDrhtoJR0zTNnEFGO7z22BGIFEj7/quFq76kqivdctKWVCdBJskMuHw7kAQoUFsV2s3TAegC4geA2VlH+vUH6wNyIpLTxx4iFcvOipF+4yLye9MG44Z/2+BRmv2mohuOheWk39fJuqP/OJQFlkzNrNn9ZoHpfiDTE3Kz646Dt9Kv7qTl0m8IuFqHt6RIHe1TnEyd9pllfFh1H28kPwAeAo6vAOfGgfjnhtSy6oQhn5nMk15VpqHY22sn/S/pd287rRvnFcZBZdb36l0P/YlAJK9aOO38CVAPxnINUi52yuVyWQ/GcrlcNoMx/BWO1WeKi9TeBKNEQmpIIKbYG6BoCB9xgMlJBVWhy1hY6bfUHe5ZeeILWLN+dfjJUSFNXGn67rdx1Tv32EkG+PqAO10/eBPraNjJS+6/OvBGLQY3ZwGeH9k/eABu33anXwcio3WcHFGf4U53M4ll4NaYmX7ftTMvjAHxX+o46RkJ9AaPALcsXFG6QItE/NlAwmfDkS5fBt7uaqAW1ocjpRrsEDVJmVKpdE0nNZR+AfN/SjubyA4z/XY358H/C8QsOuISoSoWAAAAAElFTkSuQmCC"></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal">bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Maritta Schneider</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

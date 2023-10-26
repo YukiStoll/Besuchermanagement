@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20231006T110021Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20231007T180000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20231007T070000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde. Jede eingeladene Person erhält eine E-Mail.<br></p><p>Sehr geehrte(r) Herr  Emil Zidov,</p><p>ich freue mich, Sie am 07.10.2023 um 07:00 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Emil Zidov</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Theo Neider<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 07.10.2023 - 07:00&nbsp;Uhr bis 07.10.2023 - 18:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Herr  Emil Zidov 52371438-796-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAARBSURBVGje7ZpPaBx1FMc/kyZLUiQ2rYbFNOSgKQR1E+pFUhTErQWhB6GHrVSKf3pKPbgHoYdV6F7EwuqhxdNWBGl7qODBS2o8SVA8lN0qBJJDi2m1uAW7RTZl0tnnYfc3O7+Z3+xsNtuQ7vad3u/73vu9mXnz/vxmFyJpVTy0DMCyiCQBEiKyGrlDH1tA3eOkvzW1ex1wMhciPaeYV65FbdRsi/qdnDUqFM+1frUnpo3wyW4N/L9LmmBwfxOrUskIX72vLadGAk6WDmgaqYveVc5R3CGAAwDzwA7N5swlbbk4u7FX+HXFrDSw1wYeZ3wIZdcNGDCQ6aCTy27G5w/XmbezQKKTTjz0dC+X+u30dhUFHsQ06EcBrE46Me1mPZKPay0I3ReAoY05GUxpgglt9fI1IPkUMKygwwtAoqjZ6FsMBp3svxh5RVEan/VKnhRb1beXAKZihlTa1HWsikgCIPl44N5OGV+jLxTzw8acWNFhG7PglgDjAPk34Mr7SpYogtyKvJO9LV3LGFCfJQIG1t4eCvx0iOCl8/D7sUj7aeCDD+H7TwF+HaohHMnAT2mAn4ebWKdEpKBDScdxHBERcRzHSTamcRG5DEBFpApARkTmASiLSH9bz7bvkUrG9ZYgH75uhKykrr8AkPQyPsgTooANC0D8haCqaFSbn6sildqcLSI5ABwR299a6ja1mlEQkRRAXET+6e4qvBImXmliegOwnmtFtR/g3r4Q6RGAvHbHeXc+2levwsN5gBkltIAn8sHAl317u4F3e7yICnxevSNujxfxZryJurz9fh1h9NsfTeZY611Yawy0x2JgSfDNePU2kDqtls/2ed+f3XvgvNZ+AbhbAj65BMT/htKou1l5WN3JpOGqJltAGrRrV2/PXXcOKu6bZ+Ct/8K3+Ou4vj4YVDHkTjxk4PZXYdu2bX3grth2LWUztm232X59NGCCxCDbfrNwkKph66oXMjkZG436KKBCVN2hQzuB+CiQzSr8yZDAG8gX+OU67DSgHmm/N1s6n5hy0Bf0mwGm4WQ8+vSrzh/JN4G0go+7s1XObb85ID0OZEY6eMRuNnBvdfuVrQi89XD2/S5YVuZOmFVnFPNtta47UVAfw758oIS7tfpQ0Ay9tct8qGt8k3lRMTFX8/kmB7xS97ffq2c0wYT2re+9NWDPWbhxKmrHo2GCORFZDDv9GpLRQIVKpVIRNxkrlcp8p5qWh4bCV1sTE+lkNoqB21zGx4HbisECjro/AWazCt9kTP4cqPf4jz8KKS2zvTMLR9Ndlys9FCcZ4Bd3OkunvXhWMYxszsk7k8bhnVNDSG2sO91jhyATXVHM9eutqM6MBpxM6WV4MGi44E5ah9wx+yt/WbQWof6vgMWgk5HZdp7ErBHp9vZ7sl173TAX8yIXLgCf79zgLFwOkE+1MQuXy+U2T7/DUUfGENXuCfz/FvwlnTK2ej0AAAAASUVORK5CYII="></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal">bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Theo Neider</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

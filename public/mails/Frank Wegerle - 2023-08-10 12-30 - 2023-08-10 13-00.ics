@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20230807T101504Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20230810T130000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20230810T123000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde.<br></p><p>Sehr geehrte(r) Frau  Alena Ruff,</p><p>ich freue mich, Sie am 10.08.2023 um 12:30 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Alena Ruff</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frank Wegerle<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10.08.2023 - 12:30&nbsp;Uhr bis 10.08.2023 - 13:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Frau  Alena Ruff 52191915-2808-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAASjSURBVGje7ZpNaFxVFIC/SWZiJsT+iB0GklIXpqWik9KCaAJunCQiiAuzSKSgREUhCpqdlCA0CGJhFmKWU4pI20UEoaWiTFeS6qoko1KIImiCrY1gX5WJvPwcF2/ue+/mvXk/kxjLTM7qnp97zrtz3j1/byAUFsUCE4CibIbFUA0t7AA0jpFkNLG7+nIP8JdQXYVCAoDxGtxpgMVu6C0D+SOKtNADAyUgNw9LB0NVWEbEF+bstysHkBeRBQAWRCQPkLPfrjl/FeON6vg/b2iM9uNe4Wtqsbzsq+z6Pxp6dL/HyI1+TWLkghsrrANDJaDYDUv9/k985qKGzvbFe4WfBlat5SCc3b3xwTC1ugNGZspubPQ54MXSdhvRIZ3edXxEOHXqPzMyL9XFT4dtmplUmWK7TpKISLvnfbLiQ1tbA9LxjLSPaIxDGvZEWQ/RwB8d1fTr2qOraPcaOX4h+vlP98CAl/xBs1zG+a1rmg8zMj0dRU3+DWC4BvPYdoWVF+DH3YI7PlyOaSS8T+oCroh26gmNH6oi2R3pWbqCAnR3Ezm+twbjxFn47mTo/l7g1bfg8/cAvk1bFIYn4eoEwNd7IFmusfsRYMOHWXwZzr0CYLZCK8AasK5EpQzwvJtUxyvc4lptRNwiO+GTmtXAaky6zlx1kxJ5AKeszQPf33JjFjPvkeKLJButAIV34NJHSjT7qCZqOUpEDAe9LSJZp84WkQIA62q2Yne/IiLrVhumWt0RgKyI3G7YyxichQK4P6+7sTvLQUac2rYI0GmXVgMBuRbgdc25V4eVigTQWayVT7oHNc5YHeXFaLWgTI81fvpdCpoBnIuldcUpeU+2QWLBnpc4s4wFIPUQmL8Alye8Spx51wywN6Perh6lK2OLGnsg2WMbcXQ8XA1obT2hz6wk9u1rjvQ7APD4+xpxEDjyMfzwdhQVv71kLy+1+/YtFoyLyKwVhU3TzAKM2DNIJ8CbpunMIFdN0zRNfcJdEbGS5aRpml9ajhcRT/pNBTxzKnrtmbq3a+ENbdWiUTZJaKLJHMB9QEtODQC6MtXe2SIBUAZKrQo7DGCmqukXgBxAB5DNAFNTir5Xpd9wyPmcy1TpF7CGz02QfpfC24YapdnvOrrkWThGDoYaWVT9R/5Z1f8UgCv2zoLd/RaACZ0eEYK+Oth114x+4wGYVa/Nzjj+/y24feCzLYWV8ddCZhmfbgDHSkDxhHsYlvsEeAB4ag4rTCTmvEOQpNOVBc1kHnO6gV5POwdw4ICbstz4Y4/rZzTGIW3WN7ZSqzCNbspJvzaM+HwCrFQqlTV1w/JBCicrlUrFjuGxkla6TtGd8YnEuI0xo4OoVBvnxpf0Y2e9ErcUOQF8NWTXwvX/CL96qqfRiwA3G7kWrn/rHSDxoDdSLW/JSP5JN/ZNBvdHf+sOAlMZN0Yq7klOuxG/6v3dNGKXdTzT1/SO//saQF9nnUaO6mG43V/+5pDqfm3IzLrDYmIWoL+Gkf19df4YbfrGviZIv2/Wu1/fWGhzU86fBz7siF8Li2EYhiEictcwDGOTqNP9GoYR0P2Ggf0Ppft9WkYfscZy/L8SfhQtOgOE4AAAAABJRU5ErkJggg=="></dd></strong></p><p style="line-height: normal;"><u style="text-indent: -18pt;"><span style="font-size: 12pt; background: rgb(255, 231, 156);">Zu COVID-19 im Unilever-Werk Heppenheim</span></u><br></p><p class="MsoNormal">Sehr geehrte Damen und Herren,<o:p></o:p></p><p class="MsoNormal"><span style="font-size: 10.5pt;">auch wenn COVID-19 nicht mehr ganz so präsent ist, bitten wir Sie, nachfolgende Regelungen zu beachten:<o:p></o:p></span></p><p class="MsoNormal" style="line-height: normal;"><span style="font-size: 10.5pt;">Wir bitten Sie unser Werk&nbsp;<span style="font-weight: 600;"><u>nicht</u></span>&nbsp;zu betreten,</span></p><ul><li style="line-height: normal;"><span style="font-size: 10.5pt; text-indent: -18pt;">In den folgenden 5 Tagen nach Feststellung einer positiven Covid Testung.</span></li><li style="line-height: normal;"><span style="font-size: 10.5pt; text-indent: -18pt;">Wenn erhöhte Körpertemperatur bei Eintritt in unsere Betriebsstätte durch eine automatische, kontaktlose Messung am Drehkreuz festgestellt wird.</span><br></li></ul><p class="MsoNormal"><span style="font-size: 10.5pt;">Sollten Sie sich unwohl fühlen (z. B. Husten, Schnupfen) sind folgende Regeln auf dem Betriebsgelände zu beachten:<o:p></o:p></span></p><ul><li style="text-indent: -18pt; line-height: normal;"><span style="font-family: Symbol;"><span times="" new="" roman";"="" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal;">&nbsp;&nbsp;</span><span times="" new="" roman";"="" style="font-size: 7pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal;">&nbsp; &nbsp; &nbsp;&nbsp;</span></span><span style="font-size: 10.5pt;">Enge Kontakte meiden, 2m Abstand halten.<o:p></o:p></span></li><li style="text-indent: -18pt; line-height: normal;"><span style="font-size: 10.5pt; font-family: Symbol;"><span times="" new="" roman";"="" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size: 10.5pt;">Hände waschen und/oder desinfizieren.<o:p></o:p></span></li><li style="text-indent: -18pt; line-height: normal;"><span style="font-size: 10.5pt; font-family: Symbol;"><span times="" new="" roman";"="" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size: 10.5pt;">In Räumlichkeiten pro Stunde 5min. Stoßlüften (sprechen Sie gerne Ihre Kontaktperson an).<o:p></o:p></span></li></ul><p class="MsoNormal"></p><p class="MsoNormal" style="line-height: normal;"><span style="font-size: 10.5pt;">Gerne können Sie sich Masken an den Spendern, direkt hinter den Eingangsdrehkreuzen, entnehmen.</span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); line-height: normal;">
+
+</p><p style="color: rgb(206, 0, 0); margin-top: 0cm;"><u><span style="color: black; background: rgb(255, 231, 156);">Nähere Informationen zum Besuch im Werk
+Heppenheim</span></u><span style="font-size: 10.5pt; color: black;"><o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); line-height: normal;"><span style="font-size: 10.5pt;"><o:p></o:p></span></p><p style="color: rgb(0, 0, 0);">Bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Frank Wegerle</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

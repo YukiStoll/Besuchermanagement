@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20230831T115319Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20230901T130000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20230901T120000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde. Jede eingeladene Person erhält eine E-Mail.<br></p><p>Sehr geehrte(r) Frau  Berta Blank,</p><p>ich freue mich, Sie am 01.09.2023 um 12:00 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Richard Schulz, John Rippert, Berta Blank</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Christiane Abresch<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 01.09.2023 - 12:00&nbsp;Uhr bis 01.09.2023 - 13:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Frau  Berta Blank 83723754-2833-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAASISURBVGje7ZlBTFxVFIY/yswE0FKJkYxCZYzShJoMpm6akrioQxdduJEFEuMCYmKCSSMbV9PGEpNqE1w1rmBJXZSuGiMNumlmV+uAi6ZDokao1k6TMiY+7IM31wVz77w77857j0FoO8PZzDn/Pfec+95959xz7kAgrYgtsitwu4SvBFo4wB5Q/TiJ1D51fR1oD+9kvMropSr4OHDnEJBcdEP+JsaFkbLVvq6cECIFkFRfV9ZsYrxeN/7hbW2g5ZjPrHzeCN/6VxP7OjxObg9oGsOXzfanu2F1wDx28RtNzJyo+RM+BTP7Ee9PkxuS++3srjm5sgSkZmHtCEDuORhZ2J3c9QKsKW5/40PTW3vh5B6AHYGm3T60Qnp4Co7fzU2gdXtOWoa1gR5NevMo8Hw5RQMP2rTjF6BHN9HidXLsss9aKvLu+V4Y9GpdaJRgXAxQ+7kIRF73U1nc0TpWhBBJgJQQIletJNovuB9PxH8lmWvbTHLB29bVBHcFcNg7llwEcTfwSbpDraUL2Ki2zu4G2vh+xU697W6jjut6P4VZzeiPkhtKV1GZdzcvVsWgI5ugacdxprdabMdxHK3jKWf6tIZHdvCCDzzxwbgRfvpG4EBUOUkBxCT+8j3JpbR4SMkztSVVKlaKMd200p+clFyh3dz9xst1tvAnp2L9Vgm/X4YKQoi9CUaxFxu/VQYuAy8+C3/8ow8vA6+6n3bzV4BXIvCLY7a47Ftqzp+Cs2rDhgeBMYAVdwJc3mqCemFwAUiekQNjAFYrWxuQTkj8/ZjfeTIaqjYYLf3OVcHr9/hdrXIHcF3VtiOSu3EjyO4McDKh33edgXz5LiNXSgd9OeDamIrnEW2Xc8YWpSkHcAQgozuhF1x3Mq+V5sZ6/RabiBrhXjRb9bjxdwYrL4KMpGudlsy7H0nuHaD5OymdA7h6ELBt2y6UZ963bTvut6pp27andWhKCCFs27aHAeJSmldZOBIF1l0zokHPHg0DR5+q7rdMRR+JonSS1LJyV6fXzpKhDpbwxIR2W9GsaR2ST9Kup9ubXoP9hvXfjFJsbrQmaDVUf+IiNeGv8E4OB3e/8vhNnZYJeAr4Vs2cApiQ3ARAuuN/bLFVxF+RdVfRUHA3aPerSpKlJTOuQ8e74IeH5eP3Q7PVNzRpQV03DwFkjVpNWQVluuDqpfKT9NdwJ3M0WvFNl03V+fELcOuiNtBzIWjqB2b4vWr640KIjA4Na38BWpJKwWhZVkrXz1qWZQkVjCVJPLIsywr5CbcGyB5ISrEnMhiFkTVDwn3UbsPJRgwgrkrduDlu497ud9uFxOejMDMG8Lu77pkbUuyfkO98DMG4h91vLbQmmbZnNFxPXI/yOyru1Huf+kSruzqBNMCk1Irs0hs672oDG+/y+Xtnm3avm5306Wm4RZMmloDUZ8BLwMkMcG4BSH5N5X+08TlgACDjddJxInB5UiOR8EC6Vl4frLuN/zh0zfoFwKeqDjZMVNDsLPBl205q4b8LhUKhQlVB6UKh4Op+a34HB73tIdFWeVq112fd9R/3BiJBTTi5TwAAAABJRU5ErkJggg=="></dd><dt>Herr John Rippert 83723754-3675-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAARTSURBVGje7ZpNaFxVFMd/k0xCUjAaakMwkQiSQitMpG5KAiL6UnChLtpFFHEREYURhCyFaSGzKRYrLgrdjAuF1EXTlaip0YUwIEjrJC6KExExKVYjNG/z2r7kzXEx8+6bO+9j3kya0c7krO4553/vufPOvefjvYG6tC5lsmvkdkW+XneFLlpA7WMk2fzUO3eAgfhG0iHaCyHyNPDLw0BqpVoUvURaAqkQdrqKImIApNTpKgQvkW5Xx9++oSn6jkXM2twMFF+/q7FHBn1GbkxpiJlLwevnRmFjKlh37nONzU82fYRPwCf7Nz6astvu6PfTe2bk8ipgLMDWYYDiI/Da8t7ErkOwpUb7jo9Nz7bCyC0AOwmJvU5aMS08AOl3Zwfob8xI34ymGNO4Z44CB70QDfxzQEu/AGP6En1+I8cuReylJu7Oj8O0H3W2Uy7jSh3YzyUg+VQUZGVX+1gXkRSAISLFsJJov+D+b278R+7giwaDXH23jSTgpgCP+3WpFZCbdX/JaKy9jADbYfsc7SDHT6jh+Req26jjOu6nOLuZveaOTmVCIEvVzYtVo3TcJijnOE6u3GI7juNoHY8X6TOaPLmLB9z14F5GqD3J23VRPUDCAFgGWDpRBbr7Uo3Duth5UUENgK+SlLp1lOEOvDrZHABEREy/48PIC/UiIk7N/q2K/G9PZIpIG13GNW+8Fgx5sitQ/5sTDF9rqtRcrwTA7V6AHMArB2F6GUi956LeBLD6KTsg84Qrf723mSM8G8gtRqFa43hphePj1f+f7oRVrBF17fOuY5JFTfdZVm96U8BjwIermoOj8nkR4DBAXhkZj5wy3vizGQc227/u+vF9v/bixXrzp4GT77jcy0D31y53BuDKQ5UoLCIi+cjF7ApVorBt24ZXHIiI2LZtzwAMu9ySisJxb3y3/lx7fICeCO7/lX5L2o5KPl0YRwkSKqz88HaUjVXA+AZ+PelypNxBfZJYpDotERGp1F3+9Nv+tfBGrP6kTBvAgPrO8Nf9fNOzPgoTysO5Wfj+GvClqq3OA8y5ozmAzGCzLXbZiOt9/cZfduuuUkDB3XHpt4oWY4uOj8B3t1VYSb8VvODTfpGXfguBqERBifIjcOWCF7smmngnc7THO9hVNNEZ6ff6OU0xdrbe1DeCxa+G4dP+9DujfQK0LMsqN8Q5y7JyAUsULMuyRF3GCif3LMuyYiatfq8N7I+A+Lne1vlEEvdpJQnmEk3deEXDwfd2GCCbre5+d/Ea/Y/qumfxlBr+CZtDbX8Z45KKS1tA4tEIAAD3Nhsy0p3Ro/AQtV8dALg1BGQAsi6qASNd88BaNh54Hq52ruO/dYDe5+KvezXYyBE9DPdp3NwqYCgj+YgHMbwITGkoz8jgZPx9HorqiifVKZ5sV8e/29isj6OUaq2FBeCDA43VwoaIiGmaZi4Mappm+X1mxjTNxrtfRZH/UOrpd7PVQHuG+n8B9eZPguPZAJcAAAAASUVORK5CYII="></dd><dt>Herr Dr. Richard Schulz 83723754-308-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAASOSURBVGje7ZlPaJxVEMB/X7qbJj2siZgQaEMrNKHBugn1IikK2m1z6i2HtCiFrgUhFTEXEVkK7qVYqEItnjaCSpNDC4Iixm7xUILiISRVCKQXIW2jzcF8Hr6EpLvj4dv37ff2e9/+SaKku5nLzpt5M/O+997Mm5mFirAoPlgAYEFEEgBxEVmsqKGJ/wHqx0ikumn/bIOR0RDudYW8cq+SonIqCl/ymXHC3PXqV3uh30i+WK8H//e8xmg5VkZqedlInlnThn3tASPzx7UZIxP+0dWcwoYAjgNMAXs0mSuT2nB6sLYrfEIh94u016K7Hh8C6Q0DDYimttHITc/jM6cLyNk0EN9OIz7oaORQv5Nu15zAk2aNdFsAazuNmLRZT+V2rQZJawLQWpuRlhGNcVAbvXwPSDwHxBTpdBaIz2kyuoqWoJFjExVXVGnG5Ubxk7lq56/PA/Q1G1xpS+tYFJE4QGI34d5JHu/CJwr5rjYjVuVj22/BQwG6ATKn4Mek4sXnQB5W/JIDVa1lP1DIJQIC1oEGOvj+EMZL4/DbGxXl+4G33oFvLgH80upSGE7BnTGAu7Ey0iMiMquTErlcLiciIrlcLpcoZuMichMARyQPQEpEpgCwRSSyqb1teqqcccNMilggTyoKbfhJpUYSwO9/ApOThVERss1A5jx8kVRTs4rXnADYB3QdBdJpxXjGsJTHItJVzLP9bZV1N+EWkYz7tIjkvIMXEZERgC4RedygUfh+Gd4f/sHKchmZSMZDk0E9w2b1RzPARC8Qfxc4DNwZBsgAyV4gdUgT8M512nDwBsio+d4bL2L2+CLU0cGP6+NvK0qMV6V3HHj9ULDImHoevkoDLARvQEi/y0u43dvVoy5Xb2jbo0chh62ad6Stza9luaE8/lRNKh6dA/j0hcLwpMb88Fcgsg6slsTjrCGbV7GkN0DKZwHUEyNZgFQKiAJ2FohEzRVhKewx7Gu5fld05+bCeeOK8iVx0MxwjcTB7SdG42HbBSRug6VNyOs9yLNeD7L4/OpRuCx4lZYOuaKeWfX81ncu/KCq+sSFB0BM5baP9EOnjKJId+XqV9Uf2e5C3gXAOc9lrwIMKGwMINW+6XIuDN6DWwC83YqMKVLDV7+AuzEn2sy877VZJUZGL5iFBhTydV4jLSgj8S+BZ4FXZ4HLw0DXD35B/5eYi7piT+bFsPRQCXZ0+EkN8PzOXNEYB7Ve3/mwd+2MQi4dCZBKYNTLhQ3Vr9fvcnNhx3EcEZFVx3EcPQqveaSU4zhTW7jCqknbEniz2AuIPmsnOyNquVYIvQTbrJHxJMB6FIqljAWcmaRASqfxMbcWhZuWDMQlWO4EuDW4G4WLcWnlvzOSBEgBP3cGmanCDdibAmjf2sG/2VOavbvwQcEHYx81ZtujRrgLWCdh4yeAgc6AkT49DLeEdSSO4OsNxz/3864NAV1LsDIEMB000j5Y3WoHw0fX6j/hdn8uVi0wMwO872XQBkGPdOMG8PG+qtQW/26ybbvk76YSsG3bdl3ftu1NNp9j8FfZCdFW9VrF6vPg/wWTHuV3Ed16YgAAAABJRU5ErkJggg=="></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal">bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Christiane Abresch</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

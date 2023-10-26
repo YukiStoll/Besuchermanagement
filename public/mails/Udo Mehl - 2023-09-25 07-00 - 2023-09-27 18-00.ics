@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20230907T095953Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20230926T180000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20230925T070000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde. Jede eingeladene Person erhält eine E-Mail.<br></p><p>Sehr geehrte(r) Herr  Sascha Gründer,</p><p>ich freue mich, Sie am 25.09.2023 um 07:00 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Jochen Wörner, Christian Albiez, Sascha Gründer</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Udo Mehl<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25.09.2023 - 07:00&nbsp;Uhr bis 27.09.2023 - 18:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Herr  Sascha Gründer 62952367-3532-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAS3SURBVGje7ZlNaFxVFIC/JBPNhBJpoWEkKVExCS11onUjCbjQSepGXDSLaZH6EwVh4iY7KWPBbIqF2UW7mdCFNFm0KFiC0XFVoi6kJOOiGIugEwx2BB2FV3n5OS7ee3fezXtv3syYTnWSszr/Z2bOvff8DIRCQSwwAcjKTiiEemilAdA8QSLVqf2po13AX4KNhUILAKkA6QxAoReG8kBi0GGt9sNoDoivwNqRUBdWEPGFZXW64gAJEVkFYFVEEgBxdbqW/V2kmjXxv9/SBB0nvMpfOUix6Ovs5t8aefSgJ8itEU0jOeemMlvAyRyQ7YW1Ef9PfHFeI5eGazvCzwMbFjoGs/s3vjJMbzQgyNW8mzr9InAmt9tBdIhG9xNfJZw7d8+CrIiN3B5QPDPiVIrd+iYtVfL+8zm568Pb3ASitQXpSGqCPo16Jq8/0cBvnXb5ddnoLjq8QU7MVf/93+uHUS/7wl65jCv/3tNKWJCZmWrcJN4CxgOET+7Ws3IKfthvuGuH6zUGCZ+TeoAF0b71lCYPdRHpreqz9FR6oHv3UOKHAgRPz8J3L4faDwFvvA2fnAf4JmpxGE/Dl1MAN7ogkg+wPgZs+wizr8LlCQCzDdoANoEtR1XyAC+5WXUc4VYXtl2liTQiJ4HdQF3d74bXegMiCV0rB5AA5udtBNXzJpya2pHwNCsPJAA6gdhxYHraETwEoA+raQC2RQyrzxaRTPmp98y2W9YY5pBJgJiI3Gnay1iuQg8fcLDbiqfXKEU9GoEftwK0Kraai2PwrkpYchSYKN9BjVJrj503FWh5De4GtleLKvEASbX2AGDLWarpa48dYPjvPpqy/K7pOwCdulyVtzktJ889Ap8WgZZVgIGgoTcO11WtTXzgqK72a6cLyKt+LLYOxW5n7TE5A0T60fZyO6B/J1U+rY9povweKb+jlaSXLmmkpnt2HTjwMfzyCv5a53V+yjTNJQDumKYZA0iapmldxoJpg89ldO0gNa20aZqLAJRM07SPcLuyb/cgDhZSxWwt8bFuTE6kqml8O4jWBCL+ppGhOPAg0Bp3XuWebnt2LrOeygNxZTiATebb3P7OzAOxbu3X8im/QRDXym/WWns45ddKvLv8iojIYjNexrXwsSHgaPyqk2sepBzkSGiQgmf+eDwDLCjLjJp+M8CUzq8SCp7Ei2jlNyMiV53y6zrTS40tv/e34a4A+aBGa6FSjU+9GbLL+Gjb3Q98OwGgGqZDwLPLwIVxIPaZZwkSKU9llXYyT/jNYu0u4vBh94RXvB/lt7GJv3lRE/Rpu77X1abzlOp9zga4PB3AT4nIks5Kev8CtHpqEdk0DMPw7YUNw5qe0oZhlBvjuhY4bYGL2qhTfqP/k1WUhArEPQDVEiTmGM1OKFKHTgcpT7+lrtqCHP9CI39u95yr+f0dZCD8cW+D9KaBr7u9gjQwrVG01xtkbAzffx14J4qUg7wwvLcT/znQNwjf/xSgcCMsyFH9Ge7w6uZyQHYQltQCJP6hjayPA5wEYteAkYAgB4fr+SUco2saq9jkN36yXvvJCqwrV4D3O2vrhVX5zQaplkqlknXZS6WSPf3WW36DJ2BVfruaM/H/ANQzVrFSLaVuAAAAAElFTkSuQmCC"></dd><dt>Herr Christian Albiez 62952367-3705-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAARoSURBVGje7ZlNaFxVFIC/JDMyM4tILS0DTaibRCo6KRVBE3ChE+NGujCLpAhqoiDELsyulKHQbIqFWTXQTYqINLNoQVCCgbgqE0WwJE+hMK0uTKjYCDoqSXlJ5rh4v3fm/dppCDM5q/N3z7l3zr3v/AyEwpoYoAMwJ/WwFmqhkz2A1nGSiKb2t4p2A/8IJhYKHQBM+UhnAdZ6YEAD8s9YrEofDC8BuVVY7w01YTgRT1ixb1cOIC8iFQAqIpIHyNm3a8XbxFSrBv7PO4ogdapRedlCNjY8jd1+qJAnDjU4uTOkaIzNu6niLjCyBMz1wPqQ944vlxSyPBjvCr8GbBvo63Dt4MUHw8z2Hji5obmp8TeBM0vNdqJCOn0Q+Ihw/vxjc7IqJnKv3+bpCStTNOskHRF5+z4mWx68nR0gHc9JakwRHFeolzT1Ew38kTHTr2uNaiLV6OTUfPTzX+yD4Ub2pXZ5jKuPbmk1zMnsbBQz+Q+BUR/hyWZ9Vt6CuwcFd3z4KqaT8D7pGLAgyqmnFXmoiURPpL0cC/pA97RR4Ad8BC9cgx/fDl0/ALx/Fr64APBd2uAwWoBvpgFudUNC81n9LFDzEM69C59OAuhd0AWwA+xaqqIBnHaz/scV7nRhtYhLZC9i4lsNbMfkq8JtNyuRtymnts0DpZKJAPBAs6jJSQtTtvdEHiADZJ8DZmYswZMAdp9adlbURDaNOtsSenS/IiK7RhtmaY0BZEXkQcs+xrsAqV6Fec/G1BylUL/s+mj5jj2uwHJd9zsMTHo8RoDTh82xh4ew4z3Ymo+YTyZ8aoOJgC2PmwVleqK1069H+x8wEfj+Jx/BvBKTV5+GLzfCm95KpVKsi62IzNlUrmLCDZvlPMayNYoK+Qr3hW3DUtAO6i64ejWCifvvqLTduFxwelhd16sALOq6XnBevK7rKx4m6wLvzCB1EwAo6Lq+CEBV1/VE0ukIk4q1ZMzfxNSX+tXJfV0Lu/KbmxDx1jCc5MAob5I5exIEdNoUmqXl7CoHaF1ue2dKQPao8mup6TcQ7PQrYgdet9KvEXh3+hURkcVWfIzr4W2Du/ap3bfR31W19QbEcdIb6mTN3X/83A9QBBbslUW7+y0C0yo/IgT962DXXcanflPEdafL1hVo9+7XDxaCnEx9EDLL+LzmvaHcZ8BTwCsrwKVRIPt1wxAk4XRlQTOZ54PaOYAjR9ysjdZPv7cvK4LjyqxvYgs4fMWjMI3Ccpw8VP8rUmeWP2juvssBTS2FNoFMCSicwzVpbe4VJm2l3/T+fozigfloiLsBiuNkyT52P0C2USNjIU73W+1+pJj82lA0jZfauxYOhL8ei5P8y27q26ONGgVgRqFIxj3JRc/i3QXn0ojj5I3Btg/8v8tB0lthTk6UFUHKW/+3EafiUfijACNA9iYw5OPk0GDMQ73ofvE3HXSw9dPvR5GUVa2Pw7SuXwc+ycSrhcOhWq0anXShWq2a3a+INDf9Ju30292agf8PlFD9IatSfssAAAAASUVORK5CYII="></dd><dt>Herr Jochen Wörner 62952367-3707-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAR1SURBVGje7ZlfaFtlFMB/aVJsilQmrATWsSmkMtF0TARpwQfNnArig31oh6JuCkLnw/omIwzsy7CQB6GwlwxRWfuwoVCpVuJTqfo02vgwyNSBLRs2gkYhldsmx4ebe3O/3v9ZF0vS83S+8/fee77vO38u+MKa6KABkJOdsOZroYsWQPs4iQUT+1tF+4B/hDrmCxEAJly4MwBrAzBUANKPGaRiEk7mgdQqrB/2NaE7EUdYMXdXCiAtIkUAiiKSBkiZu2vF2cREuwb+z5sKo+eEXfh7AymVHI3d+FdZHjtgc3JzRJEYm7WuslXgVB7IDcD6iPMTT88py+XhcFv4eWBLR1+AK/sn3humtlrg5FrBuhp/BTid320nKsTj+4EPCBcu3Dcnq1JHfh40aVrMyBS79SaRgLQ9H5NNB9r2NhAP56RnTGEcUVbPFNQrGvijt55+LTqqiR67kxOzwd//wySctJMvdcphXL13S6t+TmZmgphJvweMujCP79a18hrc2i+4w8NXIZ3490mHgAVR3npS4fuaiA0EepZDXhf0QAcFfsiF8dQV+Ol1X/0h4J334cuLAD/GdQqjGfhuEmCpD2IFF+3HgZoDM/cWfHIWQItCFGAbqBqiUgB41UpqYgt3WbBaQBVpRUxcq4GtkHSVuWUlWXykAfIGZiIAbKjRSQN8HaMWBcieh/mPDe3EE4a2EyyKSAaAmkhFr7ONJjalihbr5KrehhlSYwAJEdnohFvYISF55Khfq0GkHEvNHMAZ2Ox1SL/jwFll7OGgHXkbNr3Lq416DCtOOd4+9tgBFefZR2sC/3+c+PlAWktLzvRZJSbPHYX5EhApAgwCLD4Cn02pTa9yCKOPwq1GE1S08gpmPZa4C6V+Y+xxbgaIJTHnckn7oyU9Xudot9VJh6TfRpsxPW3jXr5s3p5dbL+kMl8GHvwC7ryp0k2LF1X6hKZpy54PUzUm3CpYZpBaHQDIaJq2CEBZ07T63dV979+kbkJ2Guzea7VwLQBZxFkilgJ4AOhKefmIAin1VKSAQtQqdHoOSPQrX+sh3XsQMIfPIiKS08ceRvrVA29NvyIistiOh3Hdv22wXtS1Oyb6uyq2bkMaTg77Olmz9h+/DAJkgQVTM2t2v1lgUqUHBK+/Dmbddc1Iv5Y9vdza9Lvnut/rfgILXk4m3vWZZXxeA47bK63Up8DDwLMrwKVRIPGNbQgSa3RlXjOZJ916BkPx4EErqdT+BfcNNfseUWZ9ZzZd9McDkfTAi8iO9Dvm8AuwYoC41cKVil5EZwwpEREJtYXjASTEQbQ1MZFIOAUJxhVrAxQL6cNSCyfsXLNzmjJr6nJfs0M1AH6z1VHjc21fCzev+td9dpIBfuh3pk8pK7qbdvKG818HPogjDScvDnd24L81kNu3XbpiPyfH1Gu4xy6bN9PvKQBF/u6oQU9cB0ZcnBwYDvkRnu52rjGG2z/9nmtC9bwL3bR19SrwUW+4WtgfyuVyWT/s5XK53v2GTb/+HbCZfvvaM/D/AboRLtKw5D6LAAAAAElFTkSuQmCC"></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal">bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Udo Mehl</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

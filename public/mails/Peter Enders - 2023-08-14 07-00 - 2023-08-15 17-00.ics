@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20230810T062516Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20230815T170000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20230814T070000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde.<br></p><p>Sehr geehrte(r) Herr  Patrick Wickenhäuser,</p><p>ich freue mich, Sie am 14.08.2023 um 07:00 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Christian Wickenhäuser, Patrick Wickenhäuser</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Michael Pfenning<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14.08.2023 - 07:00&nbsp;Uhr bis 15.08.2023 - 17:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Herr  Patrick Wickenhäuser 97421249-294-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAARqSURBVGje7ZpNaFxVFMd/8zJJkywihViGfNiNBlJxEi1KbXEhTNqNoGIXU3ATU3WRihJRwZKFGxGKQRdZuEjdCMlislICjbMNloohmRoiU1xIv2QKsS9gbV/SOS5m7n3v9r2ZNx9NCDM5m7nn3HPumffOPfd/zp2BULouInGAhIhkAciKSAIgLiLXQ1ew2AVqHCfR2sw2a3AyXmJ2Wg0SrwBPaPmAMjqgRaFLMC6BtKJ3l6asa+4URYXdtRK8xHijBv6fdWOi/QUvdznvN/0VsI55Jcv3DYXBgz4n6ycMjeSsl3s/o0YzfXBjDOAEEF/1al2YM5ZYOl7zFj4JF5s24/eukzO5XC6X2OGzq6Nj/6ivgr7/fOecJBaBCCB/7+CTRBomJv/V7aQ9aUwcNrijR4C5Tn1E64wxbcwl2k1XFcGv4+pnvVpNCL+rIWpX/fC7tg1Yz2l+ta7v4RbcqVQqVUvBXdUWfguu7SPjjlMkPGy9EbgpgNUD+VsAPRbcygORXpCboU5kPybVxCQeIFTJe/VtgIVeeHXDUJh/uvCZfx7g7AdF8Tu/GVrfHYOP00A0E+BEihCYzwAIsGGq6UBmALY13phaeeBBpvFLom0g4s5s+TW2gNYSHD7DaAIg7ZY9wO9txSaoMNmv5Gmz+3VaC2ImJoCVIZ8Pt6sSEbHdiZyIxACSCkCnAHhowG+J7jfZdLXw3bveF/KXHv4ZbH6tJicDADNAF7A+rLhvB3T3CzCm0m3ARM4RNRpTqsvTAYEv2PrqLvfwmRGRGRX4h66NUXflCi12I197eJscoOt09YulNoHIaGVOxoDkaRjMAvSErT31WrFAn58DYqPQnQXoAz77MKzuanumsifwqUW0pL+Jut+1j/yy2VmfaGEB+OZZxY4AI58WmfNXzGS85DjOZCHNHMfZ0snowoDjOI/cQTqO47in8JbjOIWzetJogrxPonEnWqLNbQ2RRL3wv6e733w5Nl9aveAkDtACtMa9lwKWey5mgHSLmUVqEAcYVlzsUPE1Lp7Sk1IRxctmvIikNBdTNpcAsEWkgZLxRkX9SZ1O+sO73z44uw1MuFEwFI4AT00BV+bqarHLXXu4lGz8wNds+aMDtLxR5P5Y8849+EkPf9bJPf5u8ELDKvAAW20AM0eBwTYYSeP51WFelwSx23DnUNCTDAX6CLyTGWrm7tcN/PIFY+LwVxXZnwFOjlbs5L6ZrsnQ3SVAZwZ4CXjzXgk1u7WeLdxuAJVV8oeIjj2WjFKGc0WRunbXkGVZGm65aBXJxeN5y7IsS1+Bx2KxWOwxHCvl6MnbGuN3Lxl341ItWjW23qlIVPNRn3hZ9bWTwC9pIP66uvbwU/ekWciOi8iSqZL0d7/hfym5FwzL+/BbmhYButVfBi5vGk4Gl3znX1n68ovAFyGnACaVkx+mDScHj1f3jV9sYvg9V73leRs48LUh+0QNNs4B78Wrq4XDk3HFtu1HIHtJRP61bdt+fFu4K1Da2ViB/x8/J5XJJbG6cwAAAABJRU5ErkJggg=="></dd><dt>Herr  Christian Wickenhäuser 97421249-296-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAARnSURBVGje7ZhNaFxVFMd/EyfjpIuUSA3BNtTNFIPtJLYbmeJCHM2qG80iKZVCY3GRCtKdi0FwQMRC3FjoZgIiNFlMQFCEaMSFDIqLkmlTUiZgxfRDkoWOi7GddnJczLvvzZ13Z96bzDhMJj2re//3fNz3zj33nnPAkzakgnIA5EQkDhAVkQ1PDT20gbrHSNAf2z8tMDJTY/WyGrxy3UtRPRXWl3xuZMhe9r/b86NG+EK3Ov6vNW0hfLyO1NaWEb72QJuODLiMrJ3UOCbnK2ezJTUaBzgJsAQ8pclcWtCmmVhjR/g1NVh3sFd7n0R8DUo+MmBAb6KFRtJ2xKdOWYPTSSDaSiMV9Oxevuo76XRlBR6HNOh7AQKtNGLSFtiVv+tfN/RAAPoaMxKe1BYOa7OXrwPxA0C/gk4tA9GsJqOrCLuNHJ/33JEXxyd7JU6yfvmLawAjIUMoNbWPDRGJAsSfJNydFPFl+kwNvmnMSMDbbQcDcFeAYYDUG/DdtFqLZkHuen7JIV97OQhYuYRLIHBoDzl+tMbCiTm4ccZTfhR45z346kOAX/rKCBMJ+OEiwE/9daQnRWRFh+KlUqkkIiKlUqkUd7JxEUkDUBDZBiAhIksA5EUkuKN/27Pbg/EREAyAPHbjVSMNCji/dhkgDqz+aRVBN9/XdC0DpM7B3LRi1QXLIwPZXZMMAJsiMqQcr1OxnHCLSKr8tFh4+c5YEZHJ7g/GdYDwsHtl3Uv0d9/8wSMAM1pH4mMBphdcvPEp4ChwNAXMH7GDcT8wBpACpgESzxsaI5rjRUQKhg3FtXPgGfEOde/z+7UfoV9XPVnm1OBMCII5lRq/lAO+nNaL3qg1mND6XavO85sG9mvvZA7APhRMhCAYUbO+iGFDEa8dR4zIVtdG/Ov1Vq9cAb54rgL57V0X072z2rRK4VsGtZvFClqplXCXb+FisVh0bmFrZgWjUjFjfLR6/f+FXr+zznt+tz0QEfNCMFqnA9AT1aBlu+OohLb1HuRp++ZOJjUj9aqwY7UW05HOi5P2OP6Or/rEQPeqjkEdRcFh7+rXXH+ctZOsWdTzO6ugi9qskRLboVzt51dERDYByHT/89scfQsE3lSz+4tahM+cNwuNKcff2LZTqxNWb+Wmndo/MwyLE2o2dB+2Bk1fYi7qnIA/5lQDivXFvd32uHZJWzis9frOaZ3O9GI9lVM1cCcXNlS/ejA6RZCBCoVCOYlOFAqFpf/pCNOHqMHuDkbENWjSyJAb2qfgZLKSoQkjf7iyp6kFADviF2NtDUZph+MDjUrYZcHfQOCAu1BowekqF7fAz4OUe5B3nBc8Yd3rTycABppz/NsRV/YOwAdWDPZ/1PW3cCN0+7ZHY+xHgLFBl5ER/RoO15BPvQC3xiuRwUzF/WgdvHGAjNvIQMzfV8TglgaEYh3hk3Y6/sJO5XXB2VAlcvUq8Om+xnLheD6fzz8UkYd5RdXPr1395vP5HTafVUc8FKpZRFazdpnj/wOtve4plZ5pBAAAAABJRU5ErkJggg=="></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal"><span style="font-size: 10.5pt;">auch wenn COVID-19 nicht mehr ganz so präsent ist, bitten wir Sie, nachfolgende Regelungen zu beachten:<o:p></o:p></span></p><p class="MsoNormal" style="line-height: normal;"><span style="font-size: 10.5pt;">Wir bitten Sie unser Werk&nbsp;<span style="font-weight: 600;"><u>nicht</u></span>&nbsp;zu betreten,</span></p><ul><li style="line-height: normal;"><span style="font-size: 10.5pt; text-indent: -18pt;">In den folgenden 5 Tagen nach Feststellung einer positiven Covid Testung.</span></li></ul><p class="MsoNormal"><span style="font-size: 10.5pt;">Sollten Sie sich unwohl fühlen (z. B. Husten, Schnupfen) sind folgende Regeln auf dem Betriebsgelände zu beachten:<o:p></o:p></span></p><ul><li style="text-indent: -18pt; line-height: normal;"><span style="font-family: Symbol;"><span times="" new="" roman";"="" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal;">&nbsp;&nbsp;</span><span times="" new="" roman";"="" style="font-size: 7pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal;">&nbsp; &nbsp; &nbsp;&nbsp;</span></span><span style="font-size: 10.5pt;">Enge Kontakte meiden, 2m Abstand halten.<o:p></o:p></span></li><li style="text-indent: -18pt; line-height: normal;"><span style="font-size: 10.5pt; font-family: Symbol;"><span times="" new="" roman";"="" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size: 10.5pt;">Hände waschen und/oder desinfizieren.<o:p></o:p></span></li><li style="text-indent: -18pt; line-height: normal;"><span style="font-size: 10.5pt; font-family: Symbol;"><span times="" new="" roman";"="" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size: 10.5pt;">In Räumlichkeiten pro Stunde 5min. Stoßlüften (sprechen Sie gerne Ihre Kontaktperson an).<o:p></o:p></span></li></ul><p class="MsoNormal"></p><p class="MsoNormal" style="line-height: normal;"><span style="font-size: 10.5pt;">Gerne können Sie sich Masken an den Spendern, direkt hinter den Eingangsdrehkreuzen, entnehmen.</span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); line-height: normal;">
+
+</p><p style="color: rgb(206, 0, 0); margin-top: 0cm;"><u><span style="color: black; background: rgb(255, 231, 156);">Nähere Informationen zum Besuch im Werk
+Heppenheim</span></u><span style="font-size: 10.5pt; color: black;"><o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); line-height: normal;"><span style="font-size: 10.5pt;"><o:p></o:p></span></p><p style="color: rgb(0, 0, 0);">Bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Michael Pfenning</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

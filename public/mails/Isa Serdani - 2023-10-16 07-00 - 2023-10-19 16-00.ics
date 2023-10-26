@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20230918T101424Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20231019T160000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20231016T070000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde. Jede eingeladene Person erhält eine E-Mail.<br></p><p>Sehr geehrte(r) Herr  Rene Schreiter,</p><p>ich freue mich, Sie am 16.10.2023 um 07:00 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Sorin Lupu, Rene Schreiter</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Isa Serdani<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 16.10.2023 - 07:00&nbsp;Uhr bis 19.10.2023 - 16:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Herr Rene Schreiter 61874717-3768-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAR8SURBVGje7ZlPTBxlFMB/C7sN7YFSqw0KhCYGEmyybTAmDY1eui0n9SAH7LHGaFwTFY+GHsqlsQl64bg9eKAeqBeNiql64mgFjCEuxqi0UbsmZT1My8Ds87D7zcy3883sDA0rLrzTe+9733vf7vf+fgMNYU2qYNfx7Rp/raGGNpoArWMkvf2t9+8DnfGN5ENWZ0L4eeCnw0B2yc+KVpEXIyyGeVdRRHIAWde7Fs0q8q168fdWtIWO4YhdpZKRfeuBRg4dCRhZOaNJjF836y/0wu0z5rWrH2vkwsi2Xfg8XNuP+GiY2lTYr5d2zMjcMpCbhfVBgGIXXLi5M7nrMVh3sf2Ljw3PNcPInwB2GlI7XbRiWvgflN+tLeBgMiMd49pCv0Y9/RRw1EvRwN+HtPIL0K+r6AgaGb4ecZa6vHt5AM4Fpa7slWBcaiD2QwVIn4gSWXqoc6yJSBYgJyLFsJZov+H+byL+A4V8ljDJNb62nhTcEaAvuJZdArnT8Jf0xjpLD7AZds7ePXTxJ110+qx/jDqty30f5zQXv1PY2GSIyLx/eLHqFh01BBUcxylUR2zHcRxt4vEy/aTGTz/EH9y2m4Ox4gBkgnKOozDNk8Pc2lvI6B3H/Hm4NAVQSfHgeW3P3WWNzAF8kabSTpAP4PXJ5c7AxVedohIYYrO6smKN7dSd36rx73qssog0JxilGRfvu5RVhfwMZI6D/RvAk+Zf+4tj1rga+uwxDIwCFID3BmvT78opgLVeeHcLeEUJ8AjwmnkIkkFvUNaaL/IislB1IxHpBhgPefYoKF/IGSxYIhXfiK1EW678Jhj/rwEvHo0r/WkJSBcBBs0SQ0WAJ1SC8ESfVUayczVkeUzVSV3h/AyQHgD+CTnGgQGNHDA4qJJY1jilli2/dWPGBT/x49va2uMfKewNl3cOeOl1Rb0AtH8ZZW/etu1qFrZt2950g9FL5CIitm3bBVeq2hyIyJwr1a2kbPcN0l+0MqaEVg8ZP1qJIbVrp99KTJ6fnfZqXjuQyfpfAdq8RRUHq4a4nZgw2vhq1EvNsaBu0qpefLD8uhcvIjLfisF4O9Z8YoK/IvboWtN9jadf//xxeFphn7s7pwEmFJYCSn0ufzsjtgde+fUiXu+7mlx+m913NYQbCjnbZeYH4Zt7Xt/1qlnklEbddDutYhd8uGWW0uGTGS93nUz+JnPC7K575dnj1lVtof9KxK6oLw8vhy14vbALei9sWZZlRZ520bIsS1QvPFmjZMOyLCtm0ToYNR96IkHqwO4tv6EgZiqV0Eg31L4FeGRI3E5N+affBEYyf+g1/nd/33NjbI8FY2OoGwjWgdSjjTZtlBIZ2TwGMAkwBXCM+q8OVX9wM7orldiFj19sNPxdVs1dky9+F5Xfr51EWje/DfGuIT0Nd+g99XJQ04L/3z694M8j66NKoM7IkZGEf8Iz/ojv6TFIjLRqxL+5ja3vaNRb6tnAUzU7C7x/KGEvXC6XyxsiUjCV31rfWyu/5XK5OgSVkz4+d25TtHUu/l8m2HBCRyNNfAAAAABJRU5ErkJggg=="></dd><dt>Herr Sorin Lupu 61874717-3769-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAASWSURBVGje7ZlPaBxlFMB/m+zqbg4pVRICTSi1pLb+2YSKoAl4casoFEFzSIrgn1UQVhF70xICzaVaCB4M9JLqQVoPEQRLIDWewqqnsrseitui1AT/dAXdCtsy2d3nYXe+mW9nJjNrtiHs5p3ev3lvvvm+970/A76wJjUwAFiQRljztdDFNkD7OAkHU7ulo73Av0Id84UQACkP6TzA2iCM5IDEgyYrPwzHVoB4FtaHfE3UnIgrZNTpigMkRCQPQF5EEgBxdboy7iZS7brxf1/VBNGjTuXvTKRQcDV25Y5GHtnrcHJ1XNOYvGin5irAsyvAwiCsj7u/8dkvNDI91twRfhrYqKHPwPndiN8cZje2wclizk5NHQdOrLTaiQ6x2O7GB4RTp+6ak6zUkeuHFM8Im5miVSsJBeTt+D257cIrl4FYc06ik5pgv0Y9kdOvaOCvnnr6tT2jm4g6nRy9GHz9p4fhmJN9plOCMbt1S1k/J/PzQcwk3gImPISjrbpWXoJruwV383CpSSf+fdI+YEm0VZ/U5L4mwoOB3mXfZhf0YAdt/IiH4LHz8OPLvs+PAG+8A1/NAPwQq3GYmIZvTwKs9kI45/H0Q0DVRbjwKnyWBDC6oRugDFRMVckBvGBn/Y8j3GXDqgEfke3Yk1BLzW04EDYgnFCUs7a1CbWcGk04ipV7EgA9wMAjwOysKdgDoPrUtG5sUgJApdaGmeQkwICI3GzvW9gjFRk3AA52wXUBuh+A8i8AB8Lwc0Xp6Y87jYUEuLXHijUT6Z2A7Kg+9vgGrh3Sxh6NkQoknbYag/F431a+y1QMsZwcHmu/jXdp/D/Vr5rLTo3V1aD2vy4A4SRA6l0oqFnGB3+opjcOl5IAeWpX7oE8sKq+e3xR71ghlAdQrdLyvLXxw+A6kxk2kYP17xoeBlZdFDROoTPrrnPn7J3VcwCvnWhU+u0Va5uj9r5lxro6DMMwyuoWvikihmEYpQZLFfuEu2oo0CfcJZFaspw2DGMZgKJhGOGI8/0j9bztXWlFfL9QxI7trFq46kC67ESjUGNZTrriWk6N66rdJpJUgWhEqCp2Tb8HGOjXvpaefjeFuFu2MdMvUBs+q/QrIiLL7RiM6/5tg0dp9qdOrnsShId8nayZ/UfieTt7ST05p7rfufrRKQwpfkDQ/jpYYBV+cyKyaEa8iKq70qZqp3e/XrAEhF70cJJ602eW8XnV8UIfqzv0PuCpDHBmAhjwcsKIz0zmUafwYY3q6+uwsceVs5pgvzbre/02cP8nZqX0pdPQzGFVq3q4Srk3QRmPYFxwMZERkTulUqmWt6dLpVJJxW1Lj/C9gKgyb7v3RJpofyW4gsJCTbbYK/qyB/QKBphSvwCt7rfYu6Vr5dfIjoqTnX4L/3NXnCSetFPf9zs1poFZE7Hq1aZWctpOuPx14P0YMutU7fCN/+mGr8plYLTf4eRI2jHX8oJ0EkDT/938GxFKA4wDpJ1O9o41uZ7H7RFvZZixDuh+3w5cs36o0PfcNSxTFy4AH/U0XwvnvbQyxWKxKKr7LRaL9e63pem315tqn43/D2NNPTYa5AWHAAAAAElFTkSuQmCC"></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal">bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Isa Serdani</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

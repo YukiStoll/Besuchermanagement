@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20231017T152615Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20231018T180000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20231018T060000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde. Jede eingeladene Person erhält eine E-Mail.<br></p><p>Sehr geehrte(r) Herr  Ercan Elibol,</p><p>ich freue mich, Sie am 18.10.2023 um 06:00 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Ercan Elibol</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Florian Niederberger<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 18.10.2023 - 06:00&nbsp;Uhr bis 18.10.2023 - 18:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Herr  Ercan Elibol 57889706-1984-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAASDSURBVGje7ZpfaFtVGMB/SdPaRuiY0lJsywTJdILJmC+jA19MOxVE0D6kMlAWBbGK2jcZYbAhDgd9Kz61isi2hwk+jEJdfZKoT6ONyDCKIC0OV8HeCul62+bzITknOb335t6ktWjS7+n7e75zcv58f27AF5akBDYA07ITlnxHCLMP0DxOIsHU1ky0G/hbKGO+EAJg3EM6BbA0AIkckHxUsfIxGJ4H4ouwPOg7RMmJuMKCPl1xgKSI5AHIi0gSIK5P14L7EOPNuvF/3TYEnSecyt8qZGXFdbBb9wzy2GGHk9unDI3U1Wpqchs4PQ9MD8DyKfcZX75mkNmh+o7w08BmCR2BmYMbXxsubu6Dk+u5amrseeDl+b12YkJX18HGB4Rz5/41J4tSRn45qnl2REWKvVpJKCDvP78n6y68rS2gqz4nnSlDcMSgTubMJxr4M1oOv1U25hCdTicnrgZf/4UYDDvZl1rlMi7ufqRFPydTU0GGSb4BjHoIj+/Vs/IS/HyQcNcPN+p04l8n9QOzYqx6wpD7DhEZCDSX/loP9EALbXzCQ/DkDPxwxtc+Abz2Nnx5HuD7rhKH0Qx8PQHwTTdEch7WjwNFF+H0q/BpGsBugzaALWBbqUoO4IVqVgNHOFyFFQOayH7sSahei81Aws1qViQJUElrkwp5EIcwCZBOK8yYXkcSIKoT9IsKOwQgImJVlO866tfJygSM6ldEZLtUhinVVMu9wqurQAz36GTwft1257u9bgKsHTKZxRDr0VpWlbbHO0C6clMVlXnY0N+x8SUnIoWaU3NpewBQECndz4xxdpo8/H6y+3F1P+FMh4eTNJC6oOL5BEBeyY46tB/KAzmVj4XyptZoR61XOGZQj4Q9T2s4BuQMu5WmvfHDNYQ/vmtUVs9q9M1q/u+vGEbDNf3N2WXoA0jpHiQA27rDbdv2tGZ7XkbbtucAsESkeuPbA629Aa392RMJGH+LDsSFcsssihBJxBXVpnPS3nLtHNayijCt39w4kGurpogCfb3Gr6XDrz/EXdZmq/ALlJrPKYA+ZTPXjJdx2b9s8Dgaf5jksidBZNDXyZKqP5LPVbNnteWkrn4ny+nYyqDmBwTjq0MFdBrIpIhcVzdeRETuApBtkfDrBV8AsXgNhVkg9KKHk/HXfXoZnxeB4/PAtOEk/hnwAPDUAnBpFOjzckLCpyfzhFfNoAx7elqs7XHrsiE4YvT6zupO582bwIc61R1TyPnHHKwdMC4iWZOVcn4CNHPh9UKhUDBf4XualSkUCgV9byMN/wadzhh1H1AudLv+J60oBNcuujipUCNO+nSqa7eXKdRgY9eUQgj46jSA1d2Akw/OwoyK8+E7Lhp3Wqj6rQNWFRK9HzbWDNnK7p0MZIDvenVkfA9ujAJkVPjtVRTtjToZGfHI3t837uAzQwcbD/DTb406OZZ1vH9ekK0k3R8DPcDJrONZdHNyeKiRRSmj/v5WCr9vNWpfy/DKFeCjaJ25sGVZ1oaIbFgKvGwylmW5V7++oP6d1NHhXSLuUG2yjf8HJNU5Cy6ByM8AAAAASUVORK5CYII="></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal">bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Florian Niederberger</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

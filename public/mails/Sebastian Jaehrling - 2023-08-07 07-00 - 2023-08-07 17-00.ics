@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20230803T055158Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20230807T170000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20230807T070000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde.<br></p><p>Sehr geehrte(r) Herr  Achim Suter,</p><p>ich freue mich, Sie am 07.08.2023 um 07:00 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Niklas Kowitz, Achim Suter</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sebastian Jaehrling<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 07.08.2023 - 07:00&nbsp;Uhr bis 07.08.2023 - 17:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Herr Achim Suter 74194858-2260-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAASTSURBVGje7ZlfaFtVGMB/aRNtisRtShisYwhLZQ7TuSHM9NHU6oPswT10Q1BWRSEK0jcpRVxBxELYS2EvKQqy9aGCD2OyGZ8k6oPMNCId9Q9owqaL4K5CKjd/jg+59+ae3P9tLSPp93S+P+f77sn3nfP9CXhCWbRBBSAnuqHsqWGAHYDeMRL2J/a3vIwB/wi0lSeEAMg4cBcByiMwVgLSj+qk9QRM5IHkKlQOeqpoGxG2UDSiKwmQFkKsA7AuhEgDJI3oKtqryPSq4/9akxhDx63CX+mLatVW2Y1/JfTIXouRtXFJYuqyGcs2gck8kBuByrj9Fy8sS2ghFSyEnwbq7eUzsLR7491hvr4DRlZKZuzM88DZ/HYbkSEa3XW8T5id/d+MrApt8dOoQVPDeqbYrpOEfNLueZ9s2NAaDSAazMjQlMQ4JGEnS/ITDfw5rKVf0x5ZxZDVyPHL/s9/PgETVvL7/XIZV7euadXLyOKiHzXp14HTDsxj2/WsvAA/7hbcweFKQCPefdIB4KqQTj0j8T1VhEd8fcsBtwd6pI8cP+bAOLEE37/ouX8MeOVN+PQdgG+ibQqn5+CLGYAvYxAuOex+DGjZMHMvw4fTAOogDAI0gKYuKkoAp8ykTYTwgGnV8rlF7IRPQkF31N1IdVtSKC3L581N0A9vGaS0JJAG+CxMa1ImOZXHcrM610njOikLQFPDOt1v12ylKISY6qNXeKNiYaq/SqicsH5pAqHDDlwHI9+NA+R0NAasSTm1PmoI7ANe08cesZyRfo3d0xLWcXwBgDvWsYfu+K6hmjH2EEIIsQJATcPutFtsndlDjndo/JsfOe1YAk495Ef3zZvWHuPaI8BhjbAxDLCShCszAM0BLX5GLfMuAO5WARL67CXuWEgkrB+T6EacAnXPnn6ruxYWLNyLF82d1XP2Km69BHDhqIZOOJnKqKpacGKWVVVVOxNuDXOaQbaT5ZyqqtcAUFRV1U4ScTttxAXz3hPZKZ8IX/m35YS25ARoLxEeSwL3AwNJlznBEyUgqUfK0jQaWho0S55dBvbHgfl5nfYgEDa6sJOeLV38cwn9NkJr0L6v67rxPXQZK95tgzk0WreM5R+yWMWy6Bg56GmkbO4/fh4FyAJXjZ1ZI/1mgRmZ7hPc/nVoKzOnX1NM92L6DSL8yZaMZF71mGV83AKO5YHcCW0YdqGhM/dJ70PROgQJd7oyt5nM451uQBc96tLgVXs//d6Qs+8hadZ3Tpp0rjhFwDk3UxmjFpaaoGLXZazVarWGECLn+e1ztVqtZtTUgUI4uknRe+8yBmzHhZ5XgxjJy8feb5X4XSeHgOuTAEpss0M1AH6zFEdnlgFu90ctHBTuAqGHrS9VdUtG0k+Zsa/jmP/0b99BYD5uxogEPcl5M2JXvb8dRRhlHc+m+tvx1/VF6oFNGjkiP8NDNjfeGGetJ+C9d7UfIl4Abuv/RoQKAOMORvamgv0GT+qL+1JSjZHqg/T7RvCds4o9vaPq0iXgg+GAtbCiKHa1cLv7VRRF6XS/iqJo3W/Q9Buz9Asy0wnrHcf/B/87MBG3myAcAAAAAElFTkSuQmCC"></dd><dt>Herr Niklas Kowitz 74194858-3573-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAR+SURBVGje7ZlNaFxVFMd/M5ngTJCxrRgCnVKlSUsVJ1I32iydGiiIC7tIi6gkCsJUkNmWIBgEMTC4MLia6ELaLCK6KIWUuJJUF1KSUWmZiAsn2DQj2NeWUV4+rov37n3v5r2X92aSjjrJWZ1z7rnnf9/cj/MxEEpVYZEJQElspmqohzgtoPYBSUQzu6uzaeCewOZCKQZAPmB0AqCagf4ykDsmVZU+ODULZBdg6VCoCwtE+NK8Ol1ZgJwQogJARQiRA8iq0zXv7yLfrhv/5w1tIHnCa3xNMrWar7Prf2vi8f0ekBsDmsXQJbdUXAcGZ4FSBpYG/Fc8PqWJcycbO8IvAKsW+yJM7t34rWlstQUg02W3dPYl4NzsToPolErtbXxEunDhgYEsCJv55ajSmQkZKXbqS2IRdf/5PfnLR7e2BqQaA0kOaQOHNem5sv5EA3902eHXNUd3kfSCnLgU/fvf74NTXvWHu+UyLmzf00IYyMREFDe5t4EzAYPP7NSz8gos7iXcjdPlBkHC66SDwBWhfXVBGw91kchEWsvBrR7ozC7a+P6AgWcn4cdXQ+f3A2++A1+/B/B9ytJwZhS+KQB8m4ZEOWD2k8CGz2DpDfh8BMDsgA6ANWBdmooywMtuVRNHOO7iNiJOEa3Yk9gOOFn1cprK9XPlJPPTslyBUq2UpUESSOZkspIDKBQk16US9DHJPaKvZ0ZWrD0AQ1oRq6pfH3Kq36F/9TK2euMXgd6YWwLgSNytOvCoLfy6DsR68dj7vG4lxY4ArDwGnwkpobU9rMs4bDOq7XF3Ws0uab4c12r/5qxjZEt1Zx2q7WGBSHvV9hBCCDENQN2WVqwSWw620SscXvhf1cXonYKbN701xswT7tOlDsvlAkAFOKr7qLhP150aQJ/svXQHJhJ9BAlwJM7mUv7xTpewb99uy7vGx90Dxz6Bn99V4qB36mng4a/g99cBPn5KXtIgqLxpmnO6akj1IJ1YYJqm3YM0TTOgB2kFy1HTNGcAMEzTtL+kM9Jnd/pwUUxbsyeigfi74eW0VEIIf9NEfxZ4CIhn9U6QrioDsx1AFnkts0C5wz3n3BTQ0+0NvyIS6a+w9YabQqw7ACr89qhXuB0v41J42RBwNG7r4pKHcUAOhYJUZf2ROw30Ar1F4IqaWVTVbxEo6PqIVPXPu1TiR9Edfl1nuh3DbzOTyovNgOTfCullfLHhXtAPIwDqjT6gJXLz3iZIwqnKturJPO1Xi3UGFni19g+/17Xoy2Gt1zfs0+l8zasa3goqr3Jhn/Cr58LRaLRer9fVvU08oF8o9T9pRUUjIfPghkF6AJYVp9OyVMeAq4MARroJkA+GYXIE4DfPZTw7BXBrd+TCjdKdAH1tWyC554EMkBkFvuv2uYPAWLdbcuWr0W58UPh1aC/8bqL717YFclzflKS//S295Mp+KvXy34jYHMBAAMj+k838EnLSl5qm3cPv+UjG56OoHM3Fi8BHXY3lwlYRZBhGycdq3jAMw6l+DcOwq9+mwm86kj7dnhv/D57qZA0MB4SaAAAAAElFTkSuQmCC"></dd></strong></p><p style="line-height: normal;"><u style="text-indent: -18pt;"><span style="font-size: 12pt; background: rgb(255, 231, 156);">Zu COVID-19 im Unilever-Werk Heppenheim</span></u><br></p><p class="MsoNormal">Sehr geehrte Damen und Herren,<o:p></o:p></p><p class="MsoNormal"><span style="font-size: 10.5pt;">auch wenn COVID-19 nicht mehr ganz so präsent ist, bitten wir Sie, nachfolgende Regelungen zu beachten:<o:p></o:p></span></p><p class="MsoNormal" style="line-height: normal;"><span style="font-size: 10.5pt;">Wir bitten Sie unser Werk&nbsp;<span style="font-weight: 600;"><u>nicht</u></span>&nbsp;zu betreten,</span></p><ul><li style="line-height: normal;"><span style="font-size: 10.5pt; text-indent: -18pt;">In den folgenden 5 Tagen nach Feststellung einer positiven Covid Testung.</span></li><li style="line-height: normal;"><span style="font-size: 10.5pt; text-indent: -18pt;">Wenn erhöhte Körpertemperatur bei Eintritt in unsere Betriebsstätte durch eine automatische, kontaktlose Messung am Drehkreuz festgestellt wird.</span><br></li></ul><p class="MsoNormal"><span style="font-size: 10.5pt;">Sollten Sie sich unwohl fühlen (z. B. Husten, Schnupfen) sind folgende Regeln auf dem Betriebsgelände zu beachten:<o:p></o:p></span></p><ul><li style="text-indent: -18pt; line-height: normal;"><span style="font-family: Symbol;"><span times="" new="" roman";"="" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal;">&nbsp;&nbsp;</span><span times="" new="" roman";"="" style="font-size: 7pt; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal;">&nbsp; &nbsp; &nbsp;&nbsp;</span></span><span style="font-size: 10.5pt;">Enge Kontakte meiden, 2m Abstand halten.<o:p></o:p></span></li><li style="text-indent: -18pt; line-height: normal;"><span style="font-size: 10.5pt; font-family: Symbol;"><span times="" new="" roman";"="" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size: 10.5pt;">Hände waschen und/oder desinfizieren.<o:p></o:p></span></li><li style="text-indent: -18pt; line-height: normal;"><span style="font-size: 10.5pt; font-family: Symbol;"><span times="" new="" roman";"="" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style="font-size: 10.5pt;">In Räumlichkeiten pro Stunde 5min. Stoßlüften (sprechen Sie gerne Ihre Kontaktperson an).<o:p></o:p></span></li></ul><p class="MsoNormal"></p><p class="MsoNormal" style="line-height: normal;"><span style="font-size: 10.5pt;">Gerne können Sie sich Masken an den Spendern, direkt hinter den Eingangsdrehkreuzen, entnehmen.</span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); line-height: normal;">
+
+</p><p style="color: rgb(206, 0, 0); margin-top: 0cm;"><u><span style="color: black; background: rgb(255, 231, 156);">Nähere Informationen zum Besuch im Werk
+Heppenheim</span></u><span style="font-size: 10.5pt; color: black;"><o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); line-height: normal;"><span style="font-size: 10.5pt;"><o:p></o:p></span></p><p style="color: rgb(0, 0, 0);">Bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Sebastian Jaehrling</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

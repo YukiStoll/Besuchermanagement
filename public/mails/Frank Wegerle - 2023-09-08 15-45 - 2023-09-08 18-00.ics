@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20230904T095025Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20230908T180000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20230908T154500
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde. Jede eingeladene Person erhält eine E-Mail.<br></p><p>Sehr geehrte(r) Herr  Laetitia Haase,</p><p>ich freue mich, Sie am 08.09.2023 um 15:45 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Laetitia Haase</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Frank Wegerle<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 08.09.2023 - 15:45&nbsp;Uhr bis 08.09.2023 - 18:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Herr Laetitia Haase 53631126-3688-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAQqSURBVGje7ZlNaFxVFIC/ecmLySZYaOPQJkTBCVbsiw0qYm0XdkJAcGUWURDEIAqjSAsFESNYCFSELgqBuhh/QEgW7cqVMoIQAoIhpKPVMLMIYVIstaC4iPFNO9fFm3vzTt6beS+TpI2TOat7zz33nHvfOff8PYiEkvJBAYCCH1WK5GBxD6B5hLQ3tu1voHuLQjI1Vqdq4AcAXNuPimaRUaGwWMu6AHCFdS2Gs8g0q+L//E0sdA75Zz9WAPtpQfETYD3rxyysC4KjB8Q0o5Sak9LHhE4cgLTUCYAjdDImF+eaTyd778V/tLtCvldATw7IvgTfjAPcAhI7KeQgUPaGhzTuQXv/Kb4lpBnC7z/bEdIpfWh/jQ3j47WZ9UsWnUEhQ9Pb/iwX9ovir0WQ/VwJ4n4FrGNmWodFDDda6oXBPJB+GxgFuAJczgHONVjt21ETfhmKXmhPweWWW9kt64quk46Eo7+qVO3mSCSL9t5Gj3fYGGjvPtLJ4Kbc5yA8VY7aNQowb1M5blBfH/Ot3z4N8JnOxtvzcrsCbtyMEpIPDBB+R+UFqonDbz19lCNI76jAlrsVIyRtkD16mhP4W3kg16FROYAOwOnxn/a1GT1LA9jAeyHV74SnRKXWALii8Y4hzSqlsqLS2oCNED9xH6pfdS8U74XGYo3lYixUPOuaCvQ3OrLmZXuqMHmXnk3ntp1Btr0hc4PXLf89TqZgeo89xvuXcH8BdI8K1JdiNjurR58Dj56C/HwdIQnTx/jjBEABOHUTGJsGd8X4duNusydhdlyTDgBcPANX5ZkmzuukbR1oTxkhXkl7yG9iqZBjpcC7x8M2lcgv1ddkih8GeGZSz181EXTY5D6HG2P9w6ScZ5RSynVd1/PCruuu+RLu6pprvHDFdV3X1Xvcu3okvfC3YSZs+x3aHXkKW8SohB3cY/9Pqt+KHFoGZUb1TtvuADxgLu3oysgRddLxvKh+CykYkUXQok7gkj3Vj9fmmKRJxQJHHq2glErr8Lup0Zls6ubzanR9Uq94XY0lJLJ0paTrj/SLwFmZFPftoAl7cAaKZ1v9rrhw1agiH0H10POwvCDbHpk3w+mfFG2PTbCoCS6+AAx0wdK/GjVxHr4b0VTVmwyGyqjf1nnchF+9+7FqqeaHR7qbU/ELn4qF/gtbZ/b+ShD3lhCyPiMWx2owyr5SOxauCBbDa8C5KRpp2XbFJUx07d3HaNoJCUKMddvWZSeTyaQXfi3LsorAsGVZbdH8k8lkMuZN5oFyRwNf6tKl/eiFbzdaif9Vji/kdL5BIR9O0eoL7/qLB1hejkF043pQyFH5178zuCv9cXWwNBLO9ty7wAk9uz4CMCeEHHgu8myaYqnG+lCIR3uiGcPvO3HpS5/UWZz8PYj7YKPfFftQ6/VIf5kJ4lovfsvwH6aX5/xDX81JAAAAAElFTkSuQmCC"></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal">bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Frank Wegerle</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

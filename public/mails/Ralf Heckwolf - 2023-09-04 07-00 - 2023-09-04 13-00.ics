@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20230904T041232Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20230904T130000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20230904T070000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde. Jede eingeladene Person erhält eine E-Mail.<br></p><p>Sehr geehrte(r) Herr  Marc Balmes,</p><p>ich freue mich, Sie am 04.09.2023 um 07:00 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Marc Balmes</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ralf Heckwolf<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 04.09.2023 - 07:00&nbsp;Uhr bis 04.09.2023 - 13:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Herr  Marc Balmes 74822280-1422-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAARwSURBVGje7ZlNaFxVFMd/k0wwE2W0hobBJlTUpFYxKXUjKa6cmFUt2FkkIn4kCoXUhd1JCWKzEQtBxCguJihI20VFoSUSGHFRUl2VZBRapuLCDI12FDMVJvVNZq6L9+6dd/Pem/emHWOdmbM653/Ovee+Offec84d8KVVYZIBQFJspVXfGdrYBmocJ+FgZjd0Ngr8JbA4XwoBMOWhnQNY7YWhNBDfI6FMP4ykgMEVyPb5TmE6Ea60rHbXIEBcCJEBICOEiAMMqt217D7FVKMG/s/LmqJzv9P4omRyOdfJLt3UxL07HE4uH9Asxk7bpdkSMJoCkr2QPeC+4pNnNHFpuLYt/AxQNNlnYb514qvTTHEbnJxN26Xxg8ALqXo70SkSaQU+IB0//q85WREW89OAwoywzBT1+pJQQOyOj8mGC7a5CURqc9I5pil2a9JTaf2KBn7vstKvbYw+RafTyf7Twb//RD+MOOF3m+Uwrtz+TCt+TubmgkwTPwIkPJT76nWtHIarrYK7djpfoxP/PmkXsCC0rz6m6X2nCPcGWsuuahd0bxMFfshD8eQ8/PCi7/gh4LU34Ku3Ab6PmAiJafjmGMCFKITTHqMfA8ouyuQr8OkkgNEO7QCbQEmaijTAITt0C1u4zcaVAw4R2xETz2qgWCOuK4t2KBR3Wv74q7p3JXM9LaWUwr8OUx4FOHwEzn2glC7k0rHGKnW2hFy6Xxcaa6JbeCPror4KPNxmlxT9XAJCj1jSeq7a7aa28MVKS5sEJivvXfLZQ+k41G179gDgi4RSIkcnqx7GV0NsTHota6LKksetgtL8rEeHW+mXeSsm/nTlioeTjNV4RDIKekCd/4+AAYCnu+GTkl+LMun1JffttJh+l1H99l38UFPWXSPu+M2Div1MBUWzfWkNuOdLuPaywp7z9bdoGIYhL9RCBVdvkLbt4XyD1GnaMIxFAPKGYdgD31HHX6jDzt3BtXClgigHMQ1Xfu12TTfofBOoQANSTLdryjQQ69F+rXs90q8LqfQrhBDCvMMNIUqVRS3L9BuTVouNeBiz/m2DCopu+5tulvUUCPf5OlmV/UdK2c4CC5pkdr+z1j7J9Sk8IFU78aYTIcRZAApWzK8DsCS3QLN3v160AISe93Ay9brPW8bnZQf0/qbk7lf2CSDm5YQhnzeZJ5xF5OPN/exx6aSm2K299U1sAN0f2qGjf3jVqh74lBBiSYfGAv0FuIUKhYKZt6cLhUJB3eH13cJEEJL5nxxG4YcLe169NScDADEn3iXhmRkJ5aO3da384iihxs8ArEGup+EPYwDSO9x1FYm74e8bdXKS6gGmpfSd+t1n34TzCSxlCLhrWqtXaw78gxNuJb5Fb1lnMHqiFfgAdAEIjUDxW4B9PQ4ne/VruNM5Rfwdey9sltkfAzuVOArE1mB9FGDJ6WTHsO9ChwNB/1X63caHzqM1DTpXaT1cBiro1Cngva7aauEtTZAL5fP5vJl+8/m81f3WPf12qPQbbcwT/w/eMxtvHUG1oAAAAABJRU5ErkJggg=="></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal">bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Ralf Heckwolf</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

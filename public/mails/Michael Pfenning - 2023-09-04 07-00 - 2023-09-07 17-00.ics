@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20230904T065258Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20230907T170000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20230904T070000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde. Jede eingeladene Person erhält eine E-Mail.<br></p><p>Sehr geehrte(r) Herr  Jens Geiger,</p><p>ich freue mich, Sie am 04.09.2023 um 07:00 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Jens Geiger</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Michael Pfenning<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 04.09.2023 - 07:00&nbsp;Uhr bis 07.09.2023 - 17:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Herr  Jens Geiger 83225803-318-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAQySURBVGje7ZpNaFxVFMd/M87UBKRQCGnaTonVZiRqX8qgUFJXdppuRCh2EReuhuJiWsRFXTTMQhciFOJqil2kK8EsUldSsUY3EhCVkozU4GQUSpIiNVhapB+3zVwX896bue/eN+/NGxPtZM6m95x77vnf4Zx3Pm4KgbQsayQAmLI5mQWwpJTLgRbibAJ1Dkii5RN3ooLkfXaLuiiXc1Z54EkaueYm8tJI84boqpOw5bXomjebyHeq428tKhs9mUbu+2oYY1fvK+zwDg1k8bCiMf5ZI/d2yVlNpWAlZwY5N62wc6ORQ3gMLm7ZL/7/lFa+kUD/BoP0AQ+7Pmn9O5mY2FCQZBWopAHK+4HYhvySmHH5+JZfAO4BvRFAesaVjUEfx4wDpAFE0rs5qJroUXdDld86TW318rsQoPZzFUi8AKJepH8B4gdcdqGteyxLKS2ArJSyDMDMzMxMCw13tBC2huCTbhYOoI8jgsSC3bYnBiP1vmsM2B2HG1UgtgfkauAvSbV6LefAbveeqa3j+Jjl6X364CVDX+L6xAK4tB+O/64ofHqggVk7AnDhkOOTkmpMAqt/NLlVydH6Wz2ptP2ypIg6+GN82IaxR1ITrVeBRFYV9gNkzTZm3b0nFHnWue1b04ooCbxTBFCrZaHmRGMlNb2tADDpiOolvtDR5XcJYNdTjrACJJ8GcR3g2ThU6i5dAvYlWge5kwb4aswRpu3pd/EgwHIK3nC/vBxAeag7mP6n5fdKGDulnzTRr3MKyPYywC5NbbgMfOG+cWTPO6t9wIV1p/MGWKoFRKPouiuq/RKfYNnmkSvsM978DqR68aavnds70/E/nlU21o7qyqroSz1oXvdBcZNsLRZuihrdbWi4hRCW4aSQUgohhFiX9sqThYUQQkgppXYbe0Z7pIuM010zpeTjMP26DUrcCeS4nzcUkLilvAJY+sOApfZF2wBrAVb2AsyPGEFOFxWQQ8o81muYzvq/thcXc1s2C6+Emk/qzr6hbq6EAtkbPP02zh+/pQEmgcuzQEk/PvCenabbDeHXhuCy3+a73enXW2xLmqhScVaXgJ2v6CD5k2ZjB31ATgDMOwqTr0KlLjoBFAwgmHNC8zeZ55NO+R2pNZ2Q1stvpzr+6jllY/AjXfnNlkx/d14Hua/+rWjcZ9ICoJzy1sLjd8HzwHpvGuB2MnLR0p5r471NVDfHJzIW9agMJQJIhMNIDjgr97Xi6KweGNNtpRW3Z19Kd4egYFqTUQEe/Bka5EgptNWBk8BzQF8B+Ku/zQ7Shz6w/81kgFOb53i5GY6P/esmrwB9GVi9pkfX8Jyi2qOfzr4PuP814EOFA+DMaeDwMaCQgWvHAOYUkB2jgXcctZ96AHhZn34zhvT1YidOv6daPzlxu5H79nMftbMuSDHC9X5QUv0tPxNFuu9dLdI/IBnrzytW4B8AAAAASUVORK5CYII="></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal">bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Michael Pfenning</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

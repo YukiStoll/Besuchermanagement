@@ -1,0 +1,40 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Typeahead
+@import "typeaheadjs.scss";
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.table-small-padding tr th, .table-small-padding tr  td {
+    padding: 25px !important;
+    font-size: 14px !important;
+}
+@include media-breakpoint-up(sm) {
+    .table-small-padding tr th, .table-small-padding tr  td {
+        padding: 10px !important;
+        font-size: 12px !important;
+    }
+}
+@include media-breakpoint-up(md) {
+    .table-small-padding tr th, .table-small-padding tr  td {
+        padding: 10px !important;
+        font-size: 12px !important;
+    }
+}
+@include media-breakpoint-up(lg) {
+    .table-small-padding tr th, .table-small-padding tr  td {
+        padding: 10px !important;
+        font-size: 12px !important;
+    }
+}

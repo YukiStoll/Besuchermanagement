@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20230814T084640Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20230817T160000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20230815T080000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde.<br></p><p>Sehr geehrte(r) Herr  Tobias Klaus,</p><p>ich freue mich, Sie am 15.08.2023 um 08:00 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Simon Braun, Tobias Klaus</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Michael Pfenning<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 15.08.2023 - 08:00&nbsp;Uhr bis 17.08.2023 - 16:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Herr Tobias Klaus 75664391-3613-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAARRSURBVGje7ZlPaFxFHMc/22w0GySlQkI1G3oxkQq+lIpQ2qNbCwURNIdNURRXQYge7E3KIlqQYiHgIcct1UObQ4seSqAS8RCinkqyFVq24sENbc0K5lV41Zfsjofdeftm37x/a7otu/mefvP7M7957zczv/nNQCjKog4bgIJoRTm0h110AN3jJBlN7Z5KDgF/CxpUKBIAzPhI5wDKaZgsAplnJas0DkcXAWMV1sZCu6g7EVqsOLPLAMgIIUoAlIQQGQDDmV0r+i5mujXwf91QBAMHvco/SqJS0XZ27R+luX+Px8mNI4pG9qK7NVsFji0ChTSsHdGP+Oy80lw+HG8KvwRs1smX4dzOig/G6c0OOLlUdLemXwFOLG63ExWp1E7gI+LUqQfmZFU0iF8nHJ6dlJliu74kEZH3yMfkvoa3tQWk4jkZyCqCfUrrUFHdooE/Bxvp12WjdjHgdXLwYvTv/2wcjnrZZ3plMa7+/55Ww5zMzUXpJvM+MOUjPLBd28rrcGvnwB0fV2I6Ca+TRoEFoXz1SUUe2kUyHWkso0EbdLqHAj/pI3jhHFx/I9R+Enj3Q/j2E4CfU3UOU3n4/iTA0hAkiz7WzwE1jbDwNpzPAdh90AewBVSlqigCvOpmtTGFd7moWkQT0YmYJOJabEYSbrpZrt+VkcQvd+UIHNa6839zOamakEQKeCwDMOgc0E9Larc6iquyYt0LkFWKWENVLelL3exDXYydDvwt4JmEuxWE36rObx+BjUrQ7lYAyDnt9WF46q5mDTqBV6496qXxR3B5SmrlvDYIIYTZ7GxdBr4F1UZsW6496k6EEJcAsIRwrc9lOSF6L/2eV1pLS1Fsbt6UgRfAvd1K4DXzakqzH5e8s2tczsoJVVUTeA0MzUBt4Yv1rk2/LWXGCa/KV0/rTY8DT3wDt9+K5mrGbiCvEZY1u7Bt2y13kCrytm1fBcC0bbsxhftj/oD+6Ar9j/RZuHmCqIUpUIOkAfC4821G2J2A4aw1Ayj2KfyiT/oVkdD0XRBCFORirDadrzz09NuRwK+Flw1qUByDP9DzNU7GQp2UZf2ROS6z6yyw4FjOOtXvbNsfG/Tq4E2/OnTnuSsUlyVR9KlqFoDEa/DvFYBDo8pynnkv4C6jnIbrNf3NhvE18OQYVG4DZ+aBvXegMgLeV4fJkDuZ5/1qBmk4PNxj1x7XziqCfcpd3zv3feynI7HqgRdCLKusrOYJ0LKsxmK0LCuj6ceyLKuefi3Laq7MWEkrpaFaNYRGoTMxEYl2zEQYX7jzarItHxMAmjJGU/2aQ20fJAB+95yLpud7ZzHGxsYDdpIHfhrR8zXn1facvKl/deDj1E7gm/gu8p3YDwAHRjxO9qvb8IDXdFF57f38U3frjvIasXEMYNnrZM/heP/gRf0ZoycC/0E8qy8DZM2uLlwAvhiMdxYOxIppmqaQV1F50zQb1W/c9BuIIf9W9wT+PzKsWU7LzY5IAAAAAElFTkSuQmCC"></dd><dt>Herr  Simon Braun 75664391-341-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAARjSURBVGje7ZlPSBxXHMc/a3fFzcGqiWJJJKeVCu0qKYRgyKFkW09eggcbWgLaQMH0kNx6WErwEhpoKTT0tCn0EHMw0EMoWA09FGkpJagJGNZLi00C3UOdFCZ2zOyvh915s8+Z2Zl1baK7+Z1+7/v7vfd7+9777e/PQCitSwXlAciLSAYgLSLroSu08ByocYzEo6k92QUjUwHSaw5zaiVsoWpLlH/JV74Ky9ei7/b8oC98oVEv/u9VTdB2rMqsQsEXvrupDQc6PUZWT2oa4zOVo89thxsBOAkwB7yizbl6UxsuDtf2hE87zJqLvZ146fEBNL3lgwGJ7C4amVUenxstM2engfRuGqmg7mb+q99Lr2tZ4FmrBs0LENtNI36rxfblcT31QpsCkKzNSNu4JjiqjU6sAJlDQLsDjS4A6WVtjr5Em9fIsZnQHYVpXGkWP1mOqm+tAgy0+rhSXftYF5E0QOZlwr2XPL5EXzjM7dqMxMKv7XAMHgrQB5B7F36YdGTpZZCHob/kSKS9HAbKuYRnQuxIE138YIDgretw7/3Q+YPAhx/Dd58C/JIsIYxl4c4lgJ/aq8weF5ElHcrYtm2LiIht23bGzcZFZBYAU6QIQFZE5gAwRCS+o7Nt2e/O6JA8C5JseRi2IO4e7QKAGh5EEwK85jDfTGqqSaA1A3BAJePTDvcqgOqaLALwl0SgXCm0ePDxxnfGNYC2Pme8sQGknFj7h9JLOfVi10EH+l0dew9sFKoZ6QeYUh2JfoBiOQNdHVJ6dgtb/QC5CXgjB8z0K2e8CHfGAHKA+ocmV9cTPn48IAl7L4m4Rl4fbu7w69Cv9yOpPXjgGMlrqTH5yspjIA/cvlQeJfIAXcB9N/zOlp36dL7s+7G8ej9KK57SrXdUFretujDls1sH6+ioRAoNnXf9c0aNzwLMw+aorjcSvMSjc+GxQUSMbVhRxIyQ4FuWZQUk3FnLssrh17KseB2nkIgkS+xlZ6w42HBBEWICPDnlKZqentChFSCtQ78lKLo9yLSjFXTx4aQqLZ1sd52l5gi/f0aqT/x8cNulV1ko3hde/frXH+cWVPgFGFLcrj/hEl2EWwB8lHyBFy/P4+JjNSjfAlJpWFkLUPgeiJ2Bf/XyuGRj6rz/pCHn4u8VnVFuAq674fdboKsPCo+AKzeB3sdQ6PG7eP+izu3JvKlVA9vKOYDu7iZre9y9qgmOar2+CdXpnJ/XE1OfXDXA1JQqgnyqX9XvcilvmmbGZx3TNEtxO2ua5ly9Hp8MxMVHYS+HXwnDpS4jvSrV7fUK9eq3d8cXn4te/S46eDMXQaos2Pj/jEwCZIGfe3xSYG3UWd8T/iAF7/jgn7zI8LsPEu6gttePAEM9HiMDuje2eadmLlP+3u+m2V+XmcdjlfDGCMCi10jncOgGh7WP/g6kcozmCb8Xapv1peK8E13kxg3gswORVtQ+N4lhGEbOR2vJMAxDVPPZMIwdNp+h4mNmdUF7Y178f2HR/mUf4owmAAAAAElFTkSuQmCC"></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal">bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Michael Pfenning</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

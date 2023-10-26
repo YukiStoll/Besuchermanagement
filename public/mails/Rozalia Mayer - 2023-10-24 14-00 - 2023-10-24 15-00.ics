@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20231024T101756Z
+DESCRIPTION:
+DTEND;TZID="W. Europe Standard Time":20231024T150000
+DTSTAMP:20200228T082950Z
+DTSTART;TZID="W. Europe Standard Time":20231024T140000
+LAST-MODIFIED:20200228T082950Z
+LOCATION:Unilever Heppenheim
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=de:Besuch Unilever Heppenheim
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0EE2CA019EED501000000000000000010000000FD9AE78CB1E839468B77A87640323BFB
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><div style="font-family: Consolas,;" left;"="" pre;="" 19px;="" 14px;="" normal;="" monospace;="" new",="" courier=""><p>Lieber Unilever Mitarbeiter, anbei die Mail die an deine Kontaktperson(en) versendet wurde. Jede eingeladene Person erhält eine E-Mail.<br></p><p>Sehr geehrte(r) Herr  Leo Volkmann,</p><p>ich freue mich, Sie am 24.10.2023 um 14:00 bei uns begrüßen zu dürfen.<br>Anbei erhalten Sie eine Übersicht zum Besuch:</p><p>Besucher:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(36, 36, 36);">Takeharu Jonen, Maryam Zörb, Leo Volkmann</span><br>Besuchte Person:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rozalia Mayer<br>Besuchszeitraum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 24.10.2023 - 14:00&nbsp;Uhr bis 24.10.2023 - 15:00&nbsp;Uhr </p><p>Wo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unilever Heppenheim<br></p><p><strong><dl><dt>Herr Leo Volkmann 34775327-4025-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAASdSURBVGje7ZpPaBxVGMB/+6e6ySE2QkIgG4rQrVZxUypIbC5CZxUE6cEc0iKorUIhFaUHPZRFMBSKhQUP8bbFU9NDBA8lWF1PEvUUmi2lZf1zMLFbXYtuhVFns/s8zLzZeTszO7NxDWE33+n73ve973tv33vfv1kIhHVhggFAXrTCeqCGKNsAvWMkHk7svooOAX8KLCwQIgDM+XAXANaTMFkEtEflUCkFmQKQXoONiUAVphHhCdft25UG0IQQJQBKQggNIG3fruveKuZ69eB/v6UwEofdwl9LpFLxVLb6t0IeHHYZuTWtSMwuOqlcHXi+AOSTsDHtveKLVxRy5UhnV/goUDPR5+DS7otvD/O1bTCyVHRSx18EThS6bUSFgYHdgw8J5879b0bWhIV8f8AeM+IyUnRrJ5GQYzv+TP7yGNvcBAY6M5KYVRj7FGqqqLpo4LdBK/w65qgqEm4jhxfD7//9FGTcwxf65TGu/XdNa0FGFhbCqNFOAzM+zEPdcisvwXe7CXfncLVDI8F10jiwLJRdn1X4gSriyVBrGW/noJN9dPCTPoynLsGNlwPnTwKvvwmfvgfw7YA5wkwWvjwL8NUQxIs+sx8HGh7M/Kvw8SkAIwYxgE2gLkVFEeCYc2gLVzjqwBohp4jtOJNIV9XVXAg1iGsABYAmZq9AZdq8hOZKVh7QAAbtBH1eYg8BCCFEFYBrQohsM4zL+jUHQN2zt1I3yzBJzvb+Y3REITUgqdQPrpk/1n1Et5Rq5oEP7YeVP2khmYK3KACnFCoE2G0P9eA1D1Hd4v1qlthSdHsOfoe8+M9Vsl2nYBGIvCap27flwZfsfsk0QMkdz+1Yq30EHFCY6SULKdr52FgZKqPqTlK2EQD2jrRZaMp9W+X0Yp+E3wzA0+clfQLgC4u4+XYYFXdeUemMj9ycEEIYhmGYXrih9CDNUtcwjJqUaj7ltNrh1g3D9NVZwwmO8Lun3XJj0TBS7EF4iG3PmYiQ8bfhvaqGD9lQ86408KC93bTTNUebfjHm8sKkgWLMSXmFX2T4DQbVC5sHb8jwC5jN5z4IvxvBZYPP1fhFJdsoik8ER0ZZf2gvAPuB/Tlg2Z6Zs6vfnCyQssMdblb56tCEZvjNCSGWZPg1725WEe3T6vcTiRzd6y2wrIhOjSt519wbbXoZ60m40VA6G6UU3NyU1MMTULkDXLgCjH0mRVu/OkwG9GSeVKoBAJ5QqJERZ4VX6f22x+pFhbFP6fWddHc6z9zzUXm8TfhdUYdmPT4B6rre8gmwNRfWdd18jLqu6/Zj7OgKD4SQEB6iO+8xCg/MR0I4C6BOjBSiwBgyIR4D7krEBI/wWx3aws91vlwum6ngT+XyzwC8U7bg2d4Pvx3PsP3SH87Rf+53yYj2jKxrs8A3o0D6GPAIcHVGjs9LpDVfDfnivT/6C7EbfsPUwUGih0ZdRg6qh5LwePEFIP8Y4O4ET61YbjGyAjANsOI2Mnwk3Bq9xcbHnfxeD79nQk9YXQXetfNge+JbqdYRLl8GPhjsMBeuVqu+4Vf+A8d6jNVq9Zrp6jsNv0OueqGdaC8e/L+ITX4ZAM8gUgAAAABJRU5ErkJggg=="></dd><dt>Frau Maryam Zörb 34775327-4027-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAARUSURBVGje7ZpfaFtlFMB/SZOYbjgY6EjWjfrSlU5MRBF0fRKS9ckn9xCGgi5OHzpfHPNFuocVQShUmBT0IQhu4B70SSm25EkMDsXRZUoxRVC6ydBRuQPv2tssx4fku8mXe5N7061xS3pe+p3znT+393zn35cLnrAqIgkby0kzrHpqCNIF6B0joY4lbqvFHt8iAQAmW+zOAawegNMbCquDFa7+vX7QU0XViLjCkn26RESsJnFLO11L7iome9Xx/yxrG9FnGrHLFT/Krqxr6Nheh5HlcY0j83kj9lYRSJ0BJtoYmbmkoYUjWznCR2FlJ+J9w1kNmwbCU/fbSD4P5F6qYcengcTU9uSux/vZ8R0beS8ej8dXtvF0Adxkxyddi/hoRtsY1rBnD2toGBh9DBjUZXQVUd2Ur/LbCvqw/F71YLtWAUJPgrUMMBaBX8pA8Cmb5eo9PYfdcKdEpARASURSAImdhvt/Lr8fbtFIwNttQwG4IcBBm1QagT8rQGAI5IanEfH9PJsRzUh/Oj7pQlTBe+0VgPkheHFNYzimYW+8XVuc+Emjf/I8nM4DoaKLEanOX1SKAAKsFYHUAvx2CEAXKqvFHZ1eATaKnR7h4EMXjGUgUN/Z3KryTc1ICiBvb0ZqQ1AohYrBFBAHBlJ6e9zOxriz/BZ0UkYV0FkA7roW17sAzCo008dZeMWL4j9/hXJq5tifA36fBsgBWXuSzdX+481D7tcedXg5DWQBpp5QU/ccgO7J6uBUETH1Gt/i2qPJ8SIi1YF/qpf7LusiwPioIn6qsSwCnHCKXujMyHoWYME2kgUy52rI11mA14KESwB172fdS20JYLfPIzziSvEe5Eb6JOJnZho3bqU1vgkg/pm7jvl5tfoqCmmA9Lt6qRURoznMLMt0UVZvuG1IWJbV0LmZjmAsW5ZluTo+FKjXbQ8Ie+wPDPDAXj7j6EhaoRV1sqpGEk0B5SSpZieQ0EjFAcVaBNgFxPbV3uLiBICxx5GFW4E9adWhXuxnReQLG4sphgUADBHpoWC87ms+qYLNu7/dszk1BnxMvwfgozLwjjaffHxHYYcn4MfvgB8uOaUNf7+AuJTfkvvxcOu7esvxXUwrkyfdd5/WcuGSg+QGsW8UV2E38Gg9dyVd+ZvuZJK+yi9J+FvX2h2fSDd8YkfjFa36MvyBY/561V6eBbgQQo4DHH29tf73f/YagpZcgjFnmmauRS+8bpqmaYrIXwAUVC/cedEabL31yMNwFSVtVwoJNFM7MpK07xqy2cYZOaZUf3kMwBykmg1tejB2743EvhZ3qCdVu37+fE8FYzDwAJ0ugNQLjdj3+e3pIM81Iun+rYw+YREYHoVf/2ikrn/bRuTybc3ImJ6Go06B6m+/o1DIAhRqL+JWu+8ALs5pRvYe6fAlPBfuW8efuj/azqjF2ingzYR/Sef3XRuGYRiG5/ddBRH51zAMY0upPhLxzbqrtxz/H3a1qxaX2cReAAAAAElFTkSuQmCC"></dd><dt>Herr Takeharu Jonen 34775327-4026-1</dt><dd><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAAAAABVicqIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAShSURBVGje7ZlPaBxVGMB/m2wkGyQ1LQ2B3VAq2WitbkK9hOTYSQuC5GAOqShqoiimIuYgSFnE5lIM7C3QyxZBaHKIKBiCrelJop5Ks1VSEhHqhlq7ik2EVSfZPA+z7828ndmd3biGupvv9P173zcz73vv+zPgC2lhgQlAUhRC2tdCA3sAteMkWJ7apo62An8I8pgvBAAYLyKdBkhHoCcFGI9J1moUBheB2DKsd/qasJwIT7ihoisGYAghVgFYFUIYADEVXTe8TYzX6sb/vqIJmk+4lb+WSCbjaez6Xxp5rM3lZGVA0xiZcVKJHHB6EUhGYH3A+4mnZjVyqb+yED4JbFnoKbi0f+JLw+TWHjiZSzmpM88Czy9W24kOodD+xpcJ5879Z06WRR75oVvxzKDMFNV6k0CZvAd+T/704G1vA6HKnDSPaIIjGtWX0q9o4NeWfPp1rNFNNLudnJgp//3PR2HQzb5QL4dx+d9bWvZzMj1djhnjDWC4iLC3WtfKc7C2X3BXDvMVOvHvk8LAgtDeekKT+5oIRsp6lnCpCzpSRxvfU0Tw9CW4+YLv+h7g1bfgs/cBvg1ZHIbjcG0C4KtWCKaKrH4C2PEQJl+Gj8YAzEZoBNgGclJVpACGnKxdhHCDA9spc4nYiz0JVNXclgthC4IGgF3WGsB3d+UT2ELDmVObDVex8pAB0KIK9EmJHQAQQogNW/meEKIDYET2rwkAcp69bc5qwyQ5Ut+3sHlbI9cADh7KUz/mdMFunaz0AiTzb7zVDZAczQtfV9EyoS7lpETGNKqMw3gqUvZ3OZMvKK02//H+mt/4zxWmJgJXAUY1/tAhb2szQOAVSd26JdOaADYPAFw5Ch9PAqwC3QBzMZifAMg15IOoW867HNEFpFQ91vEzZNqLvklUIl0B2StEKZDb0fqoZidVJ+nXbjOmptTJkMjFixI7ra16UyIPfwp3XtJNDvo6vWeaZofOSpumGbPTr2ma6ig7ZpAAZE3TmoPHTSe4TnyT23GTn4JTKDy0HuBa2IadIqTGD8bcA4Bwe1kzgRiQanRSXukXmX79wbHxQghr402ZfgFr+FwH6Xfdv20osim/6GQJQ8FOXydpmRmNZ4AuoCsBLKiVCdX9JmSDFG+r8GW1vw42qHKPhBBizjrxQlixG9dU67f7vX8N4OQj3tIFhX0C9IW14zz+WolZRjoCN3eA4HFYU+n3+22pdbATMneAC7NAxxdyYeFfhx6fmcxTbuFxjTp82NnhZWq/4L4+pQmOaLO+Ufek8+xvxWrVIvxxIcSSzhpx/wK0YVU7jI70m81mrcOYzWaz6jAGq/thQjL9hv4v6Vf48YUzr1bixC6VuiV5V+d7pN+N1sqcPPmlLOzHAH5qYqcR4N13ZFzN1nX3Wwj6lXTfSfy9WSUni6oeiwPftAOxIeAoMD8s+ZMSsevV3YXwi+qvw3mN/14IMenm1/vw2R+uAr3tLifH9Gu42b3Q+EBi7hlF31L+WgwsAQwALLmdtPX7Pl4JjXDYqVTr6ffsbterhW9HCzlcvgx82FKdWlg1QUKoWnhjY+OKddVXP/0qaK3Njf8Hh10hDQwLPr8AAAAASUVORK5CYII="></dd></strong></p><p style="line-height: normal;">Sehr geehrte Damen und Herren,<br></p><p class="MsoNormal"><o:p></o:p></p><p class="MsoNormal">bitte bringen Sie zum Besuchstermin dieses Einladungsschreiben bzw. den QR-Code mit. Er dient zur Registrierung in unserer Besucher Lobby. Die Kollegen an der Pforte weisen Ihnen den Weg. Die erhaltene Zugangskarte geben Sie bitte beim Verlassen des Werkes den Kollegen an der Pforte zurück. Bei Versäumnis halten wir uns vor, Ihnen 5€ in Rechnung zu stellen.<br></p><p style="color: rgb(0, 0, 0);">Wir weisen Sie darauf hin, dass&nbsp;auf dem Betriebsgelände fotografieren verboten ist. Bitte wenden Sie sich an Ihre Kontaktperson.</p><p>Mit freundlichen Grüßen<br>Rozalia Mayer</p></div></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
