@@ -30,16 +30,27 @@ class AdminController extends UNOController
         if(!empty($request->newWorkPermissionName))
         {
             $this->validate($request, ['newWorkPermissionFile' => 'required']);
+            $newWorkPermission = admin_setting::insert([
+                'setting_key' => $request->newWorkPermissionName,
+                'setting_value' => "workPermissionDocuments/documents/" . str_replace([' ', '.'], '_', $request->newWorkPermissionName) . ".pdf",
+                'setting_type' => "workPermission"
+            ]);
+            if($newWorkPermission)
+            {
+                $workPermissions[] =
+                    [
+                        "file" => $request->file("newWorkPermissionFile"),
+                        "name" => str_replace([' ', '.'], '_', $request->newWorkPermissionName),
+                    ];
+            }
         }
-
-        if($request->hasFile("newWorkPermissionFile"))
+        else if($request->hasFile("newWorkPermissionFile"))
         {
             $this->validate($request, ['newWorkPermissionName' => 'required']);
         }
 
         foreach($request->file() as $fileName => $fileInfos)
         {
-            Log::debug(str_replace("workPermission_", "", $fileName));
             if(str_contains($fileName, "workPermission"))
             {
                 $workPermissions[] =
