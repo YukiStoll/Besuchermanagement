@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Storage;
 
 class AdminController extends UNOController
 {
@@ -42,6 +43,7 @@ class AdminController extends UNOController
                         "file" => $request->file("newWorkPermissionFile"),
                         "name" => str_replace([' ', '.'], '_', $request->newWorkPermissionName),
                     ];
+                history_action_log::insert(["userID" => Auth::user()->id, "action" => "added_work_permission"]);
             }
         }
         else if($request->hasFile("newWorkPermissionFile"))
@@ -119,6 +121,18 @@ class AdminController extends UNOController
         return redirect()->route('admin.settings');
 
 
+    }
+
+    public function deleteWorkPermission($id)
+    {
+        $workPermissionSetting = admin_setting::find($id);
+        $deleted = Storage::disk('public_folder')->delete($workPermissionSetting->setting_value);
+        if($deleted)
+        {
+            $workPermissionSetting->delete();
+            history_action_log::insert(["userID" => Auth::user()->id, "action" => "deleted_work_permission"]);
+        }
+        return redirect()->route('admin.settings');
     }
 
     public function showUsers(Request $request)

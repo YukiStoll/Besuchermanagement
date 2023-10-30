@@ -41,6 +41,8 @@ Route::post('/deleteUser', 'AdminController@deleteUser')->name('deleteUser');
 
 Route::post('/setRole', 'AdminController@setUserRole')->name('setUserRole');
 
+Route::get('/deleteWorkPermissiont/{id}', 'AdminController@deleteWorkPermission')->name('deleteWorkPermissiont');
+
 Route::post('/setWorkPermit', 'AdminController@setUserWorkPermit')->name('setUserWorkPermit');
 
 Route::post('/setEntryPermit', 'AdminController@setUserEntryPermit')->name('setUserEntryPermit');

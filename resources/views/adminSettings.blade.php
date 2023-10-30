@@ -75,7 +75,7 @@
                                             <input class="invisible" accept="application/pdf" type="file" name="workPermission_{{ $workPermission->setting_key }}"  id="{{ str_replace(" ", "", $workPermission->setting_key) }}">
                                         </div>
                                         <div class="form-group col-2">
-                                            <button type="button" onclick="" class="btn btn-outline-danger fa-trash-alt fa"></button>
+                                            <a type="button" href="{{ route('deleteWorkPermissiont', $workPermission->id) }}" class="btn btn-outline-danger fa-trash-alt fa"></a>
                                         </div>
                                     </div>
 
