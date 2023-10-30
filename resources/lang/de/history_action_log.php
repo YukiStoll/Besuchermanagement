@@ -36,5 +36,7 @@ return [
     'deleted_visitor' => 'Der Besucher :visitor wurde gelöscht.',
     'area_permission_granted' => 'Die Zutrittsgenemigung für ID :id wurde bewilligt.',
     'area_permission_denied' => 'Die Zutrittsgenemigung für ID :id wurde verweigert.',
+    'added_work_permission' => 'Ein neuer Arbeitserlaubnisschein wurde hinzugefügt.',
+    'deleted_work_permission' => 'Ein Arbeitserlaubnisschein wurde gelöscht.',
 
 ];
