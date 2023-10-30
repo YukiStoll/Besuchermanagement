@@ -169,7 +169,7 @@
 
                             <div class="form-row">
                                 <div class="form-group col">
-                                    <label class="form-inline">@lang('main.workPermissionDocuments')</label>
+                                    <label class="form-inline">@lang('main.workPermissionDocument')</label>
                                 </div>
                             </div>
 
@@ -178,7 +178,7 @@
 
                             <div class="form-row">
                                 <div class="form-group col-3">
-                                    <label style="height: 38px" class="btn btn-full btn-primary text-light" for="pdf">Upload @lang('main.workPermissionDocuments')</label>
+                                    <label style="height: 38px" class="btn btn-full btn-primary text-light" for="pdf">Upload @lang('main.workPermissionDocument')</label>
                                     <input class="invisible" accept="application/pdf" type="file" name="pdf[]" multiple id="pdf">
                                 </div>
                                 <div class="form-group col-5">
@@ -297,24 +297,16 @@
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header" style="background-color: #e5e5e5">
-                    <h5 class="modal-title" id="exampleModalLabel">@lang('main.workPermissionDocuments')</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">@lang('main.workPermissionDocument')</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body" style="background-color: #e5e5e5">
                     <ul>
-                        <li><a target="_blank" rel="noopener" href="{{ URL::to("\workPermissionDocuments\documents\\00 Allgemeine Arbeitserlaubnis.pdf") }}">00 Allgemeine Arbeitserlaubnis</a></li>
-                        <li><a target="_blank" rel="noopener" href="{{ URL::to("\workPermissionDocuments\documents\\01 spez. Arbeitserlaubnis Feuer und Schweißen.pdf") }}">01 spez. Arbeitserlaubnis Feuer und Schweißen</a></li>
-                        <li><a target="_blank" rel="noopener" href="{{ URL::to("\workPermissionDocuments\documents\\02 spez. Arbeitserlaubnis Höhe.pdf") }}">02 spez. Arbeitserlaubnis Höhe</a></li>
-                        <li><a target="_blank" rel="noopener" href="{{ URL::to("\workPermissionDocuments\documents\\03 spez. Arbeitserlaubnis Behälter.pdf") }}">03 spez. Arbeitserlaubnis Behälter</a></li>
-                        <li><a target="_blank" rel="noopener" href="{{ URL::to("\workPermissionDocuments\documents\\04 spez. Arbeitserlaubnis Erdarbeiten.pdf") }}">04 spez. Arbeitserlaubnis Erdarbeiten</a></li>
-                        <li><a target="_blank" rel="noopener" href="{{ URL::to("\workPermissionDocuments\documents\\05 spez. Arbeitserlaubnis Ammoniak.pdf") }}">05 spez. Arbeitserlaubnis Ammoniak</a></li>
-                        <li><a target="_blank" rel="noopener" href="{{ URL::to("\workPermissionDocuments\documents\\06 spez. Arbeitserlaubnis Öffnen von Systemen.pdf") }}">06 spez. Arbeitserlaubnis Öffnen von Systemen</a></li>
-                        <li><a target="_blank" rel="noopener" href="{{ URL::to("\workPermissionDocuments\documents\\07 spez. Arbeitserlaubnis Kran.pdf") }}">07 spez. Arbeitserlaubnis Kran</a></li>
-                        <li><a target="_blank" rel="noopener" href="{{ URL::to("\workPermissionDocuments\documents\\08 spez. Arbeitserlaubnis Spannung.pdf") }}">08 spez. Arbeitserlaubnis Spannung</a></li>
-                        <li><a target="_blank" rel="noopener" href="{{ URL::to("\workPermissionDocuments\documents\\09 spez. Arbeitserlaubnis Heißwasserkessel.pdf") }}">09 spez. Arbeitserlaubnis Heißwasserkessel</a></li>
-                        <li><a target="_blank" rel="noopener" href="{{ URL::to("\workPermissionDocuments\documents\\10 spez. Arbeitserlaubnis Gefriertunnel Tippbetrieb.pdf") }}">10 spez. Arbeitserlaubnis Gefriertunnel Tippbetrieb</a></li>
+                        @foreach ($workPermissions as $workPermission)
+                            <li><a target="_blank" rel="noopener" href="{{ URL::to($workPermission->setting_value) }}">{{ $workPermission->setting_key }}</a></li>
+                        @endforeach
                     </ul>
                 </div>
                 <div class="modal-footer" style="background-color: #e5e5e5">

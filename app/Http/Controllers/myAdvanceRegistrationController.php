@@ -10,6 +10,7 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
+use App\admin_setting;
 
 class myAdvanceRegistrationController extends UNOController
 {
@@ -213,6 +214,8 @@ class myAdvanceRegistrationController extends UNOController
         ->orderBy('name', 'asc')
         ->get();
 
+        $workPermissions = admin_setting::where("setting_type", "workPermission")->get();
+
         return $this->test(view('myAdvanceRegistration')
             ->with('data', $data)
             ->with('pagitems', $items)
@@ -220,7 +223,8 @@ class myAdvanceRegistrationController extends UNOController
             ->with('myAdvanceRegistration', $request['myAdvanceRegistration'])
             ->with('entryUsers', $entryUsers)
             ->with('workUsers', $workUsers)
-            ->with('areaPermissions', $areaPermissions));
+            ->with('areaPermissions', $areaPermissions)
+            ->with("workPermissions", $workPermissions));
     }
 
 

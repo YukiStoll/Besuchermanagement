@@ -52,12 +52,15 @@ class AdvanceRegistrationController extends UNOController
         ->orderBy('name', 'asc')
         ->get();
 
+        $workPermissions = admin_setting::where("setting_type", "workPermission")->get();
+
         return $this->test(
             view('advanceRegistration')
             ->with("admin_settings", $admin_settings)
             ->with('entryUsers', $entryUsers)
             ->with('workUsers', $workUsers)
             ->with("areaPermissions", $areaPermissions)
+            ->with("workPermissions", $workPermissions)
         );
     }
     public function entryPermission($id, Request $request)
