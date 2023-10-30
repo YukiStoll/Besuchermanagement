@@ -88,6 +88,8 @@ Route::get('/Visits', 'VisitController@search')->name('Visits');
 
 Route::post('/visitsGetUsers', 'VisitController@getUsers')->name('visitsGetUsers');
 
+Route::post('/changeDateOfVisit', 'VisitController@changeDateOfVisit')->name('changeDateOfVisit');
+
 Route::get('/Visitors', 'myVisitorsController@search')->name('gatekeeperVisitors');
 
 Route::any('/Tests', 'testController@index')->name('tests');

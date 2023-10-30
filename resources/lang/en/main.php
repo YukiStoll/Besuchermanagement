@@ -242,5 +242,7 @@ return [
     'areaPermissionEMailDenied' => 'Area permission denied E-Mail',
     'areaPermissionEMailGranted' => 'Area permission granted E-Mail',
     'newWorkPermit' => 'New Work permission',
+    'dateOfVisitWasSuccessfullyChanged' => 'The date of the visit was successfully changed.',
+    'dateOfVisitCouldNotBeChanged' => 'The date of the visit could not be changed.',
 
 ];

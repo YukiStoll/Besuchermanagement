@@ -131,6 +131,7 @@
                         <div class="modal-body">
 
                             <form>
+                                <input type="hidden" name="visitId" id="visitId">
                                 <div class="form-row">
                                     <div class="form-group col">
                                         <label class="form-inline">@lang('main.startDate')</label>
@@ -138,10 +139,10 @@
                                 </div>
                                 <div class="form-row">
                                     <div class="form-group col">
-                                        <input id="startDate" type="date" class="form-control" name="startDate" disabled>
+                                        <input id="startDate" type="date" class="form-control" name="startDate">
                                     </div>
                                     <div class="form-group col">
-                                        <input type="time" class="form-control" id="startTime"  name="startTime" disabled>
+                                        <input type="time" class="form-control" id="startTime"  name="startTime">
                                     </div>
                                 </div>
                                 <div class="form-row">
@@ -151,10 +152,10 @@
                                 </div>
                                 <div class="form-row">
                                     <div class="form-group col">
-                                        <input type="date" class="form-control" id="endDate" name="endDate" disabled>
+                                        <input type="date" class="form-control" id="endDate" name="endDate">
                                     </div>
                                     <div class="form-group col">
-                                        <input type="time" class="form-control" id="endTime" name="endTime" disabled>
+                                        <input type="time" class="form-control" id="endTime" name="endTime">
                                     </div>
                                 </div>
                                 <div class="form-row">
@@ -231,6 +232,7 @@
                             </form>
                         </div>
                         <div class="modal-footer">
+                            <button id="editVisitButton" type="button" class="btn btn-primary col-12">@lang('main.save')</button>
                         </div>
                     </div>
                 </div>
@@ -388,15 +390,17 @@
     <script>
         var counter = 1;
         var visitorCardUnlockButtonClick = false;
-    function submitSpontaneousVisitForm()
+        function submitSpontaneousVisitForm()
         {
             $('#spontaneousVisitForm').submit();
         }
-        function finishButton(id) {
+        function finishButton(id)
+        {
             document.getElementById("finishButton").onclick = function(){finishVisit(id)};
         }
 
-        function finishVisit(id) {
+        function finishVisit(id)
+        {
             document.getElementById("finishButton").onclick = null;
             $.ajax({
                 type: "DELETE",
@@ -475,6 +479,7 @@
                     $('#startTime').val(data['startTime']);
                     $('#endDate').val(data['endDate']);
                     $('#endTime').val(data['endTime']);
+                    $('#visitId').val(data['visitId']);
 
 
 
@@ -1185,6 +1190,64 @@
         {
             $("#form-row-user" + removeId).remove();
         }
+
+        $('#editVisitButton').click(function(){
+            $.ajax
+                ({
+                    type: "POST",
+                    url: "{{ route('changeDateOfVisit') }}",
+                    dataType:"json",
+                    data:
+                        {
+                            id:$('#visitId').val(),
+                            startDate:$('#startDate').val(),
+                            startTime:$('#startTime').val(),
+                            endDate:$('#endDate').val(),
+                            endTime:$('#endTime').val(),
+                            _token:"{{ csrf_token() }}",
+                        },
+                    success: function(data)
+                    {
+                        $('#Inspect').modal('toggle');
+                        $('#successdiv')
+                            .append($("<div>")
+                                .addClass('alert alert-success alert-dismissible')
+                                .attr("id", "alertId")
+                                .text("@lang('main.dateOfVisitWasSuccessfullyChanged')")
+                                .append($("<a>")
+                                    .addClass("close")
+                                    .attr("data-dismiss", "alert")
+                                    .attr("aria-label", "close")
+                                    .html("&times;")
+                                ));
+                        window.setTimeout(function () {
+                            $("#alertId").fadeTo(500, 0).slideUp(500, function () {
+                                $(this).remove();
+                            });
+                        }, 10000);
+                    },
+                    error: function (error) {
+                        $('#Inspect').modal('toggle');
+                        $('#successdiv')
+                            .append($("<div>")
+                                .addClass('alert alert-danger alert-dismissible')
+                                .attr("id", "alertId")
+                                .text("@lang('main.dateOfVisitCouldNotBeChanged')")
+                                .append($("<a>")
+                                    .addClass("close")
+                                    .attr("data-dismiss", "alert")
+                                    .attr("aria-label", "close")
+                                    .html("&times;")
+                                ));
+                        window.setTimeout(function () {
+                            $("#alertId").fadeTo(500, 0).slideUp(500, function () {
+                                $(this).remove();
+                            });
+                        }, 10000);
+                    }
+
+                });
+        });
 
 
 

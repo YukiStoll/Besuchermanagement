@@ -203,6 +203,25 @@ class VisitController extends UNOController
             ->with('requestData', $requestData)
             ->with('areaPermissions', $areaPermissions));
     }
+
+    public function changeDateOfVisit(Request $request)
+    {
+        $startDate = date('Y-m-d', strtotime($request->startDate)) . " " . date('H:i:s', strtotime($request->startTime));
+        $endDate = date('Y-m-d', strtotime($request->endDate)) . " " . date('H:i:s', strtotime($request->endTime));
+        if($endDate > $startDate)
+        {
+            $visit = visit::where("visitId", $request->id)->first();
+            $visit->startDate = $startDate;
+            $visit->endDate = $endDate;
+            if($visit->save())
+            {
+                return response()->json(["success","true"], 200);
+            }
+        }
+        return response()->json(["success","false"], 400);
+
+    }
+
     public function makeSpontaneousVisit(Request $request)
     {
         $request->validate([

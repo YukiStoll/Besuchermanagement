@@ -242,4 +242,6 @@ return [
     'areaPermissionEMailDenied' => 'Zugangserlaubnis verweigert E-Mail',
     'areaPermissionEMailGranted' => 'Zugangserlaubnis genehmigt E-Mail',
     'newWorkPermit' => 'Neuer Arbeitserlaubnisschein',
+    'dateOfVisitWasSuccessfullyChanged' => 'Das Datum des Besuches wurde erfolgreich abgeändert.',
+    'dateOfVisitCouldNotBeChanged' => 'Das Datum des Besuches konnte nicht abgeändert werden.',
     ];
