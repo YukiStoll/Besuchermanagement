@@ -75,11 +75,11 @@ class AdvancedRegistrationVisitor extends Mailable
         $this->content = $cont;
         $this->roadmap = $rmap;
         $this->hygieneRegulations = $hyge;
-        $this->hygieneRegulationsLanguage = "Hygienevorschriften Fremdfirmen -Englisch.pdf";
+        $this->hygieneRegulationsLanguage = "Hygienevorschriften_Fremdfirmen_-Englisch.pdf";
         $this->GroupMembers = $visiSubs;
         if($nam->language == "german")
         {
-            $this->hygieneRegulationsLanguage = "Hygienevorschriften Fremdfirmen -Deutsch.pdf";
+            $this->hygieneRegulationsLanguage = "Hygienevorschriften_Fremdfirmen_-Deutsch.pdf";
             if($nam->salutation == 'Herr')
             {
                 $dear = 'geehrter';
@@ -198,7 +198,7 @@ class AdvancedRegistrationVisitor extends Mailable
                     ->with([
                         "content" =>    $this->content,
                     ])
-                    ->attach(public_path() . '\\' . 'documents\Anfahrskizze Unilever Heppenheim.pdf', [
+                    ->attach(public_path() . '\\' . 'documents\Anfahrskizze_Unilever_Heppenheim.pdf', [
                         'as' => 'Anfahrtsskizze.pdf',
                         'mime' => 'application/pdf',
                     ])
@@ -219,7 +219,7 @@ class AdvancedRegistrationVisitor extends Mailable
                     ->with([
                         "content" =>    $this->content,
                     ])
-                    ->attach(public_path() . '\\' . 'documents\Anfahrskizze Unilever Heppenheim.pdf', [
+                    ->attach(public_path() . '\\' . 'documents\Anfahrskizze_Unilever_Heppenheim.pdf', [
                         'as' => 'Anfahrtsskizze.pdf',
                         'mime' => 'application/pdf',
                     ])
