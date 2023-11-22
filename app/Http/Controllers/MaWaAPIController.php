@@ -606,8 +606,8 @@ class MaWaAPIController extends Controller
         ]));
 
         try{
-            $client4 = new Client(['verify' => false]);
-            $request4 = $client4->request(
+            $client = new Client(['verify' => false]);
+            $request = $client->request(
                 'POST' ,
                 env('MaWaURL') . 'person/update/' . env('MaWaClient'),
                 [
@@ -663,6 +663,80 @@ class MaWaAPIController extends Controller
             return false;
         }
         return true;
+    }
+
+    public function getAllMaWaVisitors()
+    {
+        try{
+            $client = new Client(['verify' => false]);
+            $request = $client->request(
+                'GET' ,
+                env('MaWaURL') . 'person/listall/' . env('MaWaClient') . '/all',
+                [
+                    'headers' => [
+                        'Content-Type' => 'application/json',
+                        'Accept' => '*/*',
+                        'api-key' => env('MaWaSecret'),
+                    ]
+                ]);
+        }
+        catch (RequestException $e)
+        {
+            throw new GuzzleRequestException(
+                $e->getMessage(),
+                $e->getRequest(),
+                $e->getResponse(),
+                $e->getPrevious(),
+                $e->getHandlerContext(),
+                app(LoggerInterface::class)
+            );
+            return false;
+        }
+
+        $req_body = json_decode($request->getBody(), true);
+        if($req_body['code'] == "Ok")
+        {
+            return $req_body['persons'];
+        }
+        return false;
+    }
+
+    public function upsertMawaPersons($persons)
+    {
+        $cards = [];
+        foreach($persons as $person)
+        {
+            $cardExists = DB::table('visitorallocation')->select('id')->where('cardid', $person['badges']['no'])->first();
+            if(!$cardExists)
+            {
+                $accessControllGroupNames = "";
+                foreach($person['accessControlGroups'] as $accesControlGroup)
+                {
+                    $accessControllGroupNames .= $accesControlGroup['name'] . " ";
+                }
+                $cards[] = [
+                    'cardID' => $person['badges']['no'],
+                    'firstName' => $person['badges']['firstName'],
+                    'lastName' => $person['badges']['lastName'],
+                    'type' => $person['badges']['type'],
+                    'validFrom' => $person['badges']['validFrom'],
+                    'validTo' => $person['badges']['validTo'],
+                    'doors' => $accessControllGroupNames,
+                ];
+            }
+        }
+        if($cards != [])
+        {
+            $test = DB::table('mawa_persons')->upsert(
+                [
+                    $cards
+                ],
+                ['cardID'],
+                ['firstName', 'lastName', 'type', 'validFrom', 'validTo']
+            );
+            Log::debug($test);
+            return $test;
+        }
     }
 
 }

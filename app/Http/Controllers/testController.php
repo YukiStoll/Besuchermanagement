@@ -26,36 +26,10 @@ class testController extends Controller
 
     public function test(Request $request)
     {
-        try {
-            Log::debug('{"config":{}}');
-            $clientCommit = new Client(['verify' => false]);
-            $requestCommit = $clientCommit->request(
-                'POST' ,
-                env('MaWaURL') . 'deploy/startqueued/' . env('MaWaClient'),
-                [
-                    'headers' => [
-                        'Content-Type' => 'application/json',
-                        'Accept' => '*/*',
-                        'api-key' => env('MaWaSecret'),
-                    ],
-                    'body' => '{"config":{}}'
-                ]);
-        } catch (RequestException $e) {
-            throw new GuzzleRequestException(
-                $e->getMessage(),
-                $e->getRequest(),
-                $e->getResponse(),
-                $e->getPrevious(),
-                $e->getHandlerContext(),
-                app(LoggerInterface::class)
-            );
-        }
-        $req_body = json_decode($requestCommit->getBody(), true);
-        Log::debug($req_body);
+        $mawaTest = new MaWaAPIController();
+        $test = $mawaTest->upsertMawaPersons($mawaTest->getAllMaWaVisitors());
         return response()->json([
-            'Test' => '1',
-            'Der' => '2',
-            'response' => $req_body
+            'Test' => $test
         ]);
     }
 }
