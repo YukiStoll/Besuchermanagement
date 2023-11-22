@@ -206,15 +206,38 @@ class VisitController extends UNOController
 
     public function changeDateOfVisit(Request $request)
     {
+        Log::info("Es wird versucht das Datum für den Besuch mit der ID: " . $request->id . " zu ändern.");
         $startDate = date('Y-m-d', strtotime($request->startDate)) . " " . date('H:i:s', strtotime($request->startTime));
         $endDate = date('Y-m-d', strtotime($request->endDate)) . " " . date('H:i:s', strtotime($request->endTime));
+
         if($endDate > $startDate)
         {
             $visit = visit::where("visitId", $request->id)->first();
             $visit->startDate = $startDate;
             $visit->endDate = $endDate;
+            $visitors = visitor::select("visitors.id", "forename", "surname")->join('visitorallocation', 'visitorallocation.visitorid', 'visitors.id')->whereNotNull('cardid')->where('allocationid', $visit->visitorallocationid)->get();
+            foreach($visitors as $visitor)
+            {
+                Log::info("Es wird versucht das Datum für den Besucher " . $visitor['forename'] . " " . $visitor['surname'] . " zu ändern.");
+                $mawaAPI = new MaWaAPIController();
+                $data = [
+                    "surname" => $visitor['surname'],
+                    "forename" => $visitor['forename'],
+                    "startDate" => $request->startDate,
+                    "endDate" => $request->endDate,
+                    "visitID" => "VISITOR-" . $visit->visitId . $visitor['id'] . '1'
+                ];
+                $changedMaWaTime = $mawaAPI->updateDateForVisit($data);
+                if(!$changedMaWaTime)
+                {
+                    Log::info("Beim ändern des Datums ist ein Fehler aufgetreten.");
+                    return response()->json(["success","false"], 400);
+                }
+                Log::info("Das Datum für den Besucher wurde erfolgreich geändert.");
+            }
             if($visit->save())
             {
+                Log::info("Das Datum für den Besuch wurde erfolgreich geändert.");
                 return response()->json(["success","true"], 200);
             }
         }
