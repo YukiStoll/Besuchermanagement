@@ -706,35 +706,37 @@ class MaWaAPIController extends Controller
         $cards = [];
         foreach($persons as $person)
         {
-            $cardExists = DB::table('visitorallocation')->select('id')->where('cardid', $person['badges']['no'])->first();
-            if(!$cardExists)
+            if(array_key_exists('badges', $person))
             {
-                $accessControllGroupNames = "";
-                foreach($person['accessControlGroups'] as $accesControlGroup)
+                $cardExists = DB::table('visitorallocation')->select('id')->where('cardid', $person['badges'][0]['no'])->first();
+                if(!$cardExists)
                 {
-                    $accessControllGroupNames .= $accesControlGroup['name'] . " ";
+                    $accessControllGroupNames = "";
+                    if(array_key_exists('accessControlGroups', $person))
+                    {
+                        foreach($person['accessControlGroups'] as $accesControlGroup)
+                        {
+                            $accessControllGroupNames .= array_key_exists('name', $accesControlGroup) ? $accesControlGroup['name'] . " " : "";
+                        }
+                    }
+                    array_push($cards, [
+                        'cardID' => $person['badges'][0]['no'],
+                        'firstName' => $person['firstName'],
+                        'lastName' => $person['lastName'],
+                        'type' => $person['type'],
+                        'validFrom' => date('Y-m-d H:i:s',strtotime($person['validFrom'])),
+                        'validTo' => date('Y-m-d H:i:s',strtotime($person['validTo'])),
+                        'doors' => $accessControllGroupNames,
+                    ]);
                 }
-                $cards[] = [
-                    'cardID' => $person['badges']['no'],
-                    'firstName' => $person['badges']['firstName'],
-                    'lastName' => $person['badges']['lastName'],
-                    'type' => $person['badges']['type'],
-                    'validFrom' => $person['badges']['validFrom'],
-                    'validTo' => $person['badges']['validTo'],
-                    'doors' => $accessControllGroupNames,
-                ];
             }
         }
         if($cards != [])
         {
-            $test = DB::table('mawa_persons')->upsert(
-                [
-                    $cards
-                ],
+            $test = DB::table('mawa_persons')->upsert($cards,
                 ['cardID'],
                 ['firstName', 'lastName', 'type', 'validFrom', 'validTo']
             );
-            Log::debug($test);
             return $test;
         }
     }
