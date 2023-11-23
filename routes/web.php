@@ -100,6 +100,10 @@ Route::any('/adminVisitors', 'myVisitorsController@admin')->name('admin.visitor.
 
 
 
+Route::any('/badgeOverview', 'badgeOverviewController@index')->name('badgeOverview');
+
+
+
 Route::get('/emailOverview', 'emailTemplateController@overview')->name('email.overview');
 
 Route::get('/emailTemplates', 'emailTemplateController@index')->name('emailTemplates');

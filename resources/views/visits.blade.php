@@ -463,6 +463,13 @@
             });
         }
 
+        const urlParams = new URLSearchParams(window.location.search);
+        if(urlParams.has('id'))
+        {
+            getVisit(urlParams.get('id'))
+            $("#Inspect").modal();
+        }
+
         function getVisit(visitId)
         {
             const divPhoneNumber = $('div[name="contactHide"]');

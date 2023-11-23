@@ -44,9 +44,17 @@ class visitor extends Model
         'company',
         'landlineNumber',
         'mobileNumber',
-        'created_at'
+        'created_at',
     ];
     public $sortableAs = [
         'visitorDetail',
+        'cardID',
+        'firstName',
+        'lastName',
+        'type',
+        'validFrom',
+        'validTo',
+        'doors',
+        'createdThroughSystem',
     ];
 }
