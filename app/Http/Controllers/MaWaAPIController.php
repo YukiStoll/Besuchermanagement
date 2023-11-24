@@ -733,11 +733,10 @@ class MaWaAPIController extends Controller
         }
         if($cards != [])
         {
-            $test = DB::table('mawa_persons')->upsert($cards,
+            DB::table('mawa_persons')->upsert($cards,
                 ['cardID'],
                 ['firstName', 'lastName', 'type', 'validFrom', 'validTo']
             );
-            return $test;
         }
     }
 
