@@ -2,6 +2,7 @@
 
 namespace App\Console;
 
+use App\Http\Controllers\MaWaAPIController;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
@@ -24,12 +25,17 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->command('adldap:import', [
+        /*$schedule->command('adldap:import', [
             '--no-interaction',
             '--restore',
             '--delete',
             '--filter' => '(objectclass=user)',
-        ])->everyMinute();
+        ])->everyMinute();*/
+
+        $schedule->call(function () {
+            $mawa = new MaWaAPIController();
+            $mawa->upsertMawaPersons($mawa->getAllMaWaVisitors());
+        })->hourly();
     }
 
     /**
