@@ -181,6 +181,13 @@
                                         <h6>@lang('main.visits')</h6>
                                     </a>
                                 </li>
+
+                                <li class="nav-item">
+                                    <a href="{{ route('badgeOverview') }}">
+                                        <i class="fas fa-layer-group"></i>
+                                        <h6>@lang('main.overviewBadges')</h6>
+                                    </a>
+                                </li>
                             @endcan
 
                             <li class="nav-item">
