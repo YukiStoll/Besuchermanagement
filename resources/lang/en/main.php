@@ -254,5 +254,6 @@ return [
     'overviewBadges' => 'Overview of all cards in the MaWa system',
     'createdThroughSystem_true' => 'True',
     'createdThroughSystem_false' => 'False',
+    'newBadge' => 'Create new card assignment',
 
 ];

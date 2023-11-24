@@ -249,9 +249,10 @@ return [
     'validFrom' => 'Gültig Ab',
     'validTo' => 'Gültig Bis',
     'doors' => 'Türen',
-    'createdThroughSystem' => 'Im BM-System hinterlegt',
+    'createdThroughSystem' => 'In Besuch vorhanden',
     'searchAfterBadge' => 'Nach Kartennummer, Vorname und Name suchen',
     'overviewBadges' => 'Übersicht aller Karten im MaWa-System',
     'createdThroughSystem_true' => 'Ja',
     'createdThroughSystem_false' => 'Nein',
+    'newBadge' => 'Neue Kartenzuordnung anlegen',
     ];
