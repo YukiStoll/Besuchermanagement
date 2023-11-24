@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\areaPermission;
 use App\mawa_persons;
 use App\visitor;
 use Illuminate\Http\Request;
@@ -42,6 +43,7 @@ class badgeOverviewController extends UNOController
         ->join('visitorallocation', 'visitorallocation.visitorid', 'visitors.id')
         ->join('visits', 'visits.visitorallocationid', 'visitorallocation.allocationid')
         ->whereNotNull("visitorallocation.cardId")
+        ->whereNull('visits.deleted_from_id')
         ->where(function ($query) use ($search)
         {
             $query->where('visitors.forename','LIKE', '%' . $search . '%')
@@ -54,4 +56,13 @@ class badgeOverviewController extends UNOController
 
         return $this->test(view('badgeOverview')->with("data", $visitors)->with('pagitems', $items)->with('search', $request['search']));
     }
+
+    public function new()
+    {
+        $areaPermissions = areaPermission::select('id', 'name')
+        ->orderBy('name', 'asc')
+        ->get();
+        return $this->test(view('newBadge')->with('areaPermissions', $areaPermissions));
+    }
+
 }

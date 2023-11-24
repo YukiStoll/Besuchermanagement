@@ -4,8 +4,13 @@
     @if(isset($search) || !$data->isEmpty())
         <div class="w-100 mw-100 container table-responsive">
             <h3>@lang('main.overviewBadges')</h3>
+
+
             <form method="get" action="{{ route('badgeOverview') }}">
-                <div class="form-row justify-content-end">
+                <div class="form-row">
+                    <div class="form-group col-8">
+                        <a href="{{ route('newBadge')}}" class="btn btn-success text-light icon-plus align-right"></a>
+                    </div>
                     <div class="form-group col-3">
                         <input name="search" @if(isset($search)) value="{{ $search }}" @endif class="form-control h-100" type="text" placeholder="@lang('main.searchAfterBadge')">
                     </div>

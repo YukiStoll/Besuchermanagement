@@ -102,6 +102,8 @@ Route::any('/adminVisitors', 'myVisitorsController@admin')->name('admin.visitor.
 
 Route::any('/badgeOverview', 'badgeOverviewController@index')->name('badgeOverview');
 
+Route::any('/newBadge', 'badgeOverviewController@new')->name('newBadge');
+
 
 
 Route::get('/emailOverview', 'emailTemplateController@overview')->name('email.overview');
