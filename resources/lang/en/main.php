@@ -244,5 +244,15 @@ return [
     'newWorkPermit' => 'New Work permission',
     'dateOfVisitWasSuccessfullyChanged' => 'The date of the visit was successfully changed.',
     'dateOfVisitCouldNotBeChanged' => 'The date of the visit could not be changed.',
+    'cardID' => 'Card number',
+    'mawaType' => 'Card category',
+    'validFrom' => 'Valid from',
+    'validTo' => 'Valid to',
+    'doors' => 'Doors',
+    'createdThroughSystem' => 'Stored in the BM system',
+    'searchAfterBadge' => 'Search by card number, first name and surname',
+    'overviewBadges' => 'Overview of all cards in the MaWa system',
+    'createdThroughSystem_true' => 'True',
+    'createdThroughSystem_false' => 'False',
 
 ];
