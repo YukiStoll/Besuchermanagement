@@ -21,7 +21,4 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
-public/workPermissionDocuments/21406449/test.pdf
-public/workPermissionDocuments/96217434/test.pdf
-public/workPermissionDocuments/documents/00_Allgemeine_Arbeitserlaubnis.pdf
-public/workPermissionDocuments/documents/00_Allgemeine_Arbeitserlaubnis.pdf
+public/workPermissionDocuments/*
